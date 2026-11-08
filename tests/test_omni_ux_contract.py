@@ -38,6 +38,17 @@ class TestOmniUXContract(unittest.TestCase):
         self.assertNotIn('XMLHttpRequest',DECISIONS)
         self.assertNotIn('https://',DECISIONS)
 
+    def test_review_history_works_past_initial_page(self):
+        self.assertIn('reviewPage=Math.max(reviewPage,index+1)',LAB)
+        self.assertIn("$('#query').value=''",LAB)
+        self.assertIn("card.focus({preventScroll:true})",LAB)
+
+    def test_review_focus_survives_decision_and_pagination(self):
+        self.assertIn("oldCard=active?.closest?.('#findings article')",LAB)
+        self.assertIn("(target||$('#filter')).focus({preventScroll:true})",LAB)
+        self.assertIn("document.querySelectorAll('#findings article').length",LAB)
+        self.assertIn("document.querySelectorAll('#cap-list .cap-record').length",LAB)
+
     def test_mobile_and_reduced_motion(self):
         self.assertIn('min-height:44px',LAB)
         self.assertIn('prefers-reduced-motion:reduce',LAB)

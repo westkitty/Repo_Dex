@@ -30,3 +30,10 @@ Active candidate: COOL-20261108-ATLAS-05 / five bounded improvements
 - Verification: baseline scanner 35 tests; extended suite 40 tests. New Lab and cross-Atlas journeys exercised in headless Chromium with source-pinned feed fixture and controlled in-memory response. Static JavaScript syntax checks passed.
 - Unknown: direct hosted-browser transport and live cross-origin navigation are blocked in this test runtime. Physical touch, screen-reader end-to-end testing and cross-device decision persistence are not verified. Same-origin storage is private; there is no automatic sync.
 - Release gate: verify remote branch before pushing, prove workflow and Pages deployment separately and do not change unrelated repositories or claim actual integration tests from described source documents.
+
+## 2026-11-08 — Reviewer keyboard focus and History repair
+
+- Reproduced in headless Chromium: after a private decision in both Atlas and Laboratory, the review list was recreated and keyboard focus fell back to `<body>`. In the Laboratory, History links to reviewed opportunities beyond the first eight results could not find the destination after filtering/pagination reset.
+- Bounded repair: preserve focused control using stable public opportunity ID and action label across live review re-renders; fall back to the status filter if the candidate leaves the current filtered list. Focus the newly revealed entry after paginating review/capability/text indexes. Laboratory History now clears its conflicting filters, reveals the requested candidate and focuses it. Repo_Dex scans, content feed, data schemas, privacy ledger and original HTML graph geometry remain unchanged.
+- Verified with 15 additional no-network Chromium browser checks (Lab + Atlas), plus existing Repo_Dex Python suite, legacy Atlas parity, new Atlas task-flow suite and JS syntax check. Physical screen reader and public GitHub Pages browser navigation remain unverified in this runtime.
+- Release scope: Lab HTML + browser fixture + unit contract tests; Atlas HTML + static guard; documentation/state. Rollback: revert this bounded follow-up commit per repository. Never reset unrelated history.
