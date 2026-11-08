@@ -22,3 +22,11 @@ Active candidate: COOL-20261108-ATLAS-05 / five bounded improvements
 - Verify `main` baseline matches before writing and do not alter unrelated paths.
 - Run GitHub Actions scanner and confirm the public feed, status receipt and Pages outputs.
 - Treat failures as blocking; preserve previous verified feed and offline Atlas fallback.
+
+## 2026-11-08 -- OMNI UX v3: task-centered interface
+
+- Source baseline: Repo_Dex main `49e33a0a587fabc71b9868f707ebf2cfb11f700c`. Candidate changes are limited to `docs/laboratory.html`, `docs/shared-decisions.js`, `tests/test_omni_ux_contract.py`, documents and this ledger. The older `docs/index.html`, scanner scripts and publishing workflow remain authoritative and unchanged.
+- Protected journeys: original public-only scanner and scheduled feed, commit-pinned citations, no automatic source mutation, local-only review decisions, portable ledger and original schema. Browser Lab now offers task navigation, paginated searchable capability records, compact review queue, evidence comparisons, a private decision history, Undo and a public-ID-only Atlas deep link.
+- Verification: baseline scanner 35 tests; extended suite 40 tests. New Lab and cross-Atlas journeys exercised in headless Chromium with source-pinned feed fixture and controlled in-memory response. Static JavaScript syntax checks passed.
+- Unknown: direct hosted-browser transport and live cross-origin navigation are blocked in this test runtime. Physical touch, screen-reader end-to-end testing and cross-device decision persistence are not verified. Same-origin storage is private; there is no automatic sync.
+- Release gate: verify remote branch before pushing, prove workflow and Pages deployment separately and do not change unrelated repositories or claim actual integration tests from described source documents.

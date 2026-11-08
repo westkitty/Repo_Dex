@@ -11,3 +11,9 @@ Validation: 35/35 Python unit tests; browser tests with real prior public feed a
 Protected: existing browser prototype, public-only API scope, no code writes to analyzed repos, pinned evidence not runtime proof, historical facts not silently upgraded, no raw source/credentials in public feed.
 
 Delivery status: local candidate created; hosted deployment and post-push CI must be verified separately when publishing is authorized. Do not report as published solely because files exist.
+
+## 2026-11-08 -- OMNI UX v3: zero-loss task navigation
+
+Authorized direction: Explore -> Discover -> Review, fewer cognitive steps, no loss of public source evidence or private decisions. New Laboratory interface exposes the capability index rather than only its count, offers source references, skeptic objections, bounded paginated review, local decision Undo and direct public-ID-only map linking. Shared decision schema unchanged; the original browser scanner, scheduled scanner and source feed remain untouched.
+
+Validation (candidate, before publishing): original 35 scanner tests plus five new contracts; 29 local browser interaction checks shared with Atlas and 28 parity checks for original Atlas controls. Hosted Pages and physical device behavior still unverified. Critical regression locks: public-only feed; source-pinned, evidence-labeled opportunity hypotheses; no network for private decisions; legacy user entry points retained. No package dependencies.

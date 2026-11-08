@@ -4,6 +4,7 @@
  const ID=/^[0-9a-f]{16,64}$/;
  const CHOICES=new Set(['investigate','shelve','reject']);
  let fallback={schema:SCHEMA,owner:'westkitty',items:{}};
+ let lastChange=null;
  const notify=()=>{try{window.dispatchEvent(new CustomEvent('repo-dex-decisions-changed'))}catch{}};
  const empty=()=>({schema:SCHEMA,owner:'westkitty',items:{}});
  function validate(src){
@@ -22,14 +23,18 @@
  function set(op,choice,reason=''){
   if(!op||!ID.test(String(op.id||''))||!CHOICES.has(choice))throw Error('Unknown opportunity or choice');
   if(typeof reason!=='string'||reason.length>500)throw Error('Reason exceeds 500 characters');
-  const data=load();data.items[op.id]={choice,reason,evidence_signature:signature(op),reviewed_at:new Date().toISOString()};return persist(data);
+  const data=load(),prior=data.items[op.id]?{...data.items[op.id]}:null;
+  const next={choice,reason,evidence_signature:signature(op),reviewed_at:new Date().toISOString()};
+  data.items[op.id]=next;lastChange={id:op.id,prior,applied:next};return persist(data);
  }
+ function canUndo(){if(!lastChange)return false;const now=load().items[lastChange.id];return !!now&&JSON.stringify(now)===JSON.stringify(lastChange.applied);}
+ function undoLast(){if(!canUndo())return false;const data=load();if(lastChange.prior)data.items[lastChange.id]={...lastChange.prior};else delete data.items[lastChange.id];lastChange=null;persist(data);return true;}
  function exportJSON(){return JSON.stringify(load(),null,2)+'\n';}
  function importJSON(raw){if(typeof raw!=='string'||raw.length>250000)throw Error('Import too large');const incoming=validate(JSON.parse(raw));const before=load();const merged=empty();merged.items={...before.items};for(const [key,item] of Object.entries(incoming.items)){
   if(!merged.items[key]||item.reviewed_at>=merged.items[key].reviewed_at)merged.items[key]=item;
  }
- return persist(merged);
+ lastChange=null;return persist(merged);
  }
- window.RepoDexDecisions=Object.freeze({SCHEMA,KEY,load,decisionFor,set,signature,exportJSON,importJSON});
- window.addEventListener('storage',e=>{if(e.key===KEY){load();notify()}});
+ window.RepoDexDecisions=Object.freeze({SCHEMA,KEY,load,decisionFor,set,signature,canUndo,undoLast,exportJSON,importJSON});
+ window.addEventListener('storage',e=>{if(e.key===KEY){lastChange=null;load();notify()}});
 })();
