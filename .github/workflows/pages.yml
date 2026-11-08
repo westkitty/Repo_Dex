@@ -38,33 +38,20 @@ jobs:
           else
             python3 scripts/scan_public.py --owner westkitty --output "$RUNNER_TEMP/repo-dex/latest.json" --max-source-repos 36
           fi
-      - name: Commit changed evidence snapshot only
+      - name: Preserve changed feed and successful-scan receipt
         shell: bash
         run: |
-          python3 - "$RUNNER_TEMP/repo-dex/latest.json" docs/feed/latest.json <<'PY'
-          import json
-          import pathlib
-          import sys
-          candidate = pathlib.Path(sys.argv[1])
-          published = pathlib.Path(sys.argv[2])
-          new = json.loads(candidate.read_text(encoding='utf-8'))
-          assert new['schema'] == 'repo-dex-feed/v1'
-          assert new['owner'] == 'westkitty'
-          assert new['inventory']['complete'] is True
-          assert new['source']['visibility'] == 'public-only'
-          old = json.loads(published.read_text(encoding='utf-8')) if published.is_file() else {}
-          if old.get('content_sha256') == new['content_sha256']:
-              print('No semantic change: preserving previous evidence snapshot')
-          else:
-              published.parent.mkdir(parents=True, exist_ok=True)
-              published.write_bytes(candidate.read_bytes())
-              print('Verified evidence changed: staging updated public feed')
-          PY
-          git add docs/feed/latest.json
+          python3 scripts/publish_feed.py \
+            --candidate "$RUNNER_TEMP/repo-dex/latest.json" \
+            --published docs/feed/latest.json \
+            --status docs/feed/status.json \
+            --run-id "$GITHUB_RUN_ID" \
+            --run-url "https://github.com/westkitty/Repo_Dex/actions/runs/$GITHUB_RUN_ID"
+          git add docs/feed/latest.json docs/feed/status.json
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git commit -m 'chore(feed): preserve verified public evidence snapshot'
+            git commit -m 'chore(feed): preserve verified public evidence and scan receipt'
             git push origin HEAD:main
           fi
       - name: Configure Pages

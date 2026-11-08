@@ -26,7 +26,7 @@ from collections import defaultdict
 from contextlib import closing
 
 SCHEMA = "repo-dex-feed/v1"
-PARSER_VERSION = "1.0.0"
+PARSER_VERSION = "1.1.0"
 MAX_PAGES = 20
 MAX_SOURCE_BYTES = 180_000
 MAX_SOURCE_REPOS = 80
@@ -253,16 +253,37 @@ def discover_formats(content: str) -> dict:
 def inspect_selected(api, owner: str, repos: list[dict], prior: dict | None, max_source_repos: int) -> dict:
     old = {r["id"]: r for r in (prior or {}).get("repositories", []) if isinstance(r, dict)}
     eligible = [r for r in repos if not r["archived"] and not r["fork"] and r["default_branch"]]
-    # Changed repos first, then most recently pushed; noninspected repos remain in inventory.
-    eligible.sort(key=lambda r: (
-        r["id"] in old and old[r["id"]].get("metadata_sha256") == r["metadata_sha256"],
-        r.get("pushed_at", ""), r["name"].casefold()), reverse=False)
-    # Use chronological sorting among changed/unchanged for incremental utility.
-    changed = [r for r in eligible if r["id"] not in old or old[r["id"]].get("metadata_sha256") != r["metadata_sha256"]]
-    unchanged = [r for r in eligible if r not in changed]
-    changed.sort(key=lambda r: r["pushed_at"], reverse=True)
-    unchanged.sort(key=lambda r: r["pushed_at"], reverse=True)
-    selected = (changed + unchanged)[:max_source_repos]
+    # Three lanes: changed/new, never-inspected, then oldest retained evidence.
+    # On unchanged metadata, the prior immutable inspection is reused in the feed.
+    # Without this rotation, the 36 newest repos can starve the rest indefinitely.
+    changed, never, covered = [], [], []
+    for repo in eligible:
+        previous = old.get(repo["id"])
+        if previous is not None and previous.get("metadata_sha256") != repo["metadata_sha256"]:
+            changed.append(repo)
+        elif previous is None or not (previous.get("inspection") or {}).get("sources"):
+            never.append(repo)
+        else:
+            covered.append(repo)
+    changed.sort(key=lambda r: r["name"].casefold())
+    changed.sort(key=lambda r: r.get("pushed_at", ""), reverse=True)
+    never.sort(key=lambda r: r["name"].casefold())
+    never.sort(key=lambda r: r.get("pushed_at", ""), reverse=True)
+    # Earliest actual inspection first; cached old sources are selected before
+    # newer evidence, while always respecting the run's source-request budget.
+    covered.sort(key=lambda r: ((old.get(r["id"], {}).get("inspection") or {}).get("inspected_at", ""), r["name"].casefold()))
+    # Reserve a bounded share for untouched source, even when many active
+    # projects changed simultaneously. Without this reserve, sustained activity
+    # in the same projects can starve the rest of the portfolio forever.
+    reserve = max(1, max_source_repos // 3) if max_source_repos >= 3 and never else 0
+    selected = changed[:max_source_repos - reserve] + never[:reserve]
+    seen = {r["id"] for r in selected}
+    for repo in never[reserve:] + changed[max_source_repos - reserve:] + covered:
+        if len(selected) >= max_source_repos:
+            break
+        if repo["id"] not in seen:
+            selected.append(repo)
+            seen.add(repo["id"])
     inspected = {}
     for repo in selected:
         name = repo["name"]
@@ -417,6 +438,65 @@ def build_relationships(repos: list[dict]) -> tuple[list[dict], list[dict]]:
     return sorted(edges, key=lambda x: x["id"]), sorted(opportunities, key=lambda x: x["id"])
 
 
+
+def build_capability_genomes(repos: list[dict]) -> list[dict]:
+    """Summaries of observed declarations only; no inferred runtime functionality.
+
+    The source wrapper includes pinned file identity but no README bodies,
+    dependency versions, credentials, raw code or speculative capabilities.
+    """
+    out = []
+    for r in repos:
+        ins = r.get("inspection") or {}
+        if ins.get("state") not in ("inspected", "partial", "cached"):
+            continue
+        sources = ins.get("sources") or {}
+        historical = ins.get("state") == "cached"
+        for kind, item in sources.items():
+            declarations = []
+            if kind == "package.json":
+                declarations += [("declared-package", pkg, "located") for pkg in item.get("packages", {}) if pkg in dict(TECHNOLOGIES)]
+            elif kind == "README.md":
+                for fmt, actions in item.get("formats", {}).items():
+                    if fmt in FORMAT_NAMES:
+                        declarations += [("described-" + action, fmt, "described") for action in actions if action in ("import", "export")]
+            for capability_kind, token, level in sorted(declarations):
+                out.append({
+                    "id": _pair_id("capability", r["id"], r["id"], capability_kind + ":" + token),
+                    "repository_id": r["id"],
+                    "kind": capability_kind, "token": token,
+                    "evidence_level": level,
+                    "freshness": "historical" if historical else "sampled-head",
+                    "statement": ("Dependency manifest declares " if capability_kind == "declared-package" else "README describes " + capability_kind.removeprefix("described-") + " of ") + token,
+                    "source": evidence(r, item, capability_kind + " " + token),
+                    "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+                })
+    return sorted(out, key=lambda x: (x["repository_id"], x["kind"], x["token"]))
+
+
+def skeptical_review(op: dict, repos_by_id: dict[int, dict]) -> dict:
+    """Finite, explainable triage; never promote a hypothesis to success."""
+    exporter = repos_by_id[op["exporter"]]
+    importer = repos_by_id[op["importer"]]
+    historical = op.get("freshness") == "historical"
+    blockers = []
+    if exporter.get("archived") or importer.get("archived"):
+        blockers.append("One or both repositories are archived; obtain maintainer approval before experiments.")
+    if historical:
+        blockers.append("At least one README statement has not been rechecked against current HEAD.")
+    blockers.append("Matching format words do not prove matching schemas, semantics, units or binary encoding.")
+    blockers.append("No controlled transfer, license or security-compatibility test has been run.")
+    rank = 3 if exporter.get("archived") or importer.get("archived") else 2 if historical else 1
+    return {
+        "rank": rank, "tier": "investigate" if rank == 1 else "refresh-evidence" if rank == 2 else "shelve-pending-review",
+        "beneficiary_repository_id": importer["id"],
+        "confidence": "untested-hypothesis",
+        "skeptical_counterpoints": blockers,
+        "acceptance_test": "Export a disposable, non-sensitive fixture; import into an isolated target; verify round-trip semantics, reject unsafe content and record exact versions.",
+        "rejection_criterion": "Reject reuse if formats only share a name or the import loses required structure.",
+    }
+
+
 def delta(old: dict | None, repos: list[dict]) -> dict:
     if not old:
         return {"kind": "baseline", "new": [], "removed": [], "renamed": [], "changed": [], "archived": [], "summary": "Initial public portfolio baseline, not a count of newly created projects."}
@@ -454,6 +534,17 @@ def validate_feed(feed: dict) -> None:
                 raise ScanFailure("Invalid source digest")
             if not item["url"].startswith(f"https://github.com/{feed['owner']}/{r['name']}/blob/{item['commit_sha']}/"):
                 raise ScanFailure("Cross-owner source reference")
+    for r in repos:
+        aliases = r.get("aliases", [])
+        if not isinstance(aliases, list) or len(aliases) > 40 or any(not isinstance(x, str) or not SAFE_REPO.fullmatch(x) for x in aliases):
+            raise ScanFailure("Invalid repository aliases")
+        if r["name"] in aliases or len(aliases) != len(set(aliases)):
+            raise ScanFailure("Invalid or duplicate alias")
+    for c in feed.get("capability_genomes", []):
+        if c.get("repository_id") not in ids or c.get("evidence_level") not in ("described", "located") or c.get("freshness") not in ("historical", "sampled-head"):
+            raise ScanFailure("Unsupported capability assertion")
+        if c.get("source", {}).get("repository_id") != c["repository_id"] or not COMMIT_SHA.fullmatch(str(c["source"].get("commit_sha", ""))):
+            raise ScanFailure("Unpinned capability evidence")
     for e in feed.get("relationships", []):
         if e["a"] not in ids or e["b"] not in ids or e["status"] not in ("documented", "hypothesis"):
             raise ScanFailure("Invalid relationship endpoints/status")
@@ -463,6 +554,9 @@ def validate_feed(feed: dict) -> None:
             if ev.get("repository_id") not in ids or not COMMIT_SHA.fullmatch(str(ev.get("commit_sha", ""))):
                 raise ScanFailure("Relationship contains unverified evidence")
     for o in feed.get("opportunities", []):
+        rv = o.get("review")
+        if rv is not None and (rv.get("confidence") != "untested-hypothesis" or rv.get("rank") not in (1, 2, 3)):
+            raise ScanFailure("Invalid skeptical review")
         if o.get("status") != "hypothesis" or not o.get("evidence"):
             raise ScanFailure("Opportunity wrongly promoted or unsupported")
         for ev in o["evidence"]:
@@ -485,6 +579,12 @@ def build_feed(api, owner: str, prior: dict | None = None, max_source_repos: int
     repos = []
     for base in inventory:
         r = dict(base, visibility="public")
+        old_record = by_id.get(r["id"], {})
+        existing_aliases = old_record.get("aliases", [])
+        aliases = [name for name in existing_aliases if isinstance(name, str) and SAFE_REPO.fullmatch(name)]
+        if old_record.get("name") and old_record["name"] != r["name"] and SAFE_REPO.fullmatch(old_record["name"]):
+            aliases.append(old_record["name"])
+        r["aliases"] = sorted({name for name in aliases if name != r["name"]}, key=str.casefold)[:40]
         if r["id"] in inspections:
             r["inspection"] = inspections[r["id"]]
         else:
@@ -504,6 +604,12 @@ def build_feed(api, owner: str, prior: dict | None = None, max_source_repos: int
                 }
         repos.append(r)
     relations, opportunities = build_relationships(repos)
+    genomes = build_capability_genomes(repos)
+    by_current_id = {r["id"]: r for r in repos}
+    for op in opportunities:
+        op["review"] = skeptical_review(op, by_current_id)
+    # Prioritize evidence quality, not claimed transfer or commercial value.
+    opportunities.sort(key=lambda op: (op["review"]["rank"], op["id"]))
     d = delta(prior, repos)
     observations = [{"kind": "baseline", "severity": "info", "message": d["summary"]}] if d["kind"] == "baseline" else []
     for key, label in (("new", "New public repositories"), ("removed", "No longer in public inventory"), ("changed", "Repository metadata or push state changed"), ("archived", "Newly archived")):
@@ -513,6 +619,7 @@ def build_feed(api, owner: str, prior: dict | None = None, max_source_repos: int
         observations.append({"kind": "renamed", "severity": "info", "message": "Repository identities retained across name changes", "repositories": d["renamed"]})
     inspected = sum(r["inspection"]["state"] in ("inspected", "partial") for r in repos)
     cached = sum(r["inspection"]["state"] == "cached" for r in repos)
+    cumulative = sum(bool(r["inspection"].get("sources")) for r in repos)
     source_errors = [{"repository": r["name"], "errors": r["inspection"].get("errors", [])} for r in repos if r["inspection"].get("errors")]
     feed = {
         "schema": SCHEMA,
@@ -520,11 +627,12 @@ def build_feed(api, owner: str, prior: dict | None = None, max_source_repos: int
         "owner": owner,
         "generated_at": now or utc_now(),
         "source": {"provider": "github-public-rest", "base": f"https://github.com/{owner}", "visibility": "public-only", "read_only": True},
-        "inventory": {"public_repositories": len(repos), "complete": True, "inspected_repositories": inspected, "historical_cached_repositories": cached, "sampling_limit": max_source_repos, "source_errors": source_errors},
+        "inventory": {"public_repositories": len(repos), "complete": True, "inspected_repositories": inspected, "historical_cached_repositories": cached, "cumulative_source_repositories": cumulative, "sampling_limit": max_source_repos, "source_errors": source_errors},
         "delta": d,
         "repositories": repos,
         "relationships": relations,
         "opportunities": opportunities,
+        "capability_genomes": genomes,
         "observations": observations,
         "evidence_ladder": ["described", "located", "exercised", "verified", "transferred"],
         "limitations": [

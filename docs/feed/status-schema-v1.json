@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://westkitty.github.io/Repo_Dex/feed/status-schema-v1.json",
+  "title": "Repo_Dex successful-scan receipt v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "owner", "state", "last_successful_scan", "latest_feed_digest", "feed_generated_at", "evidence_changed", "run_id", "run_url", "public_repositories", "source_inspected_this_run", "cumulative_source_repositories"],
+  "properties": {
+    "schema": {"const": "repo-dex-scan-status/v1"},
+    "owner": {"const": "westkitty"},
+    "state": {"const": "success"},
+    "last_successful_scan": {"type": "string", "format": "date-time"},
+    "latest_feed_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "feed_generated_at": {"type": "string", "format": "date-time"},
+    "evidence_changed": {"type": "boolean"},
+    "run_id": {"type": "string", "pattern": "^([0-9]{1,20})?$"},
+    "run_url": {"type": "string", "pattern": "^(https://github.com/westkitty/Repo_Dex/actions/runs/[0-9]{1,20})?$"},
+    "public_repositories": {"type": "integer", "minimum": 0},
+    "source_inspected_this_run": {"type": "integer", "minimum": 0},
+    "cumulative_source_repositories": {"type": "integer", "minimum": 0}
+  }
+}

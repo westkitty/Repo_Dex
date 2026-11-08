@@ -30,3 +30,7 @@ The included GitHub Actions workflow uploads the `docs/` directory. In **Setting
 5. Resumable incremental scanning and meaningful discovery digests.
 
 See `PROJECT_SPEC.md` for the product mandate and limitations. This is a **thin public-facing prototype**, not the completed seven-engine system.
+
+## Living Atlas phase 2 — source-backed review
+
+The [Opportunity Laboratory](docs/laboratory.html) shares the scheduled public evidence feed and a browser-private decision ledger with [Project Constellation](https://westkitty.github.io/Westkitty_Atlas/). The original Repo_Dex homepage remains a legacy browser scanner. See [README_PHASE2.md](README_PHASE2.md) for the five improvements, proof levels and privacy constraints.
