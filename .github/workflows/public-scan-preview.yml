@@ -1,0 +1,45 @@
+name: Repo_Dex public scanner (preview artifact only)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/scan_public.py'
+      - 'tests/**'
+      - 'docs/feed/schema-v1.json'
+      - '.github/workflows/public-scan-preview.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '17 11 * * *'
+
+permissions:
+  contents: read
+
+env:
+  REPO_DEX_OWNER: westkitty
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test the public-only scanner
+        run: python3 -m unittest discover -s tests -v
+      - name: Scan GitHub read-only into temporary output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/repo-dex"
+          if [ -f docs/feed/latest.json ]; then
+            python3 scripts/scan_public.py --owner "$REPO_DEX_OWNER" --previous docs/feed/latest.json --output "$RUNNER_TEMP/repo-dex/latest.json" --max-source-repos 36
+          else
+            python3 scripts/scan_public.py --owner "$REPO_DEX_OWNER" --output "$RUNNER_TEMP/repo-dex/latest.json" --max-source-repos 36
+          fi
+      - name: Preserve scan artifact for operator review
+        uses: actions/upload-artifact@v4
+        with:
+          name: repo-dex-public-feed-preview
+          path: ${{ runner.temp }}/repo-dex/latest.json
+          if-no-files-found: error
+          retention-days: 30

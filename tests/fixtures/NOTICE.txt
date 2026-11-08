@@ -1,0 +1,1 @@
+SYNTHETIC DATA. ExportStudio, ModelViewer, Planner and related project records in this folder are invented for offline regression testing. Do not publish them as observed westkitty repositories or real source evidence.

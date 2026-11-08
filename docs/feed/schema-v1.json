@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://westkitty.github.io/Repo_Dex/feed/schema-v1.json",
+  "title": "Repo_Dex public portfolio evidence feed v1",
+  "description": "Public-only, read-only scan with source-pinned observations; compatible with a future Project Constellation adapter. This schema does not establish the truth of externally derived source claims.",
+  "type": "object",
+  "required": ["schema", "parser_version", "owner", "generated_at", "source", "inventory", "repositories", "relationships", "opportunities", "observations", "delta", "evidence_ladder", "content_sha256", "limitations"],
+  "properties": {
+    "schema": {"const": "repo-dex-feed/v1"},
+    "parser_version": {"type": "string"},
+    "owner": {"const": "westkitty"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "content_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "source": {"type": "object", "required": ["visibility", "read_only"], "properties": {"visibility": {"const": "public-only"}, "read_only": {"const": true}}},
+    "inventory": {"type": "object", "required": ["public_repositories", "complete", "inspected_repositories", "sampling_limit", "source_errors", "historical_cached_repositories"], "properties": {"public_repositories": {"type": "integer", "minimum": 0}, "complete": {"const": true}, "inspected_repositories": {"type": "integer", "minimum": 0}, "historical_cached_repositories": {"type": "integer", "minimum": 0}, "sampling_limit": {"type": "integer", "minimum": 0, "maximum": 80}, "source_errors": {"type": "array"}}},
+    "repositories": {"type": "array", "items": {"type": "object", "required": ["id", "name", "url", "visibility", "metadata_sha256", "inspection"], "properties": {"id": {"type": "integer"}, "name": {"type": "string"}, "visibility": {"const": "public"}, "url": {"type": "string", "pattern": "^https://github\\.com/westkitty/"}, "inspection": {"type": "object", "required": ["state"], "properties": {"state": {"enum": ["inspected", "partial", "error", "not-selected", "cached"]}}}}}},
+    "relationships": {"type": "array", "items": {"type": "object", "required": ["id", "a", "b", "type", "status", "evidence_level", "explanation", "evidence"], "properties": {"id": {"type": "string"}, "a": {"type": "integer"}, "b": {"type": "integer"}, "status": {"enum": ["documented", "hypothesis"]}, "evidence_level": {"enum": ["described", "located", "exercised", "verified", "transferred"]}, "evidence": {"type": "array", "minItems": 1}}}},
+    "opportunities": {"type": "array", "items": {"type": "object", "required": ["id", "status", "type", "title", "evidence", "experiment"], "properties": {"status": {"const": "hypothesis"}, "evidence_level": {"enum": ["described", "located"]}, "evidence": {"type": "array", "minItems": 1}}}},
+    "observations": {"type": "array"},
+    "delta": {"type": "object", "required": ["kind", "new", "removed", "renamed", "changed", "archived"], "properties": {"kind": {"enum": ["baseline", "incremental"]}}},
+    "evidence_ladder": {"const": ["described", "located", "exercised", "verified", "transferred"]},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  }
+}
