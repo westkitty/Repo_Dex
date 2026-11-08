@@ -1,4 +1,4 @@
-name: Repo_Dex public scanner (preview artifact only)
+name: Repo_Dex scanner manual evidence preview
 
 on:
   push:
@@ -9,8 +9,6 @@ on:
       - 'docs/feed/schema-v1.json'
       - '.github/workflows/public-scan-preview.yml'
   workflow_dispatch:
-  schedule:
-    - cron: '17 11 * * *'
 
 permissions:
   contents: read
