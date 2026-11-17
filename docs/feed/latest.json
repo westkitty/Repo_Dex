@@ -340,6 +340,321 @@
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
       "freshness": "sampled-head",
+      "id": "28ebdfc420d16fa882",
+      "kind": "declared-package",
+      "repository_id": 1215328628,
+      "source": {
+        "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+        "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
+        "level": "located",
+        "mechanism": "declared-package @vitejs/plugin-react",
+        "path": "package.json",
+        "repository": "DnDex",
+        "repository_id": 1215328628,
+        "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+        "url": "https://github.com/westkitty/DnDex/blob/cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8/package.json"
+      },
+      "statement": "Dependency manifest declares @vitejs/plugin-react",
+      "token": "@vitejs/plugin-react"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "8821b9e0fd6fdca819",
+      "kind": "declared-package",
+      "repository_id": 1215328628,
+      "source": {
+        "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+        "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
+        "level": "located",
+        "mechanism": "declared-package playwright",
+        "path": "package.json",
+        "repository": "DnDex",
+        "repository_id": 1215328628,
+        "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+        "url": "https://github.com/westkitty/DnDex/blob/cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8/package.json"
+      },
+      "statement": "Dependency manifest declares playwright",
+      "token": "playwright"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "728ff3016aef7a14c2",
+      "kind": "declared-package",
+      "repository_id": 1215328628,
+      "source": {
+        "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+        "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
+        "level": "located",
+        "mechanism": "declared-package react",
+        "path": "package.json",
+        "repository": "DnDex",
+        "repository_id": 1215328628,
+        "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+        "url": "https://github.com/westkitty/DnDex/blob/cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8/package.json"
+      },
+      "statement": "Dependency manifest declares react",
+      "token": "react"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "74c57e5d05c6416295",
+      "kind": "declared-package",
+      "repository_id": 1215328628,
+      "source": {
+        "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+        "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
+        "level": "located",
+        "mechanism": "declared-package vite",
+        "path": "package.json",
+        "repository": "DnDex",
+        "repository_id": 1215328628,
+        "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+        "url": "https://github.com/westkitty/DnDex/blob/cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8/package.json"
+      },
+      "statement": "Dependency manifest declares vite",
+      "token": "vite"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "b1745ef00a3d25dd68",
+      "kind": "declared-package",
+      "repository_id": 1215328628,
+      "source": {
+        "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+        "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
+        "level": "located",
+        "mechanism": "declared-package vitest",
+        "path": "package.json",
+        "repository": "DnDex",
+        "repository_id": 1215328628,
+        "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+        "url": "https://github.com/westkitty/DnDex/blob/cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8/package.json"
+      },
+      "statement": "Dependency manifest declares vitest",
+      "token": "vitest"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "69f19f71228a299fbd",
+      "kind": "declared-package",
+      "repository_id": 1228371565,
+      "source": {
+        "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+        "commit_sha": "19991832d4b7d7dc244e47081f62eb71d2994096",
+        "level": "located",
+        "mechanism": "declared-package @vitejs/plugin-react",
+        "path": "package.json",
+        "repository": "DnDex_Redux",
+        "repository_id": 1228371565,
+        "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+        "url": "https://github.com/westkitty/DnDex_Redux/blob/19991832d4b7d7dc244e47081f62eb71d2994096/package.json"
+      },
+      "statement": "Dependency manifest declares @vitejs/plugin-react",
+      "token": "@vitejs/plugin-react"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "fda085b5059f75dc70",
+      "kind": "declared-package",
+      "repository_id": 1228371565,
+      "source": {
+        "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+        "commit_sha": "19991832d4b7d7dc244e47081f62eb71d2994096",
+        "level": "located",
+        "mechanism": "declared-package playwright",
+        "path": "package.json",
+        "repository": "DnDex_Redux",
+        "repository_id": 1228371565,
+        "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+        "url": "https://github.com/westkitty/DnDex_Redux/blob/19991832d4b7d7dc244e47081f62eb71d2994096/package.json"
+      },
+      "statement": "Dependency manifest declares playwright",
+      "token": "playwright"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "26c88e7f730e69cc51",
+      "kind": "declared-package",
+      "repository_id": 1228371565,
+      "source": {
+        "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+        "commit_sha": "19991832d4b7d7dc244e47081f62eb71d2994096",
+        "level": "located",
+        "mechanism": "declared-package react",
+        "path": "package.json",
+        "repository": "DnDex_Redux",
+        "repository_id": 1228371565,
+        "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+        "url": "https://github.com/westkitty/DnDex_Redux/blob/19991832d4b7d7dc244e47081f62eb71d2994096/package.json"
+      },
+      "statement": "Dependency manifest declares react",
+      "token": "react"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "cd18bcc7e2b7970d80",
+      "kind": "declared-package",
+      "repository_id": 1228371565,
+      "source": {
+        "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+        "commit_sha": "19991832d4b7d7dc244e47081f62eb71d2994096",
+        "level": "located",
+        "mechanism": "declared-package vite",
+        "path": "package.json",
+        "repository": "DnDex_Redux",
+        "repository_id": 1228371565,
+        "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+        "url": "https://github.com/westkitty/DnDex_Redux/blob/19991832d4b7d7dc244e47081f62eb71d2994096/package.json"
+      },
+      "statement": "Dependency manifest declares vite",
+      "token": "vite"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "822e8c1390d996919d",
+      "kind": "declared-package",
+      "repository_id": 1228371565,
+      "source": {
+        "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+        "commit_sha": "19991832d4b7d7dc244e47081f62eb71d2994096",
+        "level": "located",
+        "mechanism": "declared-package vitest",
+        "path": "package.json",
+        "repository": "DnDex_Redux",
+        "repository_id": 1228371565,
+        "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+        "url": "https://github.com/westkitty/DnDex_Redux/blob/19991832d4b7d7dc244e47081f62eb71d2994096/package.json"
+      },
+      "statement": "Dependency manifest declares vitest",
+      "token": "vitest"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "5456e74bc91aeee6c2",
+      "kind": "declared-package",
+      "repository_id": 1228949715,
+      "source": {
+        "blob_sha": "1dc4299f46ce16a9827c1546bdadd64931670f14",
+        "commit_sha": "b90a314d51aa75d9619f4070855463b3d4023ccb",
+        "level": "located",
+        "mechanism": "declared-package @vitejs/plugin-react",
+        "path": "package.json",
+        "repository": "https-github.com-westkitty-DexDraw_Redux",
+        "repository_id": 1228949715,
+        "sha256": "0a15513863cadb47b0a54216b3bae85e60bf18ed1888be4c38ecc0e3c7e29d64",
+        "url": "https://github.com/westkitty/https-github.com-westkitty-DexDraw_Redux/blob/b90a314d51aa75d9619f4070855463b3d4023ccb/package.json"
+      },
+      "statement": "Dependency manifest declares @vitejs/plugin-react",
+      "token": "@vitejs/plugin-react"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "e7a386240d3207c7b2",
+      "kind": "declared-package",
+      "repository_id": 1228949715,
+      "source": {
+        "blob_sha": "1dc4299f46ce16a9827c1546bdadd64931670f14",
+        "commit_sha": "b90a314d51aa75d9619f4070855463b3d4023ccb",
+        "level": "located",
+        "mechanism": "declared-package react",
+        "path": "package.json",
+        "repository": "https-github.com-westkitty-DexDraw_Redux",
+        "repository_id": 1228949715,
+        "sha256": "0a15513863cadb47b0a54216b3bae85e60bf18ed1888be4c38ecc0e3c7e29d64",
+        "url": "https://github.com/westkitty/https-github.com-westkitty-DexDraw_Redux/blob/b90a314d51aa75d9619f4070855463b3d4023ccb/package.json"
+      },
+      "statement": "Dependency manifest declares react",
+      "token": "react"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "2e1a063a15b87a4b41",
+      "kind": "declared-package",
+      "repository_id": 1228949715,
+      "source": {
+        "blob_sha": "1dc4299f46ce16a9827c1546bdadd64931670f14",
+        "commit_sha": "b90a314d51aa75d9619f4070855463b3d4023ccb",
+        "level": "located",
+        "mechanism": "declared-package typescript",
+        "path": "package.json",
+        "repository": "https-github.com-westkitty-DexDraw_Redux",
+        "repository_id": 1228949715,
+        "sha256": "0a15513863cadb47b0a54216b3bae85e60bf18ed1888be4c38ecc0e3c7e29d64",
+        "url": "https://github.com/westkitty/https-github.com-westkitty-DexDraw_Redux/blob/b90a314d51aa75d9619f4070855463b3d4023ccb/package.json"
+      },
+      "statement": "Dependency manifest declares typescript",
+      "token": "typescript"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "63cb2efddd80722cf9",
+      "kind": "declared-package",
+      "repository_id": 1228949715,
+      "source": {
+        "blob_sha": "1dc4299f46ce16a9827c1546bdadd64931670f14",
+        "commit_sha": "b90a314d51aa75d9619f4070855463b3d4023ccb",
+        "level": "located",
+        "mechanism": "declared-package vite",
+        "path": "package.json",
+        "repository": "https-github.com-westkitty-DexDraw_Redux",
+        "repository_id": 1228949715,
+        "sha256": "0a15513863cadb47b0a54216b3bae85e60bf18ed1888be4c38ecc0e3c7e29d64",
+        "url": "https://github.com/westkitty/https-github.com-westkitty-DexDraw_Redux/blob/b90a314d51aa75d9619f4070855463b3d4023ccb/package.json"
+      },
+      "statement": "Dependency manifest declares vite",
+      "token": "vite"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "999b0041b1f686a071",
+      "kind": "declared-package",
+      "repository_id": 1228949715,
+      "source": {
+        "blob_sha": "1dc4299f46ce16a9827c1546bdadd64931670f14",
+        "commit_sha": "b90a314d51aa75d9619f4070855463b3d4023ccb",
+        "level": "located",
+        "mechanism": "declared-package zod",
+        "path": "package.json",
+        "repository": "https-github.com-westkitty-DexDraw_Redux",
+        "repository_id": 1228949715,
+        "sha256": "0a15513863cadb47b0a54216b3bae85e60bf18ed1888be4c38ecc0e3c7e29d64",
+        "url": "https://github.com/westkitty/https-github.com-westkitty-DexDraw_Redux/blob/b90a314d51aa75d9619f4070855463b3d4023ccb/package.json"
+      },
+      "statement": "Dependency manifest declares zod",
+      "token": "zod"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "historical",
       "id": "9e3684acc77f0eb96d",
       "kind": "declared-package",
       "repository_id": 1228982699,
@@ -360,7 +675,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "42eda12b383fa1d2b6",
       "kind": "declared-package",
       "repository_id": 1228982699,
@@ -381,7 +696,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "d31e9cc160491c72b1",
       "kind": "declared-package",
       "repository_id": 1228982699,
@@ -402,7 +717,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "2ed8a0082fe4ce9736",
       "kind": "declared-package",
       "repository_id": 1228982699,
@@ -465,7 +780,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "described",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "f047b7b6ca1d058cc7",
       "kind": "described-export",
       "repository_id": 1245300586,
@@ -5637,14 +5952,14 @@
       "repository_id": 1438116524,
       "source": {
         "blob_sha": "f789c47e964dc932353c7815293116dd8d0be3be",
-        "commit_sha": "339293ab9f5018361b6005a7d6c25a0ddb314891",
+        "commit_sha": "52fd5536420d54b0372e049a5a8dfa22d991a245",
         "level": "described",
         "mechanism": "described-export json",
         "path": "README.md",
         "repository": "Repo_Dex",
         "repository_id": 1438116524,
         "sha256": "df9c19a4fb8f655760642f1a91f93705e79b56cc4e71a146f3ee18fbded4bfdc",
-        "url": "https://github.com/westkitty/Repo_Dex/blob/339293ab9f5018361b6005a7d6c25a0ddb314891/README.md"
+        "url": "https://github.com/westkitty/Repo_Dex/blob/52fd5536420d54b0372e049a5a8dfa22d991a245/README.md"
       },
       "statement": "README describes export of json",
       "token": "json"
@@ -6343,7 +6658,7 @@
       "token": "vite"
     }
   ],
-  "content_sha256": "d400ce7617ecc0228b54afe18082b0bf106b281d1374e2d6f5261144fb507386",
+  "content_sha256": "b9581583cbe4a68f36725df2bf0178b4bd111e725f033313f8c67cdc6abdfc30",
   "delta": {
     "archived": [],
     "changed": [
@@ -6364,12 +6679,12 @@
     "verified",
     "transferred"
   ],
-  "generated_at": "2026-11-16T21:05:04Z",
+  "generated_at": "2026-11-17T19:54:40Z",
   "inventory": {
     "complete": true,
-    "cumulative_source_repositories": 152,
-    "historical_cached_repositories": 143,
-    "inspected_repositories": 23,
+    "cumulative_source_repositories": 155,
+    "historical_cached_repositories": 148,
+    "inspected_repositories": 22,
     "public_repositories": 213,
     "sampling_limit": 36,
     "source_errors": [
@@ -6402,6 +6717,12 @@
           "Branch unavailable"
         ],
         "repository": "DexDictate_ChromeOS"
+      },
+      {
+        "errors": [
+          "Branch unavailable"
+        ],
+        "repository": "DexDraw_Redux"
       },
       {
         "errors": [
@@ -7978,36 +8299,36 @@
   "parser_version": "1.1.0",
   "relationships": [
     {
-      "a": 1167074355,
-      "b": 1331825389,
+      "a": 1359549512,
+      "b": 1228371565,
       "evidence": [
         {
-          "blob_sha": "562f1c89c13a4f0799bd68c742ee93edc5cf17d6",
-          "commit_sha": "058c73a481d6ea3da4ff7fc850876edc01fd1e72",
+          "blob_sha": "61605cc40a25d663d3be0301a21efc576fd276fb",
+          "commit_sha": "02da50acea83837c6ccec0c5f46fd9d2a0326f2b",
           "level": "located",
           "mechanism": "package vitest",
           "path": "package.json",
-          "repository": "DexEarth",
-          "repository_id": 1167074355,
-          "sha256": "f23ef99296b062612ac67b74cf9068f96f2f1b106352496e780f9afc4c5c8d89",
-          "url": "https://github.com/westkitty/DexEarth/blob/058c73a481d6ea3da4ff7fc850876edc01fd1e72/package.json"
+          "repository": "dash_ledger_cc",
+          "repository_id": 1359549512,
+          "sha256": "78284c5453bf1ee62e4c06573b806ef7a7fb67b1f99ec82afeefafe1fcc75bcf",
+          "url": "https://github.com/westkitty/dash_ledger_cc/blob/02da50acea83837c6ccec0c5f46fd9d2a0326f2b/package.json"
         },
         {
-          "blob_sha": "f724a1fa368f3c0af4569bd399d2d4b08f96a1f2",
-          "commit_sha": "289bdfc089f94591e03f5b4932da25e4eb07d456",
+          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+          "commit_sha": "19991832d4b7d7dc244e47081f62eb71d2994096",
           "level": "located",
           "mechanism": "package vitest",
           "path": "package.json",
-          "repository": "Event-Horizon-Forge",
-          "repository_id": 1331825389,
-          "sha256": "bac55c5b1f7a00b00794037fa576289696a60ed075640035c9cdb2fa89c6861d",
-          "url": "https://github.com/westkitty/Event-Horizon-Forge/blob/289bdfc089f94591e03f5b4932da25e4eb07d456/package.json"
+          "repository": "DnDex_Redux",
+          "repository_id": 1228371565,
+          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+          "url": "https://github.com/westkitty/DnDex_Redux/blob/19991832d4b7d7dc244e47081f62eb71d2994096/package.json"
         }
       ],
       "evidence_level": "located",
       "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
       "freshness": "historical",
-      "id": "0140fd95d52529cb79",
+      "id": "00f10e729042e9c60d",
       "mechanism": "Vitest",
       "status": "documented",
       "type": "shared-technology"
@@ -8258,41 +8579,6 @@
       "type": "shared-technology"
     },
     {
-      "a": 1167074355,
-      "b": 1429011915,
-      "evidence": [
-        {
-          "blob_sha": "562f1c89c13a4f0799bd68c742ee93edc5cf17d6",
-          "commit_sha": "058c73a481d6ea3da4ff7fc850876edc01fd1e72",
-          "level": "located",
-          "mechanism": "package vitest",
-          "path": "package.json",
-          "repository": "DexEarth",
-          "repository_id": 1167074355,
-          "sha256": "f23ef99296b062612ac67b74cf9068f96f2f1b106352496e780f9afc4c5c8d89",
-          "url": "https://github.com/westkitty/DexEarth/blob/058c73a481d6ea3da4ff7fc850876edc01fd1e72/package.json"
-        },
-        {
-          "blob_sha": "eeb4b54286ddb812ad43820cc468ba7cf019d511",
-          "commit_sha": "b0d50cabcf106eff0171a1c6c3edbf57b7512a89",
-          "level": "located",
-          "mechanism": "package vitest",
-          "path": "package.json",
-          "repository": "Form_Engine_CC",
-          "repository_id": 1429011915,
-          "sha256": "08536148cc00a6cc8cd78231661bfa57591f57402aaf24a9b3c012bf6f1c62cf",
-          "url": "https://github.com/westkitty/Form_Engine_CC/blob/b0d50cabcf106eff0171a1c6c3edbf57b7512a89/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "0f927e6154874f1d88",
-      "mechanism": "Vitest",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
       "a": 1450553429,
       "b": 1438116524,
       "evidence": [
@@ -8315,6 +8601,41 @@
       "mechanism": "explicit repository URL",
       "status": "documented",
       "type": "readme-reference"
+    },
+    {
+      "a": 1411117169,
+      "b": 1228949715,
+      "evidence": [
+        {
+          "blob_sha": "8567d16b13e7535faa02b261d0c9548997dd6a53",
+          "commit_sha": "94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8",
+          "level": "located",
+          "mechanism": "package @vitejs/plugin-react",
+          "path": "package.json",
+          "repository": "DEX_Voice_Monologue",
+          "repository_id": 1411117169,
+          "sha256": "a08978696c4d5aae0f87900ec6d654a63ca665389b509238dc25f99d9bc2411c",
+          "url": "https://github.com/westkitty/DEX_Voice_Monologue/blob/94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8/package.json"
+        },
+        {
+          "blob_sha": "1dc4299f46ce16a9827c1546bdadd64931670f14",
+          "commit_sha": "b90a314d51aa75d9619f4070855463b3d4023ccb",
+          "level": "located",
+          "mechanism": "package @vitejs/plugin-react",
+          "path": "package.json",
+          "repository": "https-github.com-westkitty-DexDraw_Redux",
+          "repository_id": 1228949715,
+          "sha256": "0a15513863cadb47b0a54216b3bae85e60bf18ed1888be4c38ecc0e3c7e29d64",
+          "url": "https://github.com/westkitty/https-github.com-westkitty-DexDraw_Redux/blob/b90a314d51aa75d9619f4070855463b3d4023ccb/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare @vitejs/plugin-react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "11e17483b235d12cdc",
+      "mechanism": "Vite React plugin",
+      "status": "documented",
+      "type": "shared-technology"
     },
     {
       "a": 1305269701,
@@ -8488,41 +8809,6 @@
       "freshness": "historical",
       "id": "218b944f45c1894422",
       "mechanism": "Playwright",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1167074355,
-      "b": 1270793728,
-      "evidence": [
-        {
-          "blob_sha": "562f1c89c13a4f0799bd68c742ee93edc5cf17d6",
-          "commit_sha": "058c73a481d6ea3da4ff7fc850876edc01fd1e72",
-          "level": "located",
-          "mechanism": "package vitest",
-          "path": "package.json",
-          "repository": "DexEarth",
-          "repository_id": 1167074355,
-          "sha256": "f23ef99296b062612ac67b74cf9068f96f2f1b106352496e780f9afc4c5c8d89",
-          "url": "https://github.com/westkitty/DexEarth/blob/058c73a481d6ea3da4ff7fc850876edc01fd1e72/package.json"
-        },
-        {
-          "blob_sha": "78a7d991b4373ec8ac6d04322cd9586ae6d73e1b",
-          "commit_sha": "54d1dcf79c6d947a32fc461ca135de862fdf9a80",
-          "level": "located",
-          "mechanism": "package vitest",
-          "path": "package.json",
-          "repository": "EndlessGrok",
-          "repository_id": 1270793728,
-          "sha256": "a3f1a304a9b1f479f4b734b074c6d24ee86afd5831863e2ba123a205f45fb582",
-          "url": "https://github.com/westkitty/EndlessGrok/blob/54d1dcf79c6d947a32fc461ca135de862fdf9a80/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "251885009949c863cc",
-      "mechanism": "Vitest",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -8792,6 +9078,41 @@
       "freshness": "historical",
       "id": "309adf75b75b1fdfeb",
       "mechanism": "Vitest",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1359522603,
+      "b": 1228371565,
+      "evidence": [
+        {
+          "blob_sha": "95e360dccc37e7a773080d5a9b215bb41815c87f",
+          "commit_sha": "9279fc91bc9f5a0aec3c1a505b27fd06dae4456c",
+          "level": "located",
+          "mechanism": "package playwright",
+          "path": "package.json",
+          "repository": "dash_ledger_grok",
+          "repository_id": 1359522603,
+          "sha256": "fbfc3a0edc80a05e881d15c93e1431000b9ec68e48ee91f5971b53546db1b977",
+          "url": "https://github.com/westkitty/dash_ledger_grok/blob/9279fc91bc9f5a0aec3c1a505b27fd06dae4456c/package.json"
+        },
+        {
+          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+          "commit_sha": "19991832d4b7d7dc244e47081f62eb71d2994096",
+          "level": "located",
+          "mechanism": "package playwright",
+          "path": "package.json",
+          "repository": "DnDex_Redux",
+          "repository_id": 1228371565,
+          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+          "url": "https://github.com/westkitty/DnDex_Redux/blob/19991832d4b7d7dc244e47081f62eb71d2994096/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare playwright. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "3421f8a3117fac5149",
+      "mechanism": "Playwright",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -9240,6 +9561,41 @@
       "type": "shared-technology"
     },
     {
+      "a": 1389490904,
+      "b": 1228371565,
+      "evidence": [
+        {
+          "blob_sha": "69605622637fddf2c81662fb1c39f59b01e7eed0",
+          "commit_sha": "cb0618693284486c3324b3d972109f07d0fb7339",
+          "level": "located",
+          "mechanism": "package playwright",
+          "path": "package.json",
+          "repository": "century_engine",
+          "repository_id": 1389490904,
+          "sha256": "41c976996d38b662a40fbb6d1b4e6824070f89ac79afb49adf96e71634f01484",
+          "url": "https://github.com/westkitty/century_engine/blob/cb0618693284486c3324b3d972109f07d0fb7339/package.json"
+        },
+        {
+          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+          "commit_sha": "19991832d4b7d7dc244e47081f62eb71d2994096",
+          "level": "located",
+          "mechanism": "package playwright",
+          "path": "package.json",
+          "repository": "DnDex_Redux",
+          "repository_id": 1228371565,
+          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+          "url": "https://github.com/westkitty/DnDex_Redux/blob/19991832d4b7d7dc244e47081f62eb71d2994096/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare playwright. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "44eb56482bd003e138",
+      "mechanism": "Playwright",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
       "a": 1333328042,
       "b": 1453618290,
       "evidence": [
@@ -9306,6 +9662,41 @@
       "freshness": "historical",
       "id": "48aaf77cdc280bf31f",
       "mechanism": "Vite",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1443660930,
+      "b": 1228949715,
+      "evidence": [
+        {
+          "blob_sha": "03d9f54a2e5622f120aaf5a5c2b5b7bff32eefef",
+          "commit_sha": "39fe4079ddda4efd8ac2800ecb2c328c8fc17466",
+          "level": "located",
+          "mechanism": "package zod",
+          "path": "package.json",
+          "repository": "Dex_Parse",
+          "repository_id": 1443660930,
+          "sha256": "242f0d6378a0509d5db2657cc6ef7a50b29fa41f839282c7dbe74e7016da74cc",
+          "url": "https://github.com/westkitty/Dex_Parse/blob/39fe4079ddda4efd8ac2800ecb2c328c8fc17466/package.json"
+        },
+        {
+          "blob_sha": "1dc4299f46ce16a9827c1546bdadd64931670f14",
+          "commit_sha": "b90a314d51aa75d9619f4070855463b3d4023ccb",
+          "level": "located",
+          "mechanism": "package zod",
+          "path": "package.json",
+          "repository": "https-github.com-westkitty-DexDraw_Redux",
+          "repository_id": 1228949715,
+          "sha256": "0a15513863cadb47b0a54216b3bae85e60bf18ed1888be4c38ecc0e3c7e29d64",
+          "url": "https://github.com/westkitty/https-github.com-westkitty-DexDraw_Redux/blob/b90a314d51aa75d9619f4070855463b3d4023ccb/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare zod. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "4c27c395e9c4b0f165",
+      "mechanism": "Zod",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -9400,6 +9791,111 @@
       "freshness": "historical",
       "id": "51b65c8665f7859082",
       "mechanism": "React",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1411117169,
+      "b": 1228371565,
+      "evidence": [
+        {
+          "blob_sha": "8567d16b13e7535faa02b261d0c9548997dd6a53",
+          "commit_sha": "94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8",
+          "level": "located",
+          "mechanism": "package @vitejs/plugin-react",
+          "path": "package.json",
+          "repository": "DEX_Voice_Monologue",
+          "repository_id": 1411117169,
+          "sha256": "a08978696c4d5aae0f87900ec6d654a63ca665389b509238dc25f99d9bc2411c",
+          "url": "https://github.com/westkitty/DEX_Voice_Monologue/blob/94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8/package.json"
+        },
+        {
+          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+          "commit_sha": "19991832d4b7d7dc244e47081f62eb71d2994096",
+          "level": "located",
+          "mechanism": "package @vitejs/plugin-react",
+          "path": "package.json",
+          "repository": "DnDex_Redux",
+          "repository_id": 1228371565,
+          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+          "url": "https://github.com/westkitty/DnDex_Redux/blob/19991832d4b7d7dc244e47081f62eb71d2994096/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare @vitejs/plugin-react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "5254600608b95b7db6",
+      "mechanism": "Vite React plugin",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1389490904,
+      "b": 1215328628,
+      "evidence": [
+        {
+          "blob_sha": "69605622637fddf2c81662fb1c39f59b01e7eed0",
+          "commit_sha": "cb0618693284486c3324b3d972109f07d0fb7339",
+          "level": "located",
+          "mechanism": "package playwright",
+          "path": "package.json",
+          "repository": "century_engine",
+          "repository_id": 1389490904,
+          "sha256": "41c976996d38b662a40fbb6d1b4e6824070f89ac79afb49adf96e71634f01484",
+          "url": "https://github.com/westkitty/century_engine/blob/cb0618693284486c3324b3d972109f07d0fb7339/package.json"
+        },
+        {
+          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+          "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
+          "level": "located",
+          "mechanism": "package playwright",
+          "path": "package.json",
+          "repository": "DnDex",
+          "repository_id": 1215328628,
+          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+          "url": "https://github.com/westkitty/DnDex/blob/cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare playwright. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "52bee6b7ecd1c34c0f",
+      "mechanism": "Playwright",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1167074355,
+      "b": 1228371565,
+      "evidence": [
+        {
+          "blob_sha": "562f1c89c13a4f0799bd68c742ee93edc5cf17d6",
+          "commit_sha": "058c73a481d6ea3da4ff7fc850876edc01fd1e72",
+          "level": "located",
+          "mechanism": "package vitest",
+          "path": "package.json",
+          "repository": "DexEarth",
+          "repository_id": 1167074355,
+          "sha256": "f23ef99296b062612ac67b74cf9068f96f2f1b106352496e780f9afc4c5c8d89",
+          "url": "https://github.com/westkitty/DexEarth/blob/058c73a481d6ea3da4ff7fc850876edc01fd1e72/package.json"
+        },
+        {
+          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+          "commit_sha": "19991832d4b7d7dc244e47081f62eb71d2994096",
+          "level": "located",
+          "mechanism": "package vitest",
+          "path": "package.json",
+          "repository": "DnDex_Redux",
+          "repository_id": 1228371565,
+          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+          "url": "https://github.com/westkitty/DnDex_Redux/blob/19991832d4b7d7dc244e47081f62eb71d2994096/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "53e78342a569b4a175",
+      "mechanism": "Vitest",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -9544,41 +10040,6 @@
       "type": "shared-technology"
     },
     {
-      "a": 1411117169,
-      "b": 1414040676,
-      "evidence": [
-        {
-          "blob_sha": "8567d16b13e7535faa02b261d0c9548997dd6a53",
-          "commit_sha": "94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8",
-          "level": "located",
-          "mechanism": "package @vitejs/plugin-react",
-          "path": "package.json",
-          "repository": "DEX_Voice_Monologue",
-          "repository_id": 1411117169,
-          "sha256": "a08978696c4d5aae0f87900ec6d654a63ca665389b509238dc25f99d9bc2411c",
-          "url": "https://github.com/westkitty/DEX_Voice_Monologue/blob/94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8/package.json"
-        },
-        {
-          "blob_sha": "f0b476ab223c80f85bcdb91c66be41fe9a6f479a",
-          "commit_sha": "b3454bfd735406c4d6ae9aafe612ff4a6f93ab2d",
-          "level": "located",
-          "mechanism": "package @vitejs/plugin-react",
-          "path": "package.json",
-          "repository": "Multiverse_Simulator",
-          "repository_id": 1414040676,
-          "sha256": "641995ab0b5010b615c80cc7a02c6d10986cd9a27957914e1f8d27afbb092cb4",
-          "url": "https://github.com/westkitty/Multiverse_Simulator/blob/b3454bfd735406c4d6ae9aafe612ff4a6f93ab2d/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare @vitejs/plugin-react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "66fad1c11ecce70194",
-      "mechanism": "Vite React plugin",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
       "a": 1345619777,
       "b": 1359549512,
       "evidence": [
@@ -9645,6 +10106,41 @@
       "freshness": "historical",
       "id": "698f7f03294a517dfc",
       "mechanism": "TypeScript",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1359549512,
+      "b": 1215328628,
+      "evidence": [
+        {
+          "blob_sha": "61605cc40a25d663d3be0301a21efc576fd276fb",
+          "commit_sha": "02da50acea83837c6ccec0c5f46fd9d2a0326f2b",
+          "level": "located",
+          "mechanism": "package vitest",
+          "path": "package.json",
+          "repository": "dash_ledger_cc",
+          "repository_id": 1359549512,
+          "sha256": "78284c5453bf1ee62e4c06573b806ef7a7fb67b1f99ec82afeefafe1fcc75bcf",
+          "url": "https://github.com/westkitty/dash_ledger_cc/blob/02da50acea83837c6ccec0c5f46fd9d2a0326f2b/package.json"
+        },
+        {
+          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+          "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
+          "level": "located",
+          "mechanism": "package vitest",
+          "path": "package.json",
+          "repository": "DnDex",
+          "repository_id": 1215328628,
+          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+          "url": "https://github.com/westkitty/DnDex/blob/cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "6e01ed67141eaad5bc",
+      "mechanism": "Vitest",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -9720,6 +10216,41 @@
     },
     {
       "a": 1367714746,
+      "b": 1215328628,
+      "evidence": [
+        {
+          "blob_sha": "0a2af4ed08ac341a7f820e21c728f07d1a0edc76",
+          "commit_sha": "e97b9012e6caa15ed801f43cd3f72ab4813c03e7",
+          "level": "located",
+          "mechanism": "package vitest",
+          "path": "package.json",
+          "repository": "Deeper",
+          "repository_id": 1367714746,
+          "sha256": "fe6a684a9d1105b4bbf7783064b576f77b10710b964c42dd00a3067353091278",
+          "url": "https://github.com/westkitty/Deeper/blob/e97b9012e6caa15ed801f43cd3f72ab4813c03e7/package.json"
+        },
+        {
+          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+          "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
+          "level": "located",
+          "mechanism": "package vitest",
+          "path": "package.json",
+          "repository": "DnDex",
+          "repository_id": 1215328628,
+          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+          "url": "https://github.com/westkitty/DnDex/blob/cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "840120a7ac5f97d3a3",
+      "mechanism": "Vitest",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1367714746,
       "b": 1167074355,
       "evidence": [
         {
@@ -9789,37 +10320,37 @@
       "type": "shared-technology"
     },
     {
-      "a": 1411117169,
-      "b": 1456641666,
+      "a": 1167074355,
+      "b": 1215328628,
       "evidence": [
         {
-          "blob_sha": "8567d16b13e7535faa02b261d0c9548997dd6a53",
-          "commit_sha": "94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8",
+          "blob_sha": "562f1c89c13a4f0799bd68c742ee93edc5cf17d6",
+          "commit_sha": "058c73a481d6ea3da4ff7fc850876edc01fd1e72",
           "level": "located",
-          "mechanism": "package @vitejs/plugin-react",
+          "mechanism": "package vitest",
           "path": "package.json",
-          "repository": "DEX_Voice_Monologue",
-          "repository_id": 1411117169,
-          "sha256": "a08978696c4d5aae0f87900ec6d654a63ca665389b509238dc25f99d9bc2411c",
-          "url": "https://github.com/westkitty/DEX_Voice_Monologue/blob/94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8/package.json"
+          "repository": "DexEarth",
+          "repository_id": 1167074355,
+          "sha256": "f23ef99296b062612ac67b74cf9068f96f2f1b106352496e780f9afc4c5c8d89",
+          "url": "https://github.com/westkitty/DexEarth/blob/058c73a481d6ea3da4ff7fc850876edc01fd1e72/package.json"
         },
         {
-          "blob_sha": "5e21448046fa7196f2268e23a2d89dc3c637106e",
-          "commit_sha": "d4fab1eb8bc45d20359db77080e7fb0c870d5077",
+          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+          "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
           "level": "located",
-          "mechanism": "package @vitejs/plugin-react",
+          "mechanism": "package vitest",
           "path": "package.json",
-          "repository": "Palimpsest",
-          "repository_id": 1456641666,
-          "sha256": "5d0bc6f467b8536ff9bfa34c36db9f990c06d27a293dcef1f220244791ba40ef",
-          "url": "https://github.com/westkitty/Palimpsest/blob/d4fab1eb8bc45d20359db77080e7fb0c870d5077/package.json"
+          "repository": "DnDex",
+          "repository_id": 1215328628,
+          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+          "url": "https://github.com/westkitty/DnDex/blob/cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8/package.json"
         }
       ],
       "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare @vitejs/plugin-react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
       "freshness": "historical",
-      "id": "8be7177ff48bc623f7",
-      "mechanism": "Vite React plugin",
+      "id": "8bc58fae6e24750a6e",
+      "mechanism": "Vitest",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -9859,6 +10390,41 @@
       "type": "shared-technology"
     },
     {
+      "a": 1372212296,
+      "b": 1228949715,
+      "evidence": [
+        {
+          "blob_sha": "9ac54c84f06adcceafd78fa71453cb4b466b1aac",
+          "commit_sha": "e7e07753884075708d55a3419f4d5bf837cc9e04",
+          "level": "located",
+          "mechanism": "package zod",
+          "path": "package.json",
+          "repository": "DEX-REACH",
+          "repository_id": 1372212296,
+          "sha256": "0bc77341da974225d333fbda413f9e02162ff5ed527b328f81ecc5a4e36262f5",
+          "url": "https://github.com/westkitty/DEX-REACH/blob/e7e07753884075708d55a3419f4d5bf837cc9e04/package.json"
+        },
+        {
+          "blob_sha": "1dc4299f46ce16a9827c1546bdadd64931670f14",
+          "commit_sha": "b90a314d51aa75d9619f4070855463b3d4023ccb",
+          "level": "located",
+          "mechanism": "package zod",
+          "path": "package.json",
+          "repository": "https-github.com-westkitty-DexDraw_Redux",
+          "repository_id": 1228949715,
+          "sha256": "0a15513863cadb47b0a54216b3bae85e60bf18ed1888be4c38ecc0e3c7e29d64",
+          "url": "https://github.com/westkitty/https-github.com-westkitty-DexDraw_Redux/blob/b90a314d51aa75d9619f4070855463b3d4023ccb/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare zod. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "8e9ada4b0aae17ce7f",
+      "mechanism": "Zod",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
       "a": 1443660930,
       "b": 1414040676,
       "evidence": [
@@ -9890,41 +10456,6 @@
       "freshness": "historical",
       "id": "8f4d88b11d9828b971",
       "mechanism": "Zod",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1359522603,
-      "b": 1301147945,
-      "evidence": [
-        {
-          "blob_sha": "95e360dccc37e7a773080d5a9b215bb41815c87f",
-          "commit_sha": "9279fc91bc9f5a0aec3c1a505b27fd06dae4456c",
-          "level": "located",
-          "mechanism": "package playwright",
-          "path": "package.json",
-          "repository": "dash_ledger_grok",
-          "repository_id": 1359522603,
-          "sha256": "fbfc3a0edc80a05e881d15c93e1431000b9ec68e48ee91f5971b53546db1b977",
-          "url": "https://github.com/westkitty/dash_ledger_grok/blob/9279fc91bc9f5a0aec3c1a505b27fd06dae4456c/package.json"
-        },
-        {
-          "blob_sha": "3640be465c08f31bcaefd40d9836ceb29cab673f",
-          "commit_sha": "6e4ff830f21e2f95929808aab981e4d88917c7ad",
-          "level": "located",
-          "mechanism": "package playwright",
-          "path": "package.json",
-          "repository": "Homo_Goetia",
-          "repository_id": 1301147945,
-          "sha256": "9bb225b143a2aea04b3c038ae0ad767596001109920a47bac89a7b52c152c852",
-          "url": "https://github.com/westkitty/Homo_Goetia/blob/6e4ff830f21e2f95929808aab981e4d88917c7ad/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare playwright. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "904c540a4992c2b051",
-      "mechanism": "Playwright",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -10069,41 +10600,6 @@
       "type": "shared-technology"
     },
     {
-      "a": 1345619777,
-      "b": 1392929754,
-      "evidence": [
-        {
-          "blob_sha": "2d78e6158afbd500f139a885edd5cdbeead60908",
-          "commit_sha": "2c09742600cdb3ee06fe7cbd3f33210d2225f361",
-          "level": "located",
-          "mechanism": "package vite",
-          "path": "package.json",
-          "repository": "2d_Game_Factory",
-          "repository_id": 1345619777,
-          "sha256": "7f84b6d9de4932090d9d31928091c03335082755963eef66109ad7f41addf085",
-          "url": "https://github.com/westkitty/2d_Game_Factory/blob/2c09742600cdb3ee06fe7cbd3f33210d2225f361/package.json"
-        },
-        {
-          "blob_sha": "0e52c4cae12297aa223c82298b4d33d5423e8421",
-          "commit_sha": "5c584b448323ceef67b74027f0b555324761f68c",
-          "level": "located",
-          "mechanism": "package vite",
-          "path": "package.json",
-          "repository": "Doom_Map",
-          "repository_id": 1392929754,
-          "sha256": "00362d888a5c9fa2b26d743d7cfd27e77e77254b88db88a9289dc23f315d6e3d",
-          "url": "https://github.com/westkitty/Doom_Map/blob/5c584b448323ceef67b74027f0b555324761f68c/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare vite. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "9a4d2ce3f1cf92b37f",
-      "mechanism": "Vite",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
       "a": 1389490904,
       "b": 1367714746,
       "evidence": [
@@ -10209,41 +10705,6 @@
       "type": "shared-technology"
     },
     {
-      "a": 1359549512,
-      "b": 1270793728,
-      "evidence": [
-        {
-          "blob_sha": "61605cc40a25d663d3be0301a21efc576fd276fb",
-          "commit_sha": "02da50acea83837c6ccec0c5f46fd9d2a0326f2b",
-          "level": "located",
-          "mechanism": "package vitest",
-          "path": "package.json",
-          "repository": "dash_ledger_cc",
-          "repository_id": 1359549512,
-          "sha256": "78284c5453bf1ee62e4c06573b806ef7a7fb67b1f99ec82afeefafe1fcc75bcf",
-          "url": "https://github.com/westkitty/dash_ledger_cc/blob/02da50acea83837c6ccec0c5f46fd9d2a0326f2b/package.json"
-        },
-        {
-          "blob_sha": "78a7d991b4373ec8ac6d04322cd9586ae6d73e1b",
-          "commit_sha": "54d1dcf79c6d947a32fc461ca135de862fdf9a80",
-          "level": "located",
-          "mechanism": "package vitest",
-          "path": "package.json",
-          "repository": "EndlessGrok",
-          "repository_id": 1270793728,
-          "sha256": "a3f1a304a9b1f479f4b734b074c6d24ee86afd5831863e2ba123a205f45fb582",
-          "url": "https://github.com/westkitty/EndlessGrok/blob/54d1dcf79c6d947a32fc461ca135de862fdf9a80/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "a4b2739271320badec",
-      "mechanism": "Vitest",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
       "a": 1411116658,
       "b": 1446150788,
       "evidence": [
@@ -10310,41 +10771,6 @@
       "freshness": "historical",
       "id": "a8e58478494310d99f",
       "mechanism": "TypeScript",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1359549512,
-      "b": 1392929754,
-      "evidence": [
-        {
-          "blob_sha": "61605cc40a25d663d3be0301a21efc576fd276fb",
-          "commit_sha": "02da50acea83837c6ccec0c5f46fd9d2a0326f2b",
-          "level": "located",
-          "mechanism": "package vitest",
-          "path": "package.json",
-          "repository": "dash_ledger_cc",
-          "repository_id": 1359549512,
-          "sha256": "78284c5453bf1ee62e4c06573b806ef7a7fb67b1f99ec82afeefafe1fcc75bcf",
-          "url": "https://github.com/westkitty/dash_ledger_cc/blob/02da50acea83837c6ccec0c5f46fd9d2a0326f2b/package.json"
-        },
-        {
-          "blob_sha": "0e52c4cae12297aa223c82298b4d33d5423e8421",
-          "commit_sha": "5c584b448323ceef67b74027f0b555324761f68c",
-          "level": "located",
-          "mechanism": "package vitest",
-          "path": "package.json",
-          "repository": "Doom_Map",
-          "repository_id": 1392929754,
-          "sha256": "00362d888a5c9fa2b26d743d7cfd27e77e77254b88db88a9289dc23f315d6e3d",
-          "url": "https://github.com/westkitty/Doom_Map/blob/5c584b448323ceef67b74027f0b555324761f68c/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "aa178d5923096eefbf",
-      "mechanism": "Vitest",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -10769,6 +11195,76 @@
       "type": "shared-technology"
     },
     {
+      "a": 1359522603,
+      "b": 1215328628,
+      "evidence": [
+        {
+          "blob_sha": "95e360dccc37e7a773080d5a9b215bb41815c87f",
+          "commit_sha": "9279fc91bc9f5a0aec3c1a505b27fd06dae4456c",
+          "level": "located",
+          "mechanism": "package playwright",
+          "path": "package.json",
+          "repository": "dash_ledger_grok",
+          "repository_id": 1359522603,
+          "sha256": "fbfc3a0edc80a05e881d15c93e1431000b9ec68e48ee91f5971b53546db1b977",
+          "url": "https://github.com/westkitty/dash_ledger_grok/blob/9279fc91bc9f5a0aec3c1a505b27fd06dae4456c/package.json"
+        },
+        {
+          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+          "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
+          "level": "located",
+          "mechanism": "package playwright",
+          "path": "package.json",
+          "repository": "DnDex",
+          "repository_id": 1215328628,
+          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+          "url": "https://github.com/westkitty/DnDex/blob/cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare playwright. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "c58322753378c9f552",
+      "mechanism": "Playwright",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1443660930,
+      "b": 1215328628,
+      "evidence": [
+        {
+          "blob_sha": "03d9f54a2e5622f120aaf5a5c2b5b7bff32eefef",
+          "commit_sha": "39fe4079ddda4efd8ac2800ecb2c328c8fc17466",
+          "level": "located",
+          "mechanism": "package @vitejs/plugin-react",
+          "path": "package.json",
+          "repository": "Dex_Parse",
+          "repository_id": 1443660930,
+          "sha256": "242f0d6378a0509d5db2657cc6ef7a50b29fa41f839282c7dbe74e7016da74cc",
+          "url": "https://github.com/westkitty/Dex_Parse/blob/39fe4079ddda4efd8ac2800ecb2c328c8fc17466/package.json"
+        },
+        {
+          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+          "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
+          "level": "located",
+          "mechanism": "package @vitejs/plugin-react",
+          "path": "package.json",
+          "repository": "DnDex",
+          "repository_id": 1215328628,
+          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+          "url": "https://github.com/westkitty/DnDex/blob/cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare @vitejs/plugin-react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "c6110fbc68056d6932",
+      "mechanism": "Vite React plugin",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
       "a": 1367714746,
       "b": 1375041185,
       "evidence": [
@@ -10800,41 +11296,6 @@
       "freshness": "historical",
       "id": "c6821414b34e3aee8f",
       "mechanism": "Vitest",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1367714746,
-      "b": 1429011915,
-      "evidence": [
-        {
-          "blob_sha": "0a2af4ed08ac341a7f820e21c728f07d1a0edc76",
-          "commit_sha": "e97b9012e6caa15ed801f43cd3f72ab4813c03e7",
-          "level": "located",
-          "mechanism": "package playwright",
-          "path": "package.json",
-          "repository": "Deeper",
-          "repository_id": 1367714746,
-          "sha256": "fe6a684a9d1105b4bbf7783064b576f77b10710b964c42dd00a3067353091278",
-          "url": "https://github.com/westkitty/Deeper/blob/e97b9012e6caa15ed801f43cd3f72ab4813c03e7/package.json"
-        },
-        {
-          "blob_sha": "eeb4b54286ddb812ad43820cc468ba7cf019d511",
-          "commit_sha": "b0d50cabcf106eff0171a1c6c3edbf57b7512a89",
-          "level": "located",
-          "mechanism": "package playwright",
-          "path": "package.json",
-          "repository": "Form_Engine_CC",
-          "repository_id": 1429011915,
-          "sha256": "08536148cc00a6cc8cd78231661bfa57591f57402aaf24a9b3c012bf6f1c62cf",
-          "url": "https://github.com/westkitty/Form_Engine_CC/blob/b0d50cabcf106eff0171a1c6c3edbf57b7512a89/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare playwright. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "c9ebc87f4c8baaaad9",
-      "mechanism": "Playwright",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -10874,6 +11335,41 @@
       "type": "shared-technology"
     },
     {
+      "a": 1228949715,
+      "b": 1414040676,
+      "evidence": [
+        {
+          "blob_sha": "1dc4299f46ce16a9827c1546bdadd64931670f14",
+          "commit_sha": "b90a314d51aa75d9619f4070855463b3d4023ccb",
+          "level": "located",
+          "mechanism": "package zod",
+          "path": "package.json",
+          "repository": "https-github.com-westkitty-DexDraw_Redux",
+          "repository_id": 1228949715,
+          "sha256": "0a15513863cadb47b0a54216b3bae85e60bf18ed1888be4c38ecc0e3c7e29d64",
+          "url": "https://github.com/westkitty/https-github.com-westkitty-DexDraw_Redux/blob/b90a314d51aa75d9619f4070855463b3d4023ccb/package.json"
+        },
+        {
+          "blob_sha": "f0b476ab223c80f85bcdb91c66be41fe9a6f479a",
+          "commit_sha": "b3454bfd735406c4d6ae9aafe612ff4a6f93ab2d",
+          "level": "located",
+          "mechanism": "package zod",
+          "path": "package.json",
+          "repository": "Multiverse_Simulator",
+          "repository_id": 1414040676,
+          "sha256": "641995ab0b5010b615c80cc7a02c6d10986cd9a27957914e1f8d27afbb092cb4",
+          "url": "https://github.com/westkitty/Multiverse_Simulator/blob/b3454bfd735406c4d6ae9aafe612ff4a6f93ab2d/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare zod. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "ccea6a88d25a30ed53",
+      "mechanism": "Zod",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
       "a": 1345619777,
       "b": 1301342142,
       "evidence": [
@@ -10905,76 +11401,6 @@
       "freshness": "historical",
       "id": "ce757562966963f8a8",
       "mechanism": "Vite",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1367714746,
-      "b": 1443660930,
-      "evidence": [
-        {
-          "blob_sha": "0a2af4ed08ac341a7f820e21c728f07d1a0edc76",
-          "commit_sha": "e97b9012e6caa15ed801f43cd3f72ab4813c03e7",
-          "level": "located",
-          "mechanism": "package playwright",
-          "path": "package.json",
-          "repository": "Deeper",
-          "repository_id": 1367714746,
-          "sha256": "fe6a684a9d1105b4bbf7783064b576f77b10710b964c42dd00a3067353091278",
-          "url": "https://github.com/westkitty/Deeper/blob/e97b9012e6caa15ed801f43cd3f72ab4813c03e7/package.json"
-        },
-        {
-          "blob_sha": "03d9f54a2e5622f120aaf5a5c2b5b7bff32eefef",
-          "commit_sha": "39fe4079ddda4efd8ac2800ecb2c328c8fc17466",
-          "level": "located",
-          "mechanism": "package playwright",
-          "path": "package.json",
-          "repository": "Dex_Parse",
-          "repository_id": 1443660930,
-          "sha256": "242f0d6378a0509d5db2657cc6ef7a50b29fa41f839282c7dbe74e7016da74cc",
-          "url": "https://github.com/westkitty/Dex_Parse/blob/39fe4079ddda4efd8ac2800ecb2c328c8fc17466/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare playwright. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "ce9c39e5b1d03e4775",
-      "mechanism": "Playwright",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1443660930,
-      "b": 1270793728,
-      "evidence": [
-        {
-          "blob_sha": "03d9f54a2e5622f120aaf5a5c2b5b7bff32eefef",
-          "commit_sha": "39fe4079ddda4efd8ac2800ecb2c328c8fc17466",
-          "level": "located",
-          "mechanism": "package @vitejs/plugin-react",
-          "path": "package.json",
-          "repository": "Dex_Parse",
-          "repository_id": 1443660930,
-          "sha256": "242f0d6378a0509d5db2657cc6ef7a50b29fa41f839282c7dbe74e7016da74cc",
-          "url": "https://github.com/westkitty/Dex_Parse/blob/39fe4079ddda4efd8ac2800ecb2c328c8fc17466/package.json"
-        },
-        {
-          "blob_sha": "78a7d991b4373ec8ac6d04322cd9586ae6d73e1b",
-          "commit_sha": "54d1dcf79c6d947a32fc461ca135de862fdf9a80",
-          "level": "located",
-          "mechanism": "package @vitejs/plugin-react",
-          "path": "package.json",
-          "repository": "EndlessGrok",
-          "repository_id": 1270793728,
-          "sha256": "a3f1a304a9b1f479f4b734b074c6d24ee86afd5831863e2ba123a205f45fb582",
-          "url": "https://github.com/westkitty/EndlessGrok/blob/54d1dcf79c6d947a32fc461ca135de862fdf9a80/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare @vitejs/plugin-react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "cfeaf62ab9e78693d1",
-      "mechanism": "Vite React plugin",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -11237,76 +11663,6 @@
       "type": "shared-technology"
     },
     {
-      "a": 1411117169,
-      "b": 1228982699,
-      "evidence": [
-        {
-          "blob_sha": "8567d16b13e7535faa02b261d0c9548997dd6a53",
-          "commit_sha": "94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8",
-          "level": "located",
-          "mechanism": "package @vitejs/plugin-react",
-          "path": "package.json",
-          "repository": "DEX_Voice_Monologue",
-          "repository_id": 1411117169,
-          "sha256": "a08978696c4d5aae0f87900ec6d654a63ca665389b509238dc25f99d9bc2411c",
-          "url": "https://github.com/westkitty/DEX_Voice_Monologue/blob/94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8/package.json"
-        },
-        {
-          "blob_sha": "cc801ce000598276f51798ea526f8a5dea48c24c",
-          "commit_sha": "02c444e75a048e5fb19bbc5334a1bb8a186163b7",
-          "level": "located",
-          "mechanism": "package @vitejs/plugin-react",
-          "path": "package.json",
-          "repository": "MediaGetter_Redux",
-          "repository_id": 1228982699,
-          "sha256": "562d5c7c6fa6b8143008337a7cf8433a84a2d5014dafbc1fed11288e8c6a965d",
-          "url": "https://github.com/westkitty/MediaGetter_Redux/blob/02c444e75a048e5fb19bbc5334a1bb8a186163b7/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare @vitejs/plugin-react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "db0392b67daefe9a5e",
-      "mechanism": "Vite React plugin",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1305269701,
-      "b": 1338746589,
-      "evidence": [
-        {
-          "blob_sha": "d164d1bae56ebee904c2bbc7f12397595f24c931",
-          "commit_sha": "3b725e78c7b1ad4d05522fac0c33981a814f346d",
-          "level": "located",
-          "mechanism": "package @vitejs/plugin-react",
-          "path": "package.json",
-          "repository": "ClearCut",
-          "repository_id": 1305269701,
-          "sha256": "50a64ca7391e37dde44c9043388d906757f1e5a566e668d4551c7fd932d2fa70",
-          "url": "https://github.com/westkitty/ClearCut/blob/3b725e78c7b1ad4d05522fac0c33981a814f346d/package.json"
-        },
-        {
-          "blob_sha": "b71b1a1fafb146e4db524117068352837a32ba50",
-          "commit_sha": "77199d62445f038b8eacad85639067bb0e609a37",
-          "level": "located",
-          "mechanism": "package @vitejs/plugin-react",
-          "path": "package.json",
-          "repository": "Heliocide_Viewer",
-          "repository_id": 1338746589,
-          "sha256": "cffc48655f79a72297bf8860ea8c554210070363bd3feb0b841d7e42cf135388",
-          "url": "https://github.com/westkitty/Heliocide_Viewer/blob/77199d62445f038b8eacad85639067bb0e609a37/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare @vitejs/plugin-react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "dbce45c048c4303940",
-      "mechanism": "Vite React plugin",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
       "a": 1333328042,
       "b": 1359919659,
       "evidence": [
@@ -11413,6 +11769,41 @@
     },
     {
       "a": 1345619777,
+      "b": 1215328628,
+      "evidence": [
+        {
+          "blob_sha": "2d78e6158afbd500f139a885edd5cdbeead60908",
+          "commit_sha": "2c09742600cdb3ee06fe7cbd3f33210d2225f361",
+          "level": "located",
+          "mechanism": "package vite",
+          "path": "package.json",
+          "repository": "2d_Game_Factory",
+          "repository_id": 1345619777,
+          "sha256": "7f84b6d9de4932090d9d31928091c03335082755963eef66109ad7f41addf085",
+          "url": "https://github.com/westkitty/2d_Game_Factory/blob/2c09742600cdb3ee06fe7cbd3f33210d2225f361/package.json"
+        },
+        {
+          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+          "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
+          "level": "located",
+          "mechanism": "package vite",
+          "path": "package.json",
+          "repository": "DnDex",
+          "repository_id": 1215328628,
+          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+          "url": "https://github.com/westkitty/DnDex/blob/cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare vite. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "e3399d1b3d3d611f7f",
+      "mechanism": "Vite",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1345619777,
       "b": 1443660930,
       "evidence": [
         {
@@ -11482,6 +11873,41 @@
       "type": "shared-technology"
     },
     {
+      "a": 1305269701,
+      "b": 1215328628,
+      "evidence": [
+        {
+          "blob_sha": "d164d1bae56ebee904c2bbc7f12397595f24c931",
+          "commit_sha": "3b725e78c7b1ad4d05522fac0c33981a814f346d",
+          "level": "located",
+          "mechanism": "package @vitejs/plugin-react",
+          "path": "package.json",
+          "repository": "ClearCut",
+          "repository_id": 1305269701,
+          "sha256": "50a64ca7391e37dde44c9043388d906757f1e5a566e668d4551c7fd932d2fa70",
+          "url": "https://github.com/westkitty/ClearCut/blob/3b725e78c7b1ad4d05522fac0c33981a814f346d/package.json"
+        },
+        {
+          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+          "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
+          "level": "located",
+          "mechanism": "package @vitejs/plugin-react",
+          "path": "package.json",
+          "repository": "DnDex",
+          "repository_id": 1215328628,
+          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+          "url": "https://github.com/westkitty/DnDex/blob/cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare @vitejs/plugin-react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "eac8b3d3e16c65d8ae",
+      "mechanism": "Vite React plugin",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
       "a": 1345619777,
       "b": 1282236977,
       "evidence": [
@@ -11504,76 +11930,6 @@
       "mechanism": "explicit repository URL",
       "status": "documented",
       "type": "readme-reference"
-    },
-    {
-      "a": 1305269701,
-      "b": 1270793728,
-      "evidence": [
-        {
-          "blob_sha": "d164d1bae56ebee904c2bbc7f12397595f24c931",
-          "commit_sha": "3b725e78c7b1ad4d05522fac0c33981a814f346d",
-          "level": "located",
-          "mechanism": "package @vitejs/plugin-react",
-          "path": "package.json",
-          "repository": "ClearCut",
-          "repository_id": 1305269701,
-          "sha256": "50a64ca7391e37dde44c9043388d906757f1e5a566e668d4551c7fd932d2fa70",
-          "url": "https://github.com/westkitty/ClearCut/blob/3b725e78c7b1ad4d05522fac0c33981a814f346d/package.json"
-        },
-        {
-          "blob_sha": "78a7d991b4373ec8ac6d04322cd9586ae6d73e1b",
-          "commit_sha": "54d1dcf79c6d947a32fc461ca135de862fdf9a80",
-          "level": "located",
-          "mechanism": "package @vitejs/plugin-react",
-          "path": "package.json",
-          "repository": "EndlessGrok",
-          "repository_id": 1270793728,
-          "sha256": "a3f1a304a9b1f479f4b734b074c6d24ee86afd5831863e2ba123a205f45fb582",
-          "url": "https://github.com/westkitty/EndlessGrok/blob/54d1dcf79c6d947a32fc461ca135de862fdf9a80/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare @vitejs/plugin-react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "ebf0144233f6a53207",
-      "mechanism": "Vite React plugin",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1359522603,
-      "b": 1429011915,
-      "evidence": [
-        {
-          "blob_sha": "95e360dccc37e7a773080d5a9b215bb41815c87f",
-          "commit_sha": "9279fc91bc9f5a0aec3c1a505b27fd06dae4456c",
-          "level": "located",
-          "mechanism": "package playwright",
-          "path": "package.json",
-          "repository": "dash_ledger_grok",
-          "repository_id": 1359522603,
-          "sha256": "fbfc3a0edc80a05e881d15c93e1431000b9ec68e48ee91f5971b53546db1b977",
-          "url": "https://github.com/westkitty/dash_ledger_grok/blob/9279fc91bc9f5a0aec3c1a505b27fd06dae4456c/package.json"
-        },
-        {
-          "blob_sha": "eeb4b54286ddb812ad43820cc468ba7cf019d511",
-          "commit_sha": "b0d50cabcf106eff0171a1c6c3edbf57b7512a89",
-          "level": "located",
-          "mechanism": "package playwright",
-          "path": "package.json",
-          "repository": "Form_Engine_CC",
-          "repository_id": 1429011915,
-          "sha256": "08536148cc00a6cc8cd78231661bfa57591f57402aaf24a9b3c012bf6f1c62cf",
-          "url": "https://github.com/westkitty/Form_Engine_CC/blob/b0d50cabcf106eff0171a1c6c3edbf57b7512a89/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare playwright. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "ec1d642a73a54c52b0",
-      "mechanism": "Playwright",
-      "status": "documented",
-      "type": "shared-technology"
     },
     {
       "a": 1356807285,
@@ -11607,6 +11963,41 @@
       "freshness": "historical",
       "id": "ed3cbcff2facd214d2",
       "mechanism": "Three.js",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1411117169,
+      "b": 1215328628,
+      "evidence": [
+        {
+          "blob_sha": "8567d16b13e7535faa02b261d0c9548997dd6a53",
+          "commit_sha": "94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8",
+          "level": "located",
+          "mechanism": "package @vitejs/plugin-react",
+          "path": "package.json",
+          "repository": "DEX_Voice_Monologue",
+          "repository_id": 1411117169,
+          "sha256": "a08978696c4d5aae0f87900ec6d654a63ca665389b509238dc25f99d9bc2411c",
+          "url": "https://github.com/westkitty/DEX_Voice_Monologue/blob/94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8/package.json"
+        },
+        {
+          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+          "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
+          "level": "located",
+          "mechanism": "package @vitejs/plugin-react",
+          "path": "package.json",
+          "repository": "DnDex",
+          "repository_id": 1215328628,
+          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+          "url": "https://github.com/westkitty/DnDex/blob/cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare @vitejs/plugin-react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "edab9a5315eb1e86c1",
+      "mechanism": "Vite React plugin",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -11676,6 +12067,41 @@
       "explanation": "Both pinned package.json manifests declare @vitejs/plugin-react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
       "freshness": "historical",
       "id": "effef13935f9da4211",
+      "mechanism": "Vite React plugin",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1305269701,
+      "b": 1228371565,
+      "evidence": [
+        {
+          "blob_sha": "d164d1bae56ebee904c2bbc7f12397595f24c931",
+          "commit_sha": "3b725e78c7b1ad4d05522fac0c33981a814f346d",
+          "level": "located",
+          "mechanism": "package @vitejs/plugin-react",
+          "path": "package.json",
+          "repository": "ClearCut",
+          "repository_id": 1305269701,
+          "sha256": "50a64ca7391e37dde44c9043388d906757f1e5a566e668d4551c7fd932d2fa70",
+          "url": "https://github.com/westkitty/ClearCut/blob/3b725e78c7b1ad4d05522fac0c33981a814f346d/package.json"
+        },
+        {
+          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+          "commit_sha": "19991832d4b7d7dc244e47081f62eb71d2994096",
+          "level": "located",
+          "mechanism": "package @vitejs/plugin-react",
+          "path": "package.json",
+          "repository": "DnDex_Redux",
+          "repository_id": 1228371565,
+          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+          "url": "https://github.com/westkitty/DnDex_Redux/blob/19991832d4b7d7dc244e47081f62eb71d2994096/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare @vitejs/plugin-react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "f0ff0630a915d3e2a6",
       "mechanism": "Vite React plugin",
       "status": "documented",
       "type": "shared-technology"
@@ -11773,6 +12199,41 @@
       "mechanism": "explicit repository URL",
       "status": "documented",
       "type": "readme-reference"
+    },
+    {
+      "a": 1367714746,
+      "b": 1228371565,
+      "evidence": [
+        {
+          "blob_sha": "0a2af4ed08ac341a7f820e21c728f07d1a0edc76",
+          "commit_sha": "e97b9012e6caa15ed801f43cd3f72ab4813c03e7",
+          "level": "located",
+          "mechanism": "package vitest",
+          "path": "package.json",
+          "repository": "Deeper",
+          "repository_id": 1367714746,
+          "sha256": "fe6a684a9d1105b4bbf7783064b576f77b10710b964c42dd00a3067353091278",
+          "url": "https://github.com/westkitty/Deeper/blob/e97b9012e6caa15ed801f43cd3f72ab4813c03e7/package.json"
+        },
+        {
+          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+          "commit_sha": "19991832d4b7d7dc244e47081f62eb71d2994096",
+          "level": "located",
+          "mechanism": "package vitest",
+          "path": "package.json",
+          "repository": "DnDex_Redux",
+          "repository_id": 1228371565,
+          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+          "url": "https://github.com/westkitty/DnDex_Redux/blob/19991832d4b7d7dc244e47081f62eb71d2994096/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "f4369f5f3e043a578f",
+      "mechanism": "Vitest",
+      "status": "documented",
+      "type": "shared-technology"
     },
     {
       "a": 1305269701,
@@ -11946,41 +12407,6 @@
       "freshness": "historical",
       "id": "f9f20bebc1fbefe539",
       "mechanism": "Three.js",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1167074355,
-      "b": 1429136689,
-      "evidence": [
-        {
-          "blob_sha": "562f1c89c13a4f0799bd68c742ee93edc5cf17d6",
-          "commit_sha": "058c73a481d6ea3da4ff7fc850876edc01fd1e72",
-          "level": "located",
-          "mechanism": "package vitest",
-          "path": "package.json",
-          "repository": "DexEarth",
-          "repository_id": 1167074355,
-          "sha256": "f23ef99296b062612ac67b74cf9068f96f2f1b106352496e780f9afc4c5c8d89",
-          "url": "https://github.com/westkitty/DexEarth/blob/058c73a481d6ea3da4ff7fc850876edc01fd1e72/package.json"
-        },
-        {
-          "blob_sha": "968bda7d0885c53ea2bd8b42ff5c308dd6bb4a36",
-          "commit_sha": "9564bb525fc849c79e40a73490b90bcce414e7ac",
-          "level": "located",
-          "mechanism": "package vitest",
-          "path": "package.json",
-          "repository": "form-engine",
-          "repository_id": 1429136689,
-          "sha256": "0ebc7a72fd469433147d8d544e8b69809371d253ddafc539bd43c9a5f9f477ee",
-          "url": "https://github.com/westkitty/form-engine/blob/9564bb525fc849c79e40a73490b90bcce414e7ac/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "fa4732199ae020a2b4",
-      "mechanism": "Vitest",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -12690,7 +13116,7 @@
       "inspection": {
         "commit_sha": "eb002109d45257eabaec2fb48803a3c82a15a030",
         "errors": [],
-        "inspected_at": "2026-11-16T21:04:37Z",
+        "inspected_at": "2026-11-17T19:54:18Z",
         "sources": {},
         "state": "partial"
       },
@@ -13136,7 +13562,7 @@
       "inspection": {
         "commit_sha": "dd6b278e8c493b9322d47de70f3bf89a1d0f6fa5",
         "errors": [],
-        "inspected_at": "2026-11-16T21:04:36Z",
+        "inspected_at": "2026-11-17T19:54:17Z",
         "sources": {},
         "state": "partial"
       },
@@ -13204,7 +13630,7 @@
       "inspection": {
         "commit_sha": "5bd357e14d9b68776d50b1dee0829b7bd5ab939f",
         "errors": [],
-        "inspected_at": "2026-11-16T21:04:43Z",
+        "inspected_at": "2026-11-17T19:54:24Z",
         "sources": {},
         "state": "partial"
       },
@@ -13343,7 +13769,7 @@
       "inspection": {
         "commit_sha": "b32877bdff5de1adb3ad51307f8f7b827ad6561b",
         "errors": [],
-        "inspected_at": "2026-11-16T21:04:40Z",
+        "inspected_at": "2026-11-17T19:54:21Z",
         "sources": {},
         "state": "partial"
       },
@@ -13403,7 +13829,7 @@
       "inspection": {
         "commit_sha": "9d9271d4d966f87df412759a374614ca343733ce",
         "errors": [],
-        "inspected_at": "2026-11-16T21:04:51Z",
+        "inspected_at": "2026-11-17T19:54:30Z",
         "sources": {},
         "state": "partial"
       },
@@ -13878,8 +14304,11 @@
       "full_name": "westkitty/Dex_Hub",
       "id": 1153890810,
       "inspection": {
-        "historical_commit_sha": "",
-        "state": "not-selected"
+        "commit_sha": "884adeb8d53c5c12d8098e0f030bd120047cd60a",
+        "errors": [],
+        "inspected_at": "2026-11-17T19:54:40Z",
+        "sources": {},
+        "state": "partial"
       },
       "language": "HTML",
       "metadata_sha256": "0c675555e59dc0081125dc278cbe81012da9b2f2eca280482abc059f095e0670",
@@ -14349,9 +14778,9 @@
         "state": "inspected"
       },
       "language": "",
-      "metadata_sha256": "6357f3b20fe7f9d4dad0baf20e8d2f44635cf4b9d073910d21bb195956c7532d",
+      "metadata_sha256": "c603e5e7c26b547eff44e609747843c034ad47e239edf92abaa02a906ef1640a",
       "name": "Dex_Sculpt",
-      "pushed_at": "2026-11-16T08:23:06Z",
+      "pushed_at": "2026-11-17T17:49:33Z",
       "topics": [],
       "updated_at": "2026-11-15T06:31:37Z",
       "url": "https://github.com/westkitty/Dex_Sculpt",
@@ -14812,8 +15241,10 @@
       "full_name": "westkitty/DexDraw_Redux",
       "id": 1228947668,
       "inspection": {
-        "historical_commit_sha": "",
-        "state": "not-selected"
+        "errors": [
+          "Branch unavailable"
+        ],
+        "state": "error"
       },
       "language": "",
       "metadata_sha256": "86491eca409b8ade86d122cee44ce945c9862d7eac128123abac0268e3c243f8",
@@ -15126,6 +15557,7 @@
       "id": 1234980009,
       "inspection": {
         "commit_sha": "d9e33b307bf8f1a1b4d85ee144b25a4055276715",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-16T21:05:03Z",
         "sources": {
@@ -15140,7 +15572,7 @@
             "url": "https://github.com/westkitty/DexOracle/blob/d9e33b307bf8f1a1b4d85ee144b25a4055276715/README.md"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "HTML",
       "metadata_sha256": "beee63a8d276b277392b67e469cc696430c4a48b9ead9bce32b787e2e9ca6ab1",
@@ -15239,6 +15671,7 @@
       "id": 1245300586,
       "inspection": {
         "commit_sha": "e1f9c5ffe9fd6ac2f21b88380e428b30ceaa740f",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-16T21:05:00Z",
         "sources": {
@@ -15257,7 +15690,7 @@
             "url": "https://github.com/westkitty/DexSprite/blob/e1f9c5ffe9fd6ac2f21b88380e428b30ceaa740f/README.md"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "JavaScript",
       "metadata_sha256": "64fe7dfb301fe0bcb9cdae7f48550bb3e05fea282cf97e8e6b38b610fc951a39",
@@ -15423,7 +15856,7 @@
       "inspection": {
         "commit_sha": "b1986d53e3dace66dabcd9ac1f5eb2d5fdae2bff",
         "errors": [],
-        "inspected_at": "2026-11-16T21:04:49Z",
+        "inspected_at": "2026-11-17T19:54:28Z",
         "sources": {},
         "state": "partial"
       },
@@ -15481,8 +15914,47 @@
       "full_name": "westkitty/DnDex",
       "id": 1215328628,
       "inspection": {
-        "historical_commit_sha": "",
-        "state": "not-selected"
+        "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
+        "errors": [],
+        "inspected_at": "2026-11-17T19:54:39Z",
+        "sources": {
+          "README.md": {
+            "blob_sha": "d10325e5c96ebb9df31a93286af2a57b8cc8b2f7",
+            "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
+            "formats": {},
+            "level": "described",
+            "path": "README.md",
+            "referenced_repositories": [],
+            "sha256": "0e54512af7da76b94de4a61dcebb8cf2920da31f4dfec8a796d7a5fc59cbc130",
+            "url": "https://github.com/westkitty/DnDex/blob/cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8/README.md"
+          },
+          "package.json": {
+            "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+            "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
+            "level": "located",
+            "packages": {
+              "@vitejs/plugin-react": {
+                "section": "devDependencies"
+              },
+              "playwright": {
+                "section": "devDependencies"
+              },
+              "react": {
+                "section": "dependencies"
+              },
+              "vite": {
+                "section": "devDependencies"
+              },
+              "vitest": {
+                "section": "devDependencies"
+              }
+            },
+            "path": "package.json",
+            "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+            "url": "https://github.com/westkitty/DnDex/blob/cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8/package.json"
+          }
+        },
+        "state": "inspected"
       },
       "language": "HTML",
       "metadata_sha256": "80e8e00fdf3a9bc096c49cd1e4a6173d1a8c012f112b0ee6935b4b2e884298aa",
@@ -15502,8 +15974,47 @@
       "full_name": "westkitty/DnDex_Redux",
       "id": 1228371565,
       "inspection": {
-        "historical_commit_sha": "",
-        "state": "not-selected"
+        "commit_sha": "19991832d4b7d7dc244e47081f62eb71d2994096",
+        "errors": [],
+        "inspected_at": "2026-11-17T19:54:38Z",
+        "sources": {
+          "README.md": {
+            "blob_sha": "d10325e5c96ebb9df31a93286af2a57b8cc8b2f7",
+            "commit_sha": "19991832d4b7d7dc244e47081f62eb71d2994096",
+            "formats": {},
+            "level": "described",
+            "path": "README.md",
+            "referenced_repositories": [],
+            "sha256": "0e54512af7da76b94de4a61dcebb8cf2920da31f4dfec8a796d7a5fc59cbc130",
+            "url": "https://github.com/westkitty/DnDex_Redux/blob/19991832d4b7d7dc244e47081f62eb71d2994096/README.md"
+          },
+          "package.json": {
+            "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
+            "commit_sha": "19991832d4b7d7dc244e47081f62eb71d2994096",
+            "level": "located",
+            "packages": {
+              "@vitejs/plugin-react": {
+                "section": "devDependencies"
+              },
+              "playwright": {
+                "section": "devDependencies"
+              },
+              "react": {
+                "section": "dependencies"
+              },
+              "vite": {
+                "section": "devDependencies"
+              },
+              "vitest": {
+                "section": "devDependencies"
+              }
+            },
+            "path": "package.json",
+            "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
+            "url": "https://github.com/westkitty/DnDex_Redux/blob/19991832d4b7d7dc244e47081f62eb71d2994096/package.json"
+          }
+        },
+        "state": "inspected"
       },
       "language": "HTML",
       "metadata_sha256": "f9d531f4752fc06c03e53fbfa028bc140c0925a1cd381bb5a3389b06ea474078",
@@ -15583,7 +16094,7 @@
       "inspection": {
         "commit_sha": "907922387731458a3f9e8a72b8ed5013b34ca790",
         "errors": [],
-        "inspected_at": "2026-11-16T21:04:55Z",
+        "inspected_at": "2026-11-17T19:54:33Z",
         "sources": {},
         "state": "partial"
       },
@@ -15907,6 +16418,7 @@
       "id": 1236123945,
       "inspection": {
         "commit_sha": "2c02caad9a5c70e6ca7e132bbcd2d65de0183704",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-16T21:05:02Z",
         "sources": {
@@ -15921,7 +16433,7 @@
             "url": "https://github.com/westkitty/FaceStuff/blob/2c02caad9a5c70e6ca7e132bbcd2d65de0183704/README.md"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "Shell",
       "metadata_sha256": "13dd6d9e10b37cd2e9023bcb4f98de4c560b7405776b76711800cafca71d8e1b",
@@ -16327,7 +16839,7 @@
       "inspection": {
         "commit_sha": "3ffae40e8895fd5224d8d4e99bd06a10edbe5d25",
         "errors": [],
-        "inspected_at": "2026-11-16T21:04:54Z",
+        "inspected_at": "2026-11-17T19:54:32Z",
         "sources": {},
         "state": "partial"
       },
@@ -16781,7 +17293,7 @@
       "inspection": {
         "commit_sha": "804183db245f50199fce0a381ecf8bf886582b93",
         "errors": [],
-        "inspected_at": "2026-11-16T21:04:53Z",
+        "inspected_at": "2026-11-17T19:54:31Z",
         "sources": {},
         "state": "partial"
       },
@@ -16939,8 +17451,47 @@
       "full_name": "westkitty/https-github.com-westkitty-DexDraw_Redux",
       "id": 1228949715,
       "inspection": {
-        "historical_commit_sha": "",
-        "state": "not-selected"
+        "commit_sha": "b90a314d51aa75d9619f4070855463b3d4023ccb",
+        "errors": [],
+        "inspected_at": "2026-11-17T19:54:36Z",
+        "sources": {
+          "README.md": {
+            "blob_sha": "0a3e61e7fd159dde6f9fa2a931d3dfebfea40768",
+            "commit_sha": "b90a314d51aa75d9619f4070855463b3d4023ccb",
+            "formats": {},
+            "level": "described",
+            "path": "README.md",
+            "referenced_repositories": [],
+            "sha256": "0666d1095f2bf91807e7c9c08551cf635ffd0c392b998595d6f04d56464457bd",
+            "url": "https://github.com/westkitty/https-github.com-westkitty-DexDraw_Redux/blob/b90a314d51aa75d9619f4070855463b3d4023ccb/README.md"
+          },
+          "package.json": {
+            "blob_sha": "1dc4299f46ce16a9827c1546bdadd64931670f14",
+            "commit_sha": "b90a314d51aa75d9619f4070855463b3d4023ccb",
+            "level": "located",
+            "packages": {
+              "@vitejs/plugin-react": {
+                "section": "dependencies"
+              },
+              "react": {
+                "section": "dependencies"
+              },
+              "typescript": {
+                "section": "devDependencies"
+              },
+              "vite": {
+                "section": "devDependencies"
+              },
+              "zod": {
+                "section": "dependencies"
+              }
+            },
+            "path": "package.json",
+            "sha256": "0a15513863cadb47b0a54216b3bae85e60bf18ed1888be4c38ecc0e3c7e29d64",
+            "url": "https://github.com/westkitty/https-github.com-westkitty-DexDraw_Redux/blob/b90a314d51aa75d9619f4070855463b3d4023ccb/package.json"
+          }
+        },
+        "state": "inspected"
       },
       "language": "TypeScript",
       "metadata_sha256": "153b1fdddcb18d3450e2503aba8f3e956b8df8a7e27d163a99a415b1fb6c4297",
@@ -17254,9 +17805,9 @@
         "state": "inspected"
       },
       "language": "Kotlin",
-      "metadata_sha256": "518d6906be1177b877cedb4fce6197a163bbb945e65d9e8245defaea24f0eda2",
+      "metadata_sha256": "c5e6cbc61921b72e41e4516833778be631e0d87595469792e86682ba92ece6c4",
       "name": "Infinite_Studio",
-      "pushed_at": "2026-11-16T07:03:28Z",
+      "pushed_at": "2026-11-17T19:41:32Z",
       "topics": [],
       "updated_at": "2026-11-16T06:42:25Z",
       "url": "https://github.com/westkitty/Infinite_Studio",
@@ -17421,6 +17972,7 @@
       "id": 1228982699,
       "inspection": {
         "commit_sha": "02c444e75a048e5fb19bbc5334a1bb8a186163b7",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-16T21:05:04Z",
         "sources": {
@@ -17457,7 +18009,7 @@
             "url": "https://github.com/westkitty/MediaGetter_Redux/blob/02c444e75a048e5fb19bbc5334a1bb8a186163b7/package.json"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "TypeScript",
       "metadata_sha256": "2360c0196d707bb2d607565a40e0db6ae424a14569e8819b57facbef9fabb7fa",
@@ -17619,7 +18171,7 @@
       "inspection": {
         "commit_sha": "1a0fb6df7eb90598ff3947bab73a214192f49b3e",
         "errors": [],
-        "inspected_at": "2026-11-16T21:04:44Z",
+        "inspected_at": "2026-11-17T19:54:25Z",
         "sources": {},
         "state": "partial"
       },
@@ -18597,13 +19149,13 @@
       "full_name": "westkitty/Repo_Dex",
       "id": 1438116524,
       "inspection": {
-        "commit_sha": "339293ab9f5018361b6005a7d6c25a0ddb314891",
+        "commit_sha": "52fd5536420d54b0372e049a5a8dfa22d991a245",
         "errors": [],
-        "inspected_at": "2026-11-16T21:04:35Z",
+        "inspected_at": "2026-11-17T19:54:16Z",
         "sources": {
           "README.md": {
             "blob_sha": "f789c47e964dc932353c7815293116dd8d0be3be",
-            "commit_sha": "339293ab9f5018361b6005a7d6c25a0ddb314891",
+            "commit_sha": "52fd5536420d54b0372e049a5a8dfa22d991a245",
             "formats": {
               "json": [
                 "export"
@@ -18613,15 +19165,15 @@
             "path": "README.md",
             "referenced_repositories": [],
             "sha256": "df9c19a4fb8f655760642f1a91f93705e79b56cc4e71a146f3ee18fbded4bfdc",
-            "url": "https://github.com/westkitty/Repo_Dex/blob/339293ab9f5018361b6005a7d6c25a0ddb314891/README.md"
+            "url": "https://github.com/westkitty/Repo_Dex/blob/52fd5536420d54b0372e049a5a8dfa22d991a245/README.md"
           }
         },
         "state": "inspected"
       },
       "language": "Python",
-      "metadata_sha256": "4c1291b46b50153401b68c2e70018c0b5b7a0eb4db0ee23c1c2836ea7616bf70",
+      "metadata_sha256": "2c2bb124e899256cfd21e02ad5009a48cb0215157a2240c2f540d0dbb2830004",
       "name": "Repo_Dex",
-      "pushed_at": "2026-11-15T17:46:51Z",
+      "pushed_at": "2026-11-16T21:05:06Z",
       "topics": [],
       "updated_at": "2026-11-11T19:44:58Z",
       "url": "https://github.com/westkitty/Repo_Dex",
@@ -18884,6 +19436,7 @@
       "id": 1254716327,
       "inspection": {
         "commit_sha": "c39bdf8a914901931a2918d8f7d2ffcc91dd039a",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-16T21:04:59Z",
         "sources": {
@@ -18907,7 +19460,7 @@
             "url": "https://github.com/westkitty/sk/blob/c39bdf8a914901931a2918d8f7d2ffcc91dd039a/package.json"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "JavaScript",
       "metadata_sha256": "b8c3b01a6835b2ceb7ca46b03c675b7d0f7063ee5a06c438855b6162a23b981c",
@@ -19157,7 +19710,7 @@
       "inspection": {
         "commit_sha": "a8face4e8969254940cc5ff5c120e3decf555a57",
         "errors": [],
-        "inspected_at": "2026-11-16T21:04:42Z",
+        "inspected_at": "2026-11-17T19:54:22Z",
         "sources": {},
         "state": "partial"
       },
@@ -20415,7 +20968,7 @@
       "inspection": {
         "commit_sha": "cd3fabea9dd4dcca91b1fd91b599b5608214cc22",
         "errors": [],
-        "inspected_at": "2026-11-16T21:04:57Z",
+        "inspected_at": "2026-11-17T19:54:35Z",
         "sources": {},
         "state": "partial"
       },
@@ -20495,27 +21048,27 @@
       "full_name": "westkitty/westkitty",
       "id": 1167956798,
       "inspection": {
-        "commit_sha": "70fbbe6338fd7357939d2e58372c768da273ec42",
+        "commit_sha": "79199974bbc807c625cf0524c87add1a42b913da",
         "errors": [],
-        "inspected_at": "2026-11-16T21:04:33Z",
+        "inspected_at": "2026-11-17T19:54:14Z",
         "sources": {
           "README.md": {
             "blob_sha": "7657b525c87153c56c5f391962a348bb43660e10",
-            "commit_sha": "70fbbe6338fd7357939d2e58372c768da273ec42",
+            "commit_sha": "79199974bbc807c625cf0524c87add1a42b913da",
             "formats": {},
             "level": "described",
             "path": "README.md",
             "referenced_repositories": [],
             "sha256": "ff1e5240a084c6d36698818bc3d0d15d45883e42786b4d0ddc3bf4c28b3a5366",
-            "url": "https://github.com/westkitty/westkitty/blob/70fbbe6338fd7357939d2e58372c768da273ec42/README.md"
+            "url": "https://github.com/westkitty/westkitty/blob/79199974bbc807c625cf0524c87add1a42b913da/README.md"
           }
         },
         "state": "inspected"
       },
       "language": "Python",
-      "metadata_sha256": "f932fbd8788466266dad18d79e739e2f4dc660b0ba08cc2805ea5dc8bf4d5b4f",
+      "metadata_sha256": "81ca6e2e6fc32e58830c255d2b1dbe7b997873d34a92276f0b620906cfdf6ad1",
       "name": "westkitty",
-      "pushed_at": "2026-11-16T04:34:27Z",
+      "pushed_at": "2026-11-16T21:35:54Z",
       "topics": [],
       "updated_at": "2026-11-12T06:36:27Z",
       "url": "https://github.com/westkitty/westkitty",
@@ -20532,7 +21085,7 @@
       "inspection": {
         "commit_sha": "b5a77e7a35737440ba48d54288b86eca257b9c5b",
         "errors": [],
-        "inspected_at": "2026-11-16T21:04:39Z",
+        "inspected_at": "2026-11-17T19:54:20Z",
         "sources": {},
         "state": "partial"
       },
@@ -20656,7 +21209,7 @@
       "inspection": {
         "commit_sha": "e4a8be0ca6262366c0d4849d2b3199d669ef9f0e",
         "errors": [],
-        "inspected_at": "2026-11-16T21:04:46Z",
+        "inspected_at": "2026-11-17T19:54:26Z",
         "sources": {},
         "state": "partial"
       },
