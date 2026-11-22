@@ -2256,14 +2256,14 @@
       "repository_id": 1340180608,
       "source": {
         "blob_sha": "526e9f66000432d628f0632038874a9e297831d3",
-        "commit_sha": "384055117ad831cc594dd80c1023f60a9d40ee8c",
+        "commit_sha": "96145564f1fda5e8e37c775f53e5b2268790e863",
         "level": "located",
         "mechanism": "declared-package three",
         "path": "package.json",
         "repository": "museum-of-me-vnext",
         "repository_id": 1340180608,
         "sha256": "32bddf1a2455758ebd9633872422e7c6dfdf56349e3eb2515865825dca09244c",
-        "url": "https://github.com/westkitty/museum-of-me-vnext/blob/384055117ad831cc594dd80c1023f60a9d40ee8c/package.json"
+        "url": "https://github.com/westkitty/museum-of-me-vnext/blob/96145564f1fda5e8e37c775f53e5b2268790e863/package.json"
       },
       "statement": "Dependency manifest declares three",
       "token": "three"
@@ -2277,14 +2277,14 @@
       "repository_id": 1340180608,
       "source": {
         "blob_sha": "526e9f66000432d628f0632038874a9e297831d3",
-        "commit_sha": "384055117ad831cc594dd80c1023f60a9d40ee8c",
+        "commit_sha": "96145564f1fda5e8e37c775f53e5b2268790e863",
         "level": "located",
         "mechanism": "declared-package typescript",
         "path": "package.json",
         "repository": "museum-of-me-vnext",
         "repository_id": 1340180608,
         "sha256": "32bddf1a2455758ebd9633872422e7c6dfdf56349e3eb2515865825dca09244c",
-        "url": "https://github.com/westkitty/museum-of-me-vnext/blob/384055117ad831cc594dd80c1023f60a9d40ee8c/package.json"
+        "url": "https://github.com/westkitty/museum-of-me-vnext/blob/96145564f1fda5e8e37c775f53e5b2268790e863/package.json"
       },
       "statement": "Dependency manifest declares typescript",
       "token": "typescript"
@@ -2298,14 +2298,14 @@
       "repository_id": 1340180608,
       "source": {
         "blob_sha": "526e9f66000432d628f0632038874a9e297831d3",
-        "commit_sha": "384055117ad831cc594dd80c1023f60a9d40ee8c",
+        "commit_sha": "96145564f1fda5e8e37c775f53e5b2268790e863",
         "level": "located",
         "mechanism": "declared-package vite",
         "path": "package.json",
         "repository": "museum-of-me-vnext",
         "repository_id": 1340180608,
         "sha256": "32bddf1a2455758ebd9633872422e7c6dfdf56349e3eb2515865825dca09244c",
-        "url": "https://github.com/westkitty/museum-of-me-vnext/blob/384055117ad831cc594dd80c1023f60a9d40ee8c/package.json"
+        "url": "https://github.com/westkitty/museum-of-me-vnext/blob/96145564f1fda5e8e37c775f53e5b2268790e863/package.json"
       },
       "statement": "Dependency manifest declares vite",
       "token": "vite"
@@ -2319,14 +2319,14 @@
       "repository_id": 1340180608,
       "source": {
         "blob_sha": "526e9f66000432d628f0632038874a9e297831d3",
-        "commit_sha": "384055117ad831cc594dd80c1023f60a9d40ee8c",
+        "commit_sha": "96145564f1fda5e8e37c775f53e5b2268790e863",
         "level": "located",
         "mechanism": "declared-package vitest",
         "path": "package.json",
         "repository": "museum-of-me-vnext",
         "repository_id": 1340180608,
         "sha256": "32bddf1a2455758ebd9633872422e7c6dfdf56349e3eb2515865825dca09244c",
-        "url": "https://github.com/westkitty/museum-of-me-vnext/blob/384055117ad831cc594dd80c1023f60a9d40ee8c/package.json"
+        "url": "https://github.com/westkitty/museum-of-me-vnext/blob/96145564f1fda5e8e37c775f53e5b2268790e863/package.json"
       },
       "statement": "Dependency manifest declares vitest",
       "token": "vitest"
@@ -2340,14 +2340,14 @@
       "repository_id": 1340180608,
       "source": {
         "blob_sha": "f8c9bdae28c60f75fab5aed7869b0feb8c49708b",
-        "commit_sha": "384055117ad831cc594dd80c1023f60a9d40ee8c",
+        "commit_sha": "96145564f1fda5e8e37c775f53e5b2268790e863",
         "level": "described",
         "mechanism": "described-import svg",
         "path": "README.md",
         "repository": "museum-of-me-vnext",
         "repository_id": 1340180608,
         "sha256": "64fa5e05f1fe418f1486799e98400d9790ff2edfee5436bc0a6f37b42b8fc6ac",
-        "url": "https://github.com/westkitty/museum-of-me-vnext/blob/384055117ad831cc594dd80c1023f60a9d40ee8c/README.md"
+        "url": "https://github.com/westkitty/museum-of-me-vnext/blob/96145564f1fda5e8e37c775f53e5b2268790e863/README.md"
       },
       "statement": "README describes import of svg",
       "token": "svg"
@@ -6015,14 +6015,14 @@
       "repository_id": 1438116524,
       "source": {
         "blob_sha": "f789c47e964dc932353c7815293116dd8d0be3be",
-        "commit_sha": "c1e41fd8376f4242413cf754507aa6532753a092",
+        "commit_sha": "218629cffeb8e80ba1f6fc309e2c73047662d3fa",
         "level": "described",
         "mechanism": "described-export json",
         "path": "README.md",
         "repository": "Repo_Dex",
         "repository_id": 1438116524,
         "sha256": "df9c19a4fb8f655760642f1a91f93705e79b56cc4e71a146f3ee18fbded4bfdc",
-        "url": "https://github.com/westkitty/Repo_Dex/blob/c1e41fd8376f4242413cf754507aa6532753a092/README.md"
+        "url": "https://github.com/westkitty/Repo_Dex/blob/218629cffeb8e80ba1f6fc309e2c73047662d3fa/README.md"
       },
       "statement": "README describes export of json",
       "token": "json"
@@ -6282,7 +6282,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "e70a78959ab14e190c",
       "kind": "declared-package",
       "repository_id": 1446150788,
@@ -6303,7 +6303,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "described",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "3cbc2d4868bc070d49",
       "kind": "described-export",
       "repository_id": 1446150788,
@@ -6456,14 +6456,14 @@
       "repository_id": 1456641666,
       "source": {
         "blob_sha": "5e21448046fa7196f2268e23a2d89dc3c637106e",
-        "commit_sha": "86d6f4214af204dbbe347a04f7aa9e18f18b7876",
+        "commit_sha": "41dddee6383d94e8ce0f68303a506cd9290225ee",
         "level": "located",
         "mechanism": "declared-package @vitejs/plugin-react",
         "path": "package.json",
         "repository": "Palimpsest",
         "repository_id": 1456641666,
         "sha256": "5d0bc6f467b8536ff9bfa34c36db9f990c06d27a293dcef1f220244791ba40ef",
-        "url": "https://github.com/westkitty/Palimpsest/blob/86d6f4214af204dbbe347a04f7aa9e18f18b7876/package.json"
+        "url": "https://github.com/westkitty/Palimpsest/blob/41dddee6383d94e8ce0f68303a506cd9290225ee/package.json"
       },
       "statement": "Dependency manifest declares @vitejs/plugin-react",
       "token": "@vitejs/plugin-react"
@@ -6477,14 +6477,14 @@
       "repository_id": 1456641666,
       "source": {
         "blob_sha": "5e21448046fa7196f2268e23a2d89dc3c637106e",
-        "commit_sha": "86d6f4214af204dbbe347a04f7aa9e18f18b7876",
+        "commit_sha": "41dddee6383d94e8ce0f68303a506cd9290225ee",
         "level": "located",
         "mechanism": "declared-package react",
         "path": "package.json",
         "repository": "Palimpsest",
         "repository_id": 1456641666,
         "sha256": "5d0bc6f467b8536ff9bfa34c36db9f990c06d27a293dcef1f220244791ba40ef",
-        "url": "https://github.com/westkitty/Palimpsest/blob/86d6f4214af204dbbe347a04f7aa9e18f18b7876/package.json"
+        "url": "https://github.com/westkitty/Palimpsest/blob/41dddee6383d94e8ce0f68303a506cd9290225ee/package.json"
       },
       "statement": "Dependency manifest declares react",
       "token": "react"
@@ -6498,14 +6498,14 @@
       "repository_id": 1456641666,
       "source": {
         "blob_sha": "5e21448046fa7196f2268e23a2d89dc3c637106e",
-        "commit_sha": "86d6f4214af204dbbe347a04f7aa9e18f18b7876",
+        "commit_sha": "41dddee6383d94e8ce0f68303a506cd9290225ee",
         "level": "located",
         "mechanism": "declared-package three",
         "path": "package.json",
         "repository": "Palimpsest",
         "repository_id": 1456641666,
         "sha256": "5d0bc6f467b8536ff9bfa34c36db9f990c06d27a293dcef1f220244791ba40ef",
-        "url": "https://github.com/westkitty/Palimpsest/blob/86d6f4214af204dbbe347a04f7aa9e18f18b7876/package.json"
+        "url": "https://github.com/westkitty/Palimpsest/blob/41dddee6383d94e8ce0f68303a506cd9290225ee/package.json"
       },
       "statement": "Dependency manifest declares three",
       "token": "three"
@@ -6519,14 +6519,14 @@
       "repository_id": 1456641666,
       "source": {
         "blob_sha": "5e21448046fa7196f2268e23a2d89dc3c637106e",
-        "commit_sha": "86d6f4214af204dbbe347a04f7aa9e18f18b7876",
+        "commit_sha": "41dddee6383d94e8ce0f68303a506cd9290225ee",
         "level": "located",
         "mechanism": "declared-package typescript",
         "path": "package.json",
         "repository": "Palimpsest",
         "repository_id": 1456641666,
         "sha256": "5d0bc6f467b8536ff9bfa34c36db9f990c06d27a293dcef1f220244791ba40ef",
-        "url": "https://github.com/westkitty/Palimpsest/blob/86d6f4214af204dbbe347a04f7aa9e18f18b7876/package.json"
+        "url": "https://github.com/westkitty/Palimpsest/blob/41dddee6383d94e8ce0f68303a506cd9290225ee/package.json"
       },
       "statement": "Dependency manifest declares typescript",
       "token": "typescript"
@@ -6540,14 +6540,14 @@
       "repository_id": 1456641666,
       "source": {
         "blob_sha": "5e21448046fa7196f2268e23a2d89dc3c637106e",
-        "commit_sha": "86d6f4214af204dbbe347a04f7aa9e18f18b7876",
+        "commit_sha": "41dddee6383d94e8ce0f68303a506cd9290225ee",
         "level": "located",
         "mechanism": "declared-package vite",
         "path": "package.json",
         "repository": "Palimpsest",
         "repository_id": 1456641666,
         "sha256": "5d0bc6f467b8536ff9bfa34c36db9f990c06d27a293dcef1f220244791ba40ef",
-        "url": "https://github.com/westkitty/Palimpsest/blob/86d6f4214af204dbbe347a04f7aa9e18f18b7876/package.json"
+        "url": "https://github.com/westkitty/Palimpsest/blob/41dddee6383d94e8ce0f68303a506cd9290225ee/package.json"
       },
       "statement": "Dependency manifest declares vite",
       "token": "vite"
@@ -6555,7 +6555,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "99d979bf72cfaba374",
       "kind": "declared-package",
       "repository_id": 1457007644,
@@ -6576,7 +6576,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "e85fc61cc48fabc2c6",
       "kind": "declared-package",
       "repository_id": 1457007644,
@@ -6597,7 +6597,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "ed8077aa75881b03fc",
       "kind": "declared-package",
       "repository_id": 1457007644,
@@ -6618,7 +6618,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "053dbc753c49e13570",
       "kind": "declared-package",
       "repository_id": 1457007644,
@@ -6639,7 +6639,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "described",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "39e7844e19cf8118d7",
       "kind": "described-import",
       "repository_id": 1457007644,
@@ -6723,7 +6723,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "607809aa2f652a3ba5",
       "kind": "declared-package",
       "repository_id": 1458515600,
@@ -6744,7 +6744,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "9971dde4e7c57702a6",
       "kind": "declared-package",
       "repository_id": 1458515600,
@@ -6765,7 +6765,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "20b9cda6370bd30095",
       "kind": "declared-package",
       "repository_id": 1458515600,
@@ -6786,7 +6786,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "3af2843cf165047f5a",
       "kind": "declared-package",
       "repository_id": 1458515600,
@@ -6807,7 +6807,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "b0e2034e05f7793f83",
       "kind": "declared-package",
       "repository_id": 1458515600,
@@ -6828,7 +6828,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "described",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "7f2fecdf3f575baeaf",
       "kind": "described-export",
       "repository_id": 1458515600,
@@ -6929,22 +6929,132 @@
       },
       "statement": "README describes export of mp4",
       "token": "mp4"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "b576474ed6070557db",
+      "kind": "declared-package",
+      "repository_id": 1467237802,
+      "source": {
+        "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+        "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
+        "level": "located",
+        "mechanism": "declared-package @vitejs/plugin-react",
+        "path": "package.json",
+        "repository": "Betrayal_Agy",
+        "repository_id": 1467237802,
+        "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+        "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
+      },
+      "statement": "Dependency manifest declares @vitejs/plugin-react",
+      "token": "@vitejs/plugin-react"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "674f54d8a973581031",
+      "kind": "declared-package",
+      "repository_id": 1467237802,
+      "source": {
+        "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+        "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
+        "level": "located",
+        "mechanism": "declared-package react",
+        "path": "package.json",
+        "repository": "Betrayal_Agy",
+        "repository_id": 1467237802,
+        "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+        "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
+      },
+      "statement": "Dependency manifest declares react",
+      "token": "react"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "08b427e79f44081281",
+      "kind": "declared-package",
+      "repository_id": 1467237802,
+      "source": {
+        "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+        "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
+        "level": "located",
+        "mechanism": "declared-package three",
+        "path": "package.json",
+        "repository": "Betrayal_Agy",
+        "repository_id": 1467237802,
+        "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+        "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
+      },
+      "statement": "Dependency manifest declares three",
+      "token": "three"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "4e58ca5e9776b2d6d7",
+      "kind": "declared-package",
+      "repository_id": 1467237802,
+      "source": {
+        "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+        "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
+        "level": "located",
+        "mechanism": "declared-package typescript",
+        "path": "package.json",
+        "repository": "Betrayal_Agy",
+        "repository_id": 1467237802,
+        "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+        "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
+      },
+      "statement": "Dependency manifest declares typescript",
+      "token": "typescript"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "457a9b78fa7482b99a",
+      "kind": "declared-package",
+      "repository_id": 1467237802,
+      "source": {
+        "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+        "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
+        "level": "located",
+        "mechanism": "declared-package vite",
+        "path": "package.json",
+        "repository": "Betrayal_Agy",
+        "repository_id": 1467237802,
+        "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+        "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
+      },
+      "statement": "Dependency manifest declares vite",
+      "token": "vite"
     }
   ],
-  "content_sha256": "edd281105125d902782afc004a1cfcea8168483ca086975b01c2b88f8ebb3665",
+  "content_sha256": "32693da1f7b21b680f60f6ade83fdf50b405e62bad4873cdea5b26f5b7f0794e",
   "delta": {
     "archived": [],
     "changed": [
-      "Dex-Video-Code",
-      "Dex_Sculpt",
+      "Image_Gen",
+      "Infinite_Studio",
       "museum-of-me-vnext",
-      "museum_demos",
       "Palimpsest",
       "Repo_Dex",
       "westkitty"
     ],
     "kind": "incremental",
-    "new": [],
+    "new": [
+      "Betrayal_Agy",
+      "Dex_Command",
+      "Dex_Scout",
+      "Haunted_Betrayal",
+      "Haunted_Exploration"
+    ],
     "removed": [],
     "renamed": []
   },
@@ -6955,13 +7065,13 @@
     "verified",
     "transferred"
   ],
-  "generated_at": "2026-11-21T18:02:01Z",
+  "generated_at": "2026-11-22T18:33:46Z",
   "inventory": {
     "complete": true,
-    "cumulative_source_repositories": 159,
-    "historical_cached_repositories": 152,
-    "inspected_repositories": 22,
-    "public_repositories": 215,
+    "cumulative_source_repositories": 162,
+    "historical_cached_repositories": 153,
+    "inspected_repositories": 25,
+    "public_repositories": 220,
     "sampling_limit": 36,
     "source_errors": [
       {
@@ -6998,12 +7108,6 @@
         "errors": [
           "Branch unavailable"
         ],
-        "repository": "DexDraw_Redux"
-      },
-      {
-        "errors": [
-          "Branch unavailable"
-        ],
         "repository": "Game_Art_Director"
       },
       {
@@ -7034,18 +7138,6 @@
         "errors": [
           "Branch unavailable"
         ],
-        "repository": "OffGrid"
-      },
-      {
-        "errors": [
-          "Branch unavailable"
-        ],
-        "repository": "Project_Forge"
-      },
-      {
-        "errors": [
-          "Branch unavailable"
-        ],
         "repository": "Sprite_Foundry"
       }
     ]
@@ -7058,13 +7150,24 @@
   ],
   "observations": [
     {
+      "kind": "new",
+      "message": "New public repositories",
+      "repositories": [
+        "Betrayal_Agy",
+        "Dex_Command",
+        "Dex_Scout",
+        "Haunted_Betrayal",
+        "Haunted_Exploration"
+      ],
+      "severity": "info"
+    },
+    {
       "kind": "changed",
       "message": "Repository metadata or push state changed",
       "repositories": [
-        "Dex-Video-Code",
-        "Dex_Sculpt",
+        "Image_Gen",
+        "Infinite_Studio",
         "museum-of-me-vnext",
-        "museum_demos",
         "Palimpsest",
         "Repo_Dex",
         "westkitty"
@@ -8613,41 +8716,6 @@
       "type": "shared-technology"
     },
     {
-      "a": 1356807285,
-      "b": 1351053238,
-      "evidence": [
-        {
-          "blob_sha": "bb66366918e1035201864d35f453a0c8b035a34b",
-          "commit_sha": "a2ca2a7b915c9bd8d32a1409aebaf04414ea4475",
-          "level": "located",
-          "mechanism": "package three",
-          "path": "package.json",
-          "repository": "3.8flashtest",
-          "repository_id": 1356807285,
-          "sha256": "a64907b838289d4ce4e526947d82fbeee108fa951c9549a8b4a251a6de733131",
-          "url": "https://github.com/westkitty/3.8flashtest/blob/a2ca2a7b915c9bd8d32a1409aebaf04414ea4475/package.json"
-        },
-        {
-          "blob_sha": "9f7e3887016f47c083789447679450a52ab9af74",
-          "commit_sha": "624241240d683dbc43c1803aeada9d6528e61831",
-          "level": "located",
-          "mechanism": "package three",
-          "path": "package.json",
-          "repository": "Immortals",
-          "repository_id": 1351053238,
-          "sha256": "dbeb528c4e25c8bbac6606979200dac168a7bfc0d2b31147278af590e2ea0083",
-          "url": "https://github.com/westkitty/Immortals/blob/624241240d683dbc43c1803aeada9d6528e61831/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare three. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "02cd1eace2937d2bcf",
-      "mechanism": "Three.js",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
       "a": 1429136689,
       "b": 1414040676,
       "evidence": [
@@ -8714,6 +8782,41 @@
       "freshness": "historical",
       "id": "091af18309f178abe1",
       "mechanism": "React Three Fiber",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1467237802,
+      "b": 1359549512,
+      "evidence": [
+        {
+          "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+          "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
+          "level": "located",
+          "mechanism": "package typescript",
+          "path": "package.json",
+          "repository": "Betrayal_Agy",
+          "repository_id": 1467237802,
+          "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+          "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
+        },
+        {
+          "blob_sha": "61605cc40a25d663d3be0301a21efc576fd276fb",
+          "commit_sha": "02da50acea83837c6ccec0c5f46fd9d2a0326f2b",
+          "level": "located",
+          "mechanism": "package typescript",
+          "path": "package.json",
+          "repository": "dash_ledger_cc",
+          "repository_id": 1359549512,
+          "sha256": "78284c5453bf1ee62e4c06573b806ef7a7fb67b1f99ec82afeefafe1fcc75bcf",
+          "url": "https://github.com/westkitty/dash_ledger_cc/blob/02da50acea83837c6ccec0c5f46fd9d2a0326f2b/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare typescript. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "09503120e93ccfbb8f",
+      "mechanism": "TypeScript",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -8858,6 +8961,41 @@
       "type": "shared-technology"
     },
     {
+      "a": 1333328042,
+      "b": 1467237802,
+      "evidence": [
+        {
+          "blob_sha": "2d07bc7f6a824df03cef2b364372c1d8eae6aa83",
+          "commit_sha": "674d8523292a13aef843133db8d71fa6a6fe4d94",
+          "level": "located",
+          "mechanism": "package three",
+          "path": "package.json",
+          "repository": "3js-VFX-platform",
+          "repository_id": 1333328042,
+          "sha256": "efe60e569d66a608132463ddf9d8767670c2bae76fb86d122b51376acb67a9fa",
+          "url": "https://github.com/westkitty/3js-VFX-platform/blob/674d8523292a13aef843133db8d71fa6a6fe4d94/package.json"
+        },
+        {
+          "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+          "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
+          "level": "located",
+          "mechanism": "package three",
+          "path": "package.json",
+          "repository": "Betrayal_Agy",
+          "repository_id": 1467237802,
+          "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+          "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare three. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "0ed3c36aab0552a352",
+      "mechanism": "Three.js",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
       "a": 1450553429,
       "b": 1438116524,
       "evidence": [
@@ -8913,6 +9051,41 @@
       "freshness": "historical",
       "id": "11e17483b235d12cdc",
       "mechanism": "Vite React plugin",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1467237802,
+      "b": 1359522603,
+      "evidence": [
+        {
+          "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+          "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
+          "level": "located",
+          "mechanism": "package typescript",
+          "path": "package.json",
+          "repository": "Betrayal_Agy",
+          "repository_id": 1467237802,
+          "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+          "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
+        },
+        {
+          "blob_sha": "95e360dccc37e7a773080d5a9b215bb41815c87f",
+          "commit_sha": "9279fc91bc9f5a0aec3c1a505b27fd06dae4456c",
+          "level": "located",
+          "mechanism": "package typescript",
+          "path": "package.json",
+          "repository": "dash_ledger_grok",
+          "repository_id": 1359522603,
+          "sha256": "fbfc3a0edc80a05e881d15c93e1431000b9ec68e48ee91f5971b53546db1b977",
+          "url": "https://github.com/westkitty/dash_ledger_grok/blob/9279fc91bc9f5a0aec3c1a505b27fd06dae4456c/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare typescript. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "14b953bca762aac245",
+      "mechanism": "TypeScript",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -9057,6 +9230,111 @@
       "type": "shared-technology"
     },
     {
+      "a": 1359919659,
+      "b": 1467237802,
+      "evidence": [
+        {
+          "blob_sha": "5766e47f7d8d94f2b8560abd490f44aff5b45893",
+          "commit_sha": "1b5103333f09884bf87286787e29885fd53d447c",
+          "level": "located",
+          "mechanism": "package react",
+          "path": "package.json",
+          "repository": "AtlasOfOne",
+          "repository_id": 1359919659,
+          "sha256": "06c628e74f6192d328853ade6044cb02d6664a3bef791f8d9995b8088ad00f58",
+          "url": "https://github.com/westkitty/AtlasOfOne/blob/1b5103333f09884bf87286787e29885fd53d447c/package.json"
+        },
+        {
+          "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+          "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
+          "level": "located",
+          "mechanism": "package react",
+          "path": "package.json",
+          "repository": "Betrayal_Agy",
+          "repository_id": 1467237802,
+          "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+          "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "1a3c54c60992c074e1",
+      "mechanism": "React",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1356807285,
+      "b": 1467237802,
+      "evidence": [
+        {
+          "blob_sha": "bb66366918e1035201864d35f453a0c8b035a34b",
+          "commit_sha": "a2ca2a7b915c9bd8d32a1409aebaf04414ea4475",
+          "level": "located",
+          "mechanism": "package three",
+          "path": "package.json",
+          "repository": "3.8flashtest",
+          "repository_id": 1356807285,
+          "sha256": "a64907b838289d4ce4e526947d82fbeee108fa951c9549a8b4a251a6de733131",
+          "url": "https://github.com/westkitty/3.8flashtest/blob/a2ca2a7b915c9bd8d32a1409aebaf04414ea4475/package.json"
+        },
+        {
+          "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+          "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
+          "level": "located",
+          "mechanism": "package three",
+          "path": "package.json",
+          "repository": "Betrayal_Agy",
+          "repository_id": 1467237802,
+          "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+          "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare three. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "1fe2c4e86330046371",
+      "mechanism": "Three.js",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1453618290,
+      "b": 1467237802,
+      "evidence": [
+        {
+          "blob_sha": "eac49a50839238b9ec3a7d94864cbdf103111e60",
+          "commit_sha": "613315c80c43b9bdee339f54dd36c1d956b9256b",
+          "level": "located",
+          "mechanism": "package vite",
+          "path": "package.json",
+          "repository": "agy_experiments",
+          "repository_id": 1453618290,
+          "sha256": "dfe916bdf2fd1e175374f9746ed4ebace98d5773a61e446a7d3b035f1d2d6f1d",
+          "url": "https://github.com/westkitty/agy_experiments/blob/613315c80c43b9bdee339f54dd36c1d956b9256b/package.json"
+        },
+        {
+          "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+          "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
+          "level": "located",
+          "mechanism": "package vite",
+          "path": "package.json",
+          "repository": "Betrayal_Agy",
+          "repository_id": 1467237802,
+          "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+          "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare vite. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "213be38a178fe1781f",
+      "mechanism": "Vite",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
       "a": 1359522603,
       "b": 1443660930,
       "evidence": [
@@ -9088,6 +9366,41 @@
       "freshness": "historical",
       "id": "218b944f45c1894422",
       "mechanism": "Playwright",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1467237802,
+      "b": 1305269701,
+      "evidence": [
+        {
+          "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+          "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
+          "level": "located",
+          "mechanism": "package typescript",
+          "path": "package.json",
+          "repository": "Betrayal_Agy",
+          "repository_id": 1467237802,
+          "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+          "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
+        },
+        {
+          "blob_sha": "d164d1bae56ebee904c2bbc7f12397595f24c931",
+          "commit_sha": "3b725e78c7b1ad4d05522fac0c33981a814f346d",
+          "level": "located",
+          "mechanism": "package typescript",
+          "path": "package.json",
+          "repository": "ClearCut",
+          "repository_id": 1305269701,
+          "sha256": "50a64ca7391e37dde44c9043388d906757f1e5a566e668d4551c7fd932d2fa70",
+          "url": "https://github.com/westkitty/ClearCut/blob/3b725e78c7b1ad4d05522fac0c33981a814f346d/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare typescript. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "26278968e0e93edecd",
+      "mechanism": "TypeScript",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -9158,41 +9471,6 @@
       "freshness": "historical",
       "id": "2f3be1dfb5a720904a",
       "mechanism": "Playwright",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1333328042,
-      "b": 1458515600,
-      "evidence": [
-        {
-          "blob_sha": "2d07bc7f6a824df03cef2b364372c1d8eae6aa83",
-          "commit_sha": "674d8523292a13aef843133db8d71fa6a6fe4d94",
-          "level": "located",
-          "mechanism": "package three",
-          "path": "package.json",
-          "repository": "3js-VFX-platform",
-          "repository_id": 1333328042,
-          "sha256": "efe60e569d66a608132463ddf9d8767670c2bae76fb86d122b51376acb67a9fa",
-          "url": "https://github.com/westkitty/3js-VFX-platform/blob/674d8523292a13aef843133db8d71fa6a6fe4d94/package.json"
-        },
-        {
-          "blob_sha": "2e703af153b78bfd08b8492ffb5bb1206a335725",
-          "commit_sha": "66513c1717a87d6dd867ae9b6a0c2a5b4fe46cde",
-          "level": "located",
-          "mechanism": "package three",
-          "path": "package.json",
-          "repository": "Dex_Sculpt",
-          "repository_id": 1458515600,
-          "sha256": "cbf3fdab4fd42be823cd1468a4a7f44df60b32ef4c745a12b8ea9edf5e0eb2d6",
-          "url": "https://github.com/westkitty/Dex_Sculpt/blob/66513c1717a87d6dd867ae9b6a0c2a5b4fe46cde/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare three. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "3014472c27ce3ac724",
-      "mechanism": "Three.js",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -9289,6 +9567,30 @@
       "mechanism": "Three.js",
       "status": "documented",
       "type": "shared-technology"
+    },
+    {
+      "a": 1467351343,
+      "b": 1467125924,
+      "evidence": [
+        {
+          "blob_sha": "d5199269485c4e2c20a591ade716228d4e7cd4e4",
+          "commit_sha": "070f059b3a05610a68ea6dcdc98143d030005957",
+          "level": "described",
+          "mechanism": "explicit GitHub repository URL",
+          "path": "README.md",
+          "repository": "Haunted_Exploration",
+          "repository_id": 1467351343,
+          "sha256": "1f3177b7617561cead21212501d2099ca1c7e24795b764b393554944d55cc779",
+          "url": "https://github.com/westkitty/Haunted_Exploration/blob/070f059b3a05610a68ea6dcdc98143d030005957/README.md"
+        }
+      ],
+      "evidence_level": "described",
+      "explanation": "Haunted_Exploration README links to Haunted_Betrayal. A documentation link does not establish a software dependency or approved integration.",
+      "freshness": "sampled-head",
+      "id": "30f7f8cb2ba66b1041",
+      "mechanism": "explicit repository URL",
+      "status": "documented",
+      "type": "readme-reference"
     },
     {
       "a": 1429136689,
@@ -9467,41 +9769,6 @@
     },
     {
       "a": 1333328042,
-      "b": 1411117169,
-      "evidence": [
-        {
-          "blob_sha": "2d07bc7f6a824df03cef2b364372c1d8eae6aa83",
-          "commit_sha": "674d8523292a13aef843133db8d71fa6a6fe4d94",
-          "level": "located",
-          "mechanism": "package react",
-          "path": "package.json",
-          "repository": "3js-VFX-platform",
-          "repository_id": 1333328042,
-          "sha256": "efe60e569d66a608132463ddf9d8767670c2bae76fb86d122b51376acb67a9fa",
-          "url": "https://github.com/westkitty/3js-VFX-platform/blob/674d8523292a13aef843133db8d71fa6a6fe4d94/package.json"
-        },
-        {
-          "blob_sha": "8567d16b13e7535faa02b261d0c9548997dd6a53",
-          "commit_sha": "94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8",
-          "level": "located",
-          "mechanism": "package react",
-          "path": "package.json",
-          "repository": "DEX_Voice_Monologue",
-          "repository_id": 1411117169,
-          "sha256": "a08978696c4d5aae0f87900ec6d654a63ca665389b509238dc25f99d9bc2411c",
-          "url": "https://github.com/westkitty/DEX_Voice_Monologue/blob/94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "3c5c6d55337a667244",
-      "mechanism": "React",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1333328042,
       "b": 1359522603,
       "evidence": [
         {
@@ -9553,7 +9820,7 @@
       ],
       "evidence_level": "described",
       "explanation": "Dex_Sculpt README links to modern_3d_browser_game_toolkit. A documentation link does not establish a software dependency or approved integration.",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "41206568b894538998",
       "mechanism": "explicit repository URL",
       "status": "documented",
@@ -9822,7 +10089,7 @@
       ],
       "evidence_level": "described",
       "explanation": "Dex_Sculpt README links to form-engine. A documentation link does not establish a software dependency or approved integration.",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "4e5b80dd5e6bad20aa",
       "mechanism": "explicit repository URL",
       "status": "documented",
@@ -9864,41 +10131,6 @@
       "type": "shared-technology"
     },
     {
-      "a": 1359919659,
-      "b": 1411117169,
-      "evidence": [
-        {
-          "blob_sha": "5766e47f7d8d94f2b8560abd490f44aff5b45893",
-          "commit_sha": "1b5103333f09884bf87286787e29885fd53d447c",
-          "level": "located",
-          "mechanism": "package react",
-          "path": "package.json",
-          "repository": "AtlasOfOne",
-          "repository_id": 1359919659,
-          "sha256": "06c628e74f6192d328853ade6044cb02d6664a3bef791f8d9995b8088ad00f58",
-          "url": "https://github.com/westkitty/AtlasOfOne/blob/1b5103333f09884bf87286787e29885fd53d447c/package.json"
-        },
-        {
-          "blob_sha": "8567d16b13e7535faa02b261d0c9548997dd6a53",
-          "commit_sha": "94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8",
-          "level": "located",
-          "mechanism": "package react",
-          "path": "package.json",
-          "repository": "DEX_Voice_Monologue",
-          "repository_id": 1411117169,
-          "sha256": "a08978696c4d5aae0f87900ec6d654a63ca665389b509238dc25f99d9bc2411c",
-          "url": "https://github.com/westkitty/DEX_Voice_Monologue/blob/94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "51b65c8665f7859082",
-      "mechanism": "React",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
       "a": 1411117169,
       "b": 1228371565,
       "evidence": [
@@ -9930,41 +10162,6 @@
       "freshness": "historical",
       "id": "5254600608b95b7db6",
       "mechanism": "Vite React plugin",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1458515600,
-      "b": 1228371565,
-      "evidence": [
-        {
-          "blob_sha": "2e703af153b78bfd08b8492ffb5bb1206a335725",
-          "commit_sha": "66513c1717a87d6dd867ae9b6a0c2a5b4fe46cde",
-          "level": "located",
-          "mechanism": "package vitest",
-          "path": "package.json",
-          "repository": "Dex_Sculpt",
-          "repository_id": 1458515600,
-          "sha256": "cbf3fdab4fd42be823cd1468a4a7f44df60b32ef4c745a12b8ea9edf5e0eb2d6",
-          "url": "https://github.com/westkitty/Dex_Sculpt/blob/66513c1717a87d6dd867ae9b6a0c2a5b4fe46cde/package.json"
-        },
-        {
-          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
-          "commit_sha": "19991832d4b7d7dc244e47081f62eb71d2994096",
-          "level": "located",
-          "mechanism": "package vitest",
-          "path": "package.json",
-          "repository": "DnDex_Redux",
-          "repository_id": 1228371565,
-          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
-          "url": "https://github.com/westkitty/DnDex_Redux/blob/19991832d4b7d7dc244e47081f62eb71d2994096/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "527702558a4c600c79",
-      "mechanism": "Vitest",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -10004,71 +10201,36 @@
       "type": "shared-technology"
     },
     {
-      "a": 1458515600,
-      "b": 1215328628,
+      "a": 1359919659,
+      "b": 1467237802,
       "evidence": [
         {
-          "blob_sha": "2e703af153b78bfd08b8492ffb5bb1206a335725",
-          "commit_sha": "66513c1717a87d6dd867ae9b6a0c2a5b4fe46cde",
-          "level": "located",
-          "mechanism": "package vitest",
-          "path": "package.json",
-          "repository": "Dex_Sculpt",
-          "repository_id": 1458515600,
-          "sha256": "cbf3fdab4fd42be823cd1468a4a7f44df60b32ef4c745a12b8ea9edf5e0eb2d6",
-          "url": "https://github.com/westkitty/Dex_Sculpt/blob/66513c1717a87d6dd867ae9b6a0c2a5b4fe46cde/package.json"
-        },
-        {
-          "blob_sha": "bf4117872227a4083ae1517729723a39468b3a36",
-          "commit_sha": "cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8",
-          "level": "located",
-          "mechanism": "package vitest",
-          "path": "package.json",
-          "repository": "DnDex",
-          "repository_id": 1215328628,
-          "sha256": "32a78ea91bc25a8cd14fbf2f2800c96b0906fd31b3f12977d9cc213dfbaedb43",
-          "url": "https://github.com/westkitty/DnDex/blob/cdc8ba17e67e70b029182e1ada7fa4ad3a7839b8/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "534d0c5ed39ca1d475",
-      "mechanism": "Vitest",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1305269701,
-      "b": 1359549512,
-      "evidence": [
-        {
-          "blob_sha": "d164d1bae56ebee904c2bbc7f12397595f24c931",
-          "commit_sha": "3b725e78c7b1ad4d05522fac0c33981a814f346d",
+          "blob_sha": "5766e47f7d8d94f2b8560abd490f44aff5b45893",
+          "commit_sha": "1b5103333f09884bf87286787e29885fd53d447c",
           "level": "located",
           "mechanism": "package typescript",
           "path": "package.json",
-          "repository": "ClearCut",
-          "repository_id": 1305269701,
-          "sha256": "50a64ca7391e37dde44c9043388d906757f1e5a566e668d4551c7fd932d2fa70",
-          "url": "https://github.com/westkitty/ClearCut/blob/3b725e78c7b1ad4d05522fac0c33981a814f346d/package.json"
+          "repository": "AtlasOfOne",
+          "repository_id": 1359919659,
+          "sha256": "06c628e74f6192d328853ade6044cb02d6664a3bef791f8d9995b8088ad00f58",
+          "url": "https://github.com/westkitty/AtlasOfOne/blob/1b5103333f09884bf87286787e29885fd53d447c/package.json"
         },
         {
-          "blob_sha": "61605cc40a25d663d3be0301a21efc576fd276fb",
-          "commit_sha": "02da50acea83837c6ccec0c5f46fd9d2a0326f2b",
+          "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+          "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
           "level": "located",
           "mechanism": "package typescript",
           "path": "package.json",
-          "repository": "dash_ledger_cc",
-          "repository_id": 1359549512,
-          "sha256": "78284c5453bf1ee62e4c06573b806ef7a7fb67b1f99ec82afeefafe1fcc75bcf",
-          "url": "https://github.com/westkitty/dash_ledger_cc/blob/02da50acea83837c6ccec0c5f46fd9d2a0326f2b/package.json"
+          "repository": "Betrayal_Agy",
+          "repository_id": 1467237802,
+          "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+          "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
         }
       ],
       "evidence_level": "located",
       "explanation": "Both pinned package.json manifests declare typescript. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
       "freshness": "historical",
-      "id": "57eec1415a7eb3407e",
+      "id": "58338d2141b83b40a3",
       "mechanism": "TypeScript",
       "status": "documented",
       "type": "shared-technology"
@@ -10214,41 +10376,6 @@
       "type": "shared-technology"
     },
     {
-      "a": 1301342142,
-      "b": 1359522603,
-      "evidence": [
-        {
-          "blob_sha": "9495adecc78966ee2cac221ee4a1f8159aca141b",
-          "commit_sha": "be98e1d633c5a2e64dd88d5ffb71a7c53ac1d140",
-          "level": "located",
-          "mechanism": "package typescript",
-          "path": "package.json",
-          "repository": "Causal-Civilization-Engine",
-          "repository_id": 1301342142,
-          "sha256": "ae2cd4540df9a25589ce4ce0b729109427450f68d77ed91a11c31191f0524b20",
-          "url": "https://github.com/westkitty/Causal-Civilization-Engine/blob/be98e1d633c5a2e64dd88d5ffb71a7c53ac1d140/package.json"
-        },
-        {
-          "blob_sha": "95e360dccc37e7a773080d5a9b215bb41815c87f",
-          "commit_sha": "9279fc91bc9f5a0aec3c1a505b27fd06dae4456c",
-          "level": "located",
-          "mechanism": "package typescript",
-          "path": "package.json",
-          "repository": "dash_ledger_grok",
-          "repository_id": 1359522603,
-          "sha256": "fbfc3a0edc80a05e881d15c93e1431000b9ec68e48ee91f5971b53546db1b977",
-          "url": "https://github.com/westkitty/dash_ledger_grok/blob/9279fc91bc9f5a0aec3c1a505b27fd06dae4456c/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare typescript. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "698f7f03294a517dfc",
-      "mechanism": "TypeScript",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
       "a": 1359522603,
       "b": 1172182936,
       "evidence": [
@@ -10280,6 +10407,41 @@
       "freshness": "historical",
       "id": "6eb08f9cd9fa647d79",
       "mechanism": "Playwright",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1345619777,
+      "b": 1467237802,
+      "evidence": [
+        {
+          "blob_sha": "2d78e6158afbd500f139a885edd5cdbeead60908",
+          "commit_sha": "2c09742600cdb3ee06fe7cbd3f33210d2225f361",
+          "level": "located",
+          "mechanism": "package vite",
+          "path": "package.json",
+          "repository": "2d_Game_Factory",
+          "repository_id": 1345619777,
+          "sha256": "7f84b6d9de4932090d9d31928091c03335082755963eef66109ad7f41addf085",
+          "url": "https://github.com/westkitty/2d_Game_Factory/blob/2c09742600cdb3ee06fe7cbd3f33210d2225f361/package.json"
+        },
+        {
+          "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+          "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
+          "level": "located",
+          "mechanism": "package vite",
+          "path": "package.json",
+          "repository": "Betrayal_Agy",
+          "repository_id": 1467237802,
+          "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+          "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare vite. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "720a4adec3ac9d7380",
+      "mechanism": "Vite",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -10529,6 +10691,41 @@
       "type": "shared-technology"
     },
     {
+      "a": 1467237802,
+      "b": 1301342142,
+      "evidence": [
+        {
+          "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+          "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
+          "level": "located",
+          "mechanism": "package typescript",
+          "path": "package.json",
+          "repository": "Betrayal_Agy",
+          "repository_id": 1467237802,
+          "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+          "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
+        },
+        {
+          "blob_sha": "9495adecc78966ee2cac221ee4a1f8159aca141b",
+          "commit_sha": "be98e1d633c5a2e64dd88d5ffb71a7c53ac1d140",
+          "level": "located",
+          "mechanism": "package typescript",
+          "path": "package.json",
+          "repository": "Causal-Civilization-Engine",
+          "repository_id": 1301342142,
+          "sha256": "ae2cd4540df9a25589ce4ce0b729109427450f68d77ed91a11c31191f0524b20",
+          "url": "https://github.com/westkitty/Causal-Civilization-Engine/blob/be98e1d633c5a2e64dd88d5ffb71a7c53ac1d140/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare typescript. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "8b31613b57e14b05a3",
+      "mechanism": "TypeScript",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
       "a": 1389490904,
       "b": 1359522603,
       "evidence": [
@@ -10739,41 +10936,6 @@
       "type": "shared-technology"
     },
     {
-      "a": 1301342142,
-      "b": 1367714746,
-      "evidence": [
-        {
-          "blob_sha": "9495adecc78966ee2cac221ee4a1f8159aca141b",
-          "commit_sha": "be98e1d633c5a2e64dd88d5ffb71a7c53ac1d140",
-          "level": "located",
-          "mechanism": "package typescript",
-          "path": "package.json",
-          "repository": "Causal-Civilization-Engine",
-          "repository_id": 1301342142,
-          "sha256": "ae2cd4540df9a25589ce4ce0b729109427450f68d77ed91a11c31191f0524b20",
-          "url": "https://github.com/westkitty/Causal-Civilization-Engine/blob/be98e1d633c5a2e64dd88d5ffb71a7c53ac1d140/package.json"
-        },
-        {
-          "blob_sha": "0a2af4ed08ac341a7f820e21c728f07d1a0edc76",
-          "commit_sha": "e97b9012e6caa15ed801f43cd3f72ab4813c03e7",
-          "level": "located",
-          "mechanism": "package typescript",
-          "path": "package.json",
-          "repository": "Deeper",
-          "repository_id": 1367714746,
-          "sha256": "fe6a684a9d1105b4bbf7783064b576f77b10710b964c42dd00a3067353091278",
-          "url": "https://github.com/westkitty/Deeper/blob/e97b9012e6caa15ed801f43cd3f72ab4813c03e7/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare typescript. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "98b2c36a4b540c258c",
-      "mechanism": "TypeScript",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
       "a": 1345619777,
       "b": 1453618290,
       "evidence": [
@@ -10910,76 +11072,6 @@
       "freshness": "historical",
       "id": "a12745f283d55f84c6",
       "mechanism": "React",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1411116658,
-      "b": 1446150788,
-      "evidence": [
-        {
-          "blob_sha": "db5286600a5eedf5162ee6d25599f89eae93adae",
-          "commit_sha": "ea6b0c4008a2e0ac5aa588281480c130a72d2102",
-          "level": "located",
-          "mechanism": "package typescript",
-          "path": "package.json",
-          "repository": "audiodrama_heliocide",
-          "repository_id": 1411116658,
-          "sha256": "2c226ae69a89db81c87e6b278fd066fd3f8a70ad55679842d38b93e391cf7922",
-          "url": "https://github.com/westkitty/audiodrama_heliocide/blob/ea6b0c4008a2e0ac5aa588281480c130a72d2102/package.json"
-        },
-        {
-          "blob_sha": "3dab666819ba2ac2f9837a88683e96a6e64b1e9f",
-          "commit_sha": "d21bf4640207defc9dbcca75717e9482ab04832d",
-          "level": "located",
-          "mechanism": "package typescript",
-          "path": "package.json",
-          "repository": "Dex-Video-Code",
-          "repository_id": 1446150788,
-          "sha256": "79f0c1f5b5f396974a02afe349b29ae47e9ab79bbf6f20460bca8743c736460d",
-          "url": "https://github.com/westkitty/Dex-Video-Code/blob/d21bf4640207defc9dbcca75717e9482ab04832d/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare typescript. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "a51d9c71847bcd3add",
-      "mechanism": "TypeScript",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1305269701,
-      "b": 1359522603,
-      "evidence": [
-        {
-          "blob_sha": "d164d1bae56ebee904c2bbc7f12397595f24c931",
-          "commit_sha": "3b725e78c7b1ad4d05522fac0c33981a814f346d",
-          "level": "located",
-          "mechanism": "package typescript",
-          "path": "package.json",
-          "repository": "ClearCut",
-          "repository_id": 1305269701,
-          "sha256": "50a64ca7391e37dde44c9043388d906757f1e5a566e668d4551c7fd932d2fa70",
-          "url": "https://github.com/westkitty/ClearCut/blob/3b725e78c7b1ad4d05522fac0c33981a814f346d/package.json"
-        },
-        {
-          "blob_sha": "95e360dccc37e7a773080d5a9b215bb41815c87f",
-          "commit_sha": "9279fc91bc9f5a0aec3c1a505b27fd06dae4456c",
-          "level": "located",
-          "mechanism": "package typescript",
-          "path": "package.json",
-          "repository": "dash_ledger_grok",
-          "repository_id": 1359522603,
-          "sha256": "fbfc3a0edc80a05e881d15c93e1431000b9ec68e48ee91f5971b53546db1b977",
-          "url": "https://github.com/westkitty/dash_ledger_grok/blob/9279fc91bc9f5a0aec3c1a505b27fd06dae4456c/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare typescript. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "a8e58478494310d99f",
-      "mechanism": "TypeScript",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -11229,37 +11321,37 @@
       "type": "shared-technology"
     },
     {
-      "a": 1411117169,
-      "b": 1263633360,
+      "a": 1301342142,
+      "b": 1367714746,
       "evidence": [
         {
-          "blob_sha": "8567d16b13e7535faa02b261d0c9548997dd6a53",
-          "commit_sha": "94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8",
+          "blob_sha": "9495adecc78966ee2cac221ee4a1f8159aca141b",
+          "commit_sha": "be98e1d633c5a2e64dd88d5ffb71a7c53ac1d140",
           "level": "located",
-          "mechanism": "package @vitejs/plugin-react",
+          "mechanism": "package vitest",
           "path": "package.json",
-          "repository": "DEX_Voice_Monologue",
-          "repository_id": 1411117169,
-          "sha256": "a08978696c4d5aae0f87900ec6d654a63ca665389b509238dc25f99d9bc2411c",
-          "url": "https://github.com/westkitty/DEX_Voice_Monologue/blob/94da60e3f37c535d1e90d1448cc3e82dbe1fbfa8/package.json"
+          "repository": "Causal-Civilization-Engine",
+          "repository_id": 1301342142,
+          "sha256": "ae2cd4540df9a25589ce4ce0b729109427450f68d77ed91a11c31191f0524b20",
+          "url": "https://github.com/westkitty/Causal-Civilization-Engine/blob/be98e1d633c5a2e64dd88d5ffb71a7c53ac1d140/package.json"
         },
         {
-          "blob_sha": "9e589a1ca585e3ac983b1fc23aa06155fe8a008f",
-          "commit_sha": "c6f196a8af55f4adb49d4614371f300c8ebed161",
+          "blob_sha": "0a2af4ed08ac341a7f820e21c728f07d1a0edc76",
+          "commit_sha": "e97b9012e6caa15ed801f43cd3f72ab4813c03e7",
           "level": "located",
-          "mechanism": "package @vitejs/plugin-react",
+          "mechanism": "package vitest",
           "path": "package.json",
-          "repository": "https-github.com-westkitty-Relay_Link",
-          "repository_id": 1263633360,
-          "sha256": "8a660773f268a7cc652de828fdf9738dd76bd5339afdf69a8a6245d3ea1a5f76",
-          "url": "https://github.com/westkitty/https-github.com-westkitty-Relay_Link/blob/c6f196a8af55f4adb49d4614371f300c8ebed161/package.json"
+          "repository": "Deeper",
+          "repository_id": 1367714746,
+          "sha256": "fe6a684a9d1105b4bbf7783064b576f77b10710b964c42dd00a3067353091278",
+          "url": "https://github.com/westkitty/Deeper/blob/e97b9012e6caa15ed801f43cd3f72ab4813c03e7/package.json"
         }
       ],
       "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare @vitejs/plugin-react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
       "freshness": "historical",
-      "id": "b5e08bffaa325a712e",
-      "mechanism": "Vite React plugin",
+      "id": "b5d8a78f3755eac70c",
+      "mechanism": "Vitest",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -11402,6 +11494,30 @@
       "mechanism": "Zod",
       "status": "documented",
       "type": "shared-technology"
+    },
+    {
+      "a": 1467351343,
+      "b": 1467237802,
+      "evidence": [
+        {
+          "blob_sha": "d5199269485c4e2c20a591ade716228d4e7cd4e4",
+          "commit_sha": "070f059b3a05610a68ea6dcdc98143d030005957",
+          "level": "described",
+          "mechanism": "explicit GitHub repository URL",
+          "path": "README.md",
+          "repository": "Haunted_Exploration",
+          "repository_id": 1467351343,
+          "sha256": "1f3177b7617561cead21212501d2099ca1c7e24795b764b393554944d55cc779",
+          "url": "https://github.com/westkitty/Haunted_Exploration/blob/070f059b3a05610a68ea6dcdc98143d030005957/README.md"
+        }
+      ],
+      "evidence_level": "described",
+      "explanation": "Haunted_Exploration README links to Betrayal_Agy. A documentation link does not establish a software dependency or approved integration.",
+      "freshness": "sampled-head",
+      "id": "c14689e6bf145dfcc6",
+      "mechanism": "explicit repository URL",
+      "status": "documented",
+      "type": "readme-reference"
     },
     {
       "a": 1359919659,
@@ -11649,6 +11765,41 @@
       "type": "shared-technology"
     },
     {
+      "a": 1333328042,
+      "b": 1467237802,
+      "evidence": [
+        {
+          "blob_sha": "2d07bc7f6a824df03cef2b364372c1d8eae6aa83",
+          "commit_sha": "674d8523292a13aef843133db8d71fa6a6fe4d94",
+          "level": "located",
+          "mechanism": "package react",
+          "path": "package.json",
+          "repository": "3js-VFX-platform",
+          "repository_id": 1333328042,
+          "sha256": "efe60e569d66a608132463ddf9d8767670c2bae76fb86d122b51376acb67a9fa",
+          "url": "https://github.com/westkitty/3js-VFX-platform/blob/674d8523292a13aef843133db8d71fa6a6fe4d94/package.json"
+        },
+        {
+          "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+          "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
+          "level": "located",
+          "mechanism": "package react",
+          "path": "package.json",
+          "repository": "Betrayal_Agy",
+          "repository_id": 1467237802,
+          "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+          "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "ce7c9e99eed3c458f5",
+      "mechanism": "React",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
       "a": 1458215897,
       "b": 1164247330,
       "evidence": [
@@ -11739,41 +11890,6 @@
       "freshness": "historical",
       "id": "d3261b504d244ac2a1",
       "mechanism": "Three.js",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1359549512,
-      "b": 1375041185,
-      "evidence": [
-        {
-          "blob_sha": "61605cc40a25d663d3be0301a21efc576fd276fb",
-          "commit_sha": "02da50acea83837c6ccec0c5f46fd9d2a0326f2b",
-          "level": "located",
-          "mechanism": "package vitest",
-          "path": "package.json",
-          "repository": "dash_ledger_cc",
-          "repository_id": 1359549512,
-          "sha256": "78284c5453bf1ee62e4c06573b806ef7a7fb67b1f99ec82afeefafe1fcc75bcf",
-          "url": "https://github.com/westkitty/dash_ledger_cc/blob/02da50acea83837c6ccec0c5f46fd9d2a0326f2b/package.json"
-        },
-        {
-          "blob_sha": "34679faa97cb96cbc096a7bb686206779e2fe7e9",
-          "commit_sha": "49290fe79a51ba7dfdd6773b170ecf11ec6359e0",
-          "level": "located",
-          "mechanism": "package vitest",
-          "path": "package.json",
-          "repository": "DexFoundry",
-          "repository_id": 1375041185,
-          "sha256": "ba40367e460f8d17bc693dc391eeb1b1d88dbb6ab2d8b07947c40dce465edc6e",
-          "url": "https://github.com/westkitty/DexFoundry/blob/49290fe79a51ba7dfdd6773b170ecf11ec6359e0/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "d3283c248c4753a7a9",
-      "mechanism": "Vitest",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -12187,37 +12303,37 @@
       "type": "shared-technology"
     },
     {
-      "a": 1345619777,
-      "b": 1167074355,
+      "a": 1411116658,
+      "b": 1467237802,
       "evidence": [
         {
-          "blob_sha": "2d78e6158afbd500f139a885edd5cdbeead60908",
-          "commit_sha": "2c09742600cdb3ee06fe7cbd3f33210d2225f361",
+          "blob_sha": "db5286600a5eedf5162ee6d25599f89eae93adae",
+          "commit_sha": "ea6b0c4008a2e0ac5aa588281480c130a72d2102",
           "level": "located",
-          "mechanism": "package vite",
+          "mechanism": "package typescript",
           "path": "package.json",
-          "repository": "2d_Game_Factory",
-          "repository_id": 1345619777,
-          "sha256": "7f84b6d9de4932090d9d31928091c03335082755963eef66109ad7f41addf085",
-          "url": "https://github.com/westkitty/2d_Game_Factory/blob/2c09742600cdb3ee06fe7cbd3f33210d2225f361/package.json"
+          "repository": "audiodrama_heliocide",
+          "repository_id": 1411116658,
+          "sha256": "2c226ae69a89db81c87e6b278fd066fd3f8a70ad55679842d38b93e391cf7922",
+          "url": "https://github.com/westkitty/audiodrama_heliocide/blob/ea6b0c4008a2e0ac5aa588281480c130a72d2102/package.json"
         },
         {
-          "blob_sha": "562f1c89c13a4f0799bd68c742ee93edc5cf17d6",
-          "commit_sha": "058c73a481d6ea3da4ff7fc850876edc01fd1e72",
+          "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+          "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
           "level": "located",
-          "mechanism": "package vite",
+          "mechanism": "package typescript",
           "path": "package.json",
-          "repository": "DexEarth",
-          "repository_id": 1167074355,
-          "sha256": "f23ef99296b062612ac67b74cf9068f96f2f1b106352496e780f9afc4c5c8d89",
-          "url": "https://github.com/westkitty/DexEarth/blob/058c73a481d6ea3da4ff7fc850876edc01fd1e72/package.json"
+          "repository": "Betrayal_Agy",
+          "repository_id": 1467237802,
+          "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+          "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
         }
       ],
       "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare vite. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "explanation": "Both pinned package.json manifests declare typescript. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
       "freshness": "historical",
-      "id": "e909a063f3726f4bde",
-      "mechanism": "Vite",
+      "id": "e831cc9b7e5ca30771",
+      "mechanism": "TypeScript",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -12279,6 +12395,41 @@
       "mechanism": "explicit repository URL",
       "status": "documented",
       "type": "readme-reference"
+    },
+    {
+      "a": 1305269701,
+      "b": 1270793728,
+      "evidence": [
+        {
+          "blob_sha": "d164d1bae56ebee904c2bbc7f12397595f24c931",
+          "commit_sha": "3b725e78c7b1ad4d05522fac0c33981a814f346d",
+          "level": "located",
+          "mechanism": "package @vitejs/plugin-react",
+          "path": "package.json",
+          "repository": "ClearCut",
+          "repository_id": 1305269701,
+          "sha256": "50a64ca7391e37dde44c9043388d906757f1e5a566e668d4551c7fd932d2fa70",
+          "url": "https://github.com/westkitty/ClearCut/blob/3b725e78c7b1ad4d05522fac0c33981a814f346d/package.json"
+        },
+        {
+          "blob_sha": "78a7d991b4373ec8ac6d04322cd9586ae6d73e1b",
+          "commit_sha": "54d1dcf79c6d947a32fc461ca135de862fdf9a80",
+          "level": "located",
+          "mechanism": "package @vitejs/plugin-react",
+          "path": "package.json",
+          "repository": "EndlessGrok",
+          "repository_id": 1270793728,
+          "sha256": "a3f1a304a9b1f479f4b734b074c6d24ee86afd5831863e2ba123a205f45fb582",
+          "url": "https://github.com/westkitty/EndlessGrok/blob/54d1dcf79c6d947a32fc461ca135de862fdf9a80/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare @vitejs/plugin-react. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "ebf0144233f6a53207",
+      "mechanism": "Vite React plugin",
+      "status": "documented",
+      "type": "shared-technology"
     },
     {
       "a": 1356807285,
@@ -12491,41 +12642,6 @@
       "type": "shared-technology"
     },
     {
-      "a": 1453618290,
-      "b": 1301342142,
-      "evidence": [
-        {
-          "blob_sha": "eac49a50839238b9ec3a7d94864cbdf103111e60",
-          "commit_sha": "613315c80c43b9bdee339f54dd36c1d956b9256b",
-          "level": "located",
-          "mechanism": "package vite",
-          "path": "package.json",
-          "repository": "agy_experiments",
-          "repository_id": 1453618290,
-          "sha256": "dfe916bdf2fd1e175374f9746ed4ebace98d5773a61e446a7d3b035f1d2d6f1d",
-          "url": "https://github.com/westkitty/agy_experiments/blob/613315c80c43b9bdee339f54dd36c1d956b9256b/package.json"
-        },
-        {
-          "blob_sha": "9495adecc78966ee2cac221ee4a1f8159aca141b",
-          "commit_sha": "be98e1d633c5a2e64dd88d5ffb71a7c53ac1d140",
-          "level": "located",
-          "mechanism": "package vite",
-          "path": "package.json",
-          "repository": "Causal-Civilization-Engine",
-          "repository_id": 1301342142,
-          "sha256": "ae2cd4540df9a25589ce4ce0b729109427450f68d77ed91a11c31191f0524b20",
-          "url": "https://github.com/westkitty/Causal-Civilization-Engine/blob/be98e1d633c5a2e64dd88d5ffb71a7c53ac1d140/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare vite. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "f1e4454a62ee0ac9e0",
-      "mechanism": "Vite",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
       "a": 1458515600,
       "b": 1442205360,
       "evidence": [
@@ -12543,7 +12659,7 @@
       ],
       "evidence_level": "described",
       "explanation": "Dex_Sculpt README links to Dex_Rig. A documentation link does not establish a software dependency or approved integration.",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "f27297d452e8df6e68",
       "mechanism": "explicit repository URL",
       "status": "documented",
@@ -12580,6 +12696,41 @@
       "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
       "freshness": "historical",
       "id": "f4369f5f3e043a578f",
+      "mechanism": "Vitest",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
+      "a": 1301342142,
+      "b": 1359549512,
+      "evidence": [
+        {
+          "blob_sha": "9495adecc78966ee2cac221ee4a1f8159aca141b",
+          "commit_sha": "be98e1d633c5a2e64dd88d5ffb71a7c53ac1d140",
+          "level": "located",
+          "mechanism": "package vitest",
+          "path": "package.json",
+          "repository": "Causal-Civilization-Engine",
+          "repository_id": 1301342142,
+          "sha256": "ae2cd4540df9a25589ce4ce0b729109427450f68d77ed91a11c31191f0524b20",
+          "url": "https://github.com/westkitty/Causal-Civilization-Engine/blob/be98e1d633c5a2e64dd88d5ffb71a7c53ac1d140/package.json"
+        },
+        {
+          "blob_sha": "61605cc40a25d663d3be0301a21efc576fd276fb",
+          "commit_sha": "02da50acea83837c6ccec0c5f46fd9d2a0326f2b",
+          "level": "located",
+          "mechanism": "package vitest",
+          "path": "package.json",
+          "repository": "dash_ledger_cc",
+          "repository_id": 1359549512,
+          "sha256": "78284c5453bf1ee62e4c06573b806ef7a7fb67b1f99ec82afeefafe1fcc75bcf",
+          "url": "https://github.com/westkitty/dash_ledger_cc/blob/02da50acea83837c6ccec0c5f46fd9d2a0326f2b/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "f4c4a439b49784de3e",
       "mechanism": "Vitest",
       "status": "documented",
       "type": "shared-technology"
@@ -12760,6 +12911,41 @@
       "type": "shared-technology"
     },
     {
+      "a": 1301342142,
+      "b": 1359522603,
+      "evidence": [
+        {
+          "blob_sha": "9495adecc78966ee2cac221ee4a1f8159aca141b",
+          "commit_sha": "be98e1d633c5a2e64dd88d5ffb71a7c53ac1d140",
+          "level": "located",
+          "mechanism": "package vitest",
+          "path": "package.json",
+          "repository": "Causal-Civilization-Engine",
+          "repository_id": 1301342142,
+          "sha256": "ae2cd4540df9a25589ce4ce0b729109427450f68d77ed91a11c31191f0524b20",
+          "url": "https://github.com/westkitty/Causal-Civilization-Engine/blob/be98e1d633c5a2e64dd88d5ffb71a7c53ac1d140/package.json"
+        },
+        {
+          "blob_sha": "95e360dccc37e7a773080d5a9b215bb41815c87f",
+          "commit_sha": "9279fc91bc9f5a0aec3c1a505b27fd06dae4456c",
+          "level": "located",
+          "mechanism": "package vitest",
+          "path": "package.json",
+          "repository": "dash_ledger_grok",
+          "repository_id": 1359522603,
+          "sha256": "fbfc3a0edc80a05e881d15c93e1431000b9ec68e48ee91f5971b53546db1b977",
+          "url": "https://github.com/westkitty/dash_ledger_grok/blob/9279fc91bc9f5a0aec3c1a505b27fd06dae4456c/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare vitest. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "f99b757315be43a3b9",
+      "mechanism": "Vitest",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
       "a": 1356807285,
       "b": 1429011915,
       "evidence": [
@@ -12920,41 +13106,6 @@
       "freshness": "historical",
       "id": "fca550542e6cf82bf5",
       "mechanism": "Vitest",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1359919659,
-      "b": 1301342142,
-      "evidence": [
-        {
-          "blob_sha": "5766e47f7d8d94f2b8560abd490f44aff5b45893",
-          "commit_sha": "1b5103333f09884bf87286787e29885fd53d447c",
-          "level": "located",
-          "mechanism": "package typescript",
-          "path": "package.json",
-          "repository": "AtlasOfOne",
-          "repository_id": 1359919659,
-          "sha256": "06c628e74f6192d328853ade6044cb02d6664a3bef791f8d9995b8088ad00f58",
-          "url": "https://github.com/westkitty/AtlasOfOne/blob/1b5103333f09884bf87286787e29885fd53d447c/package.json"
-        },
-        {
-          "blob_sha": "9495adecc78966ee2cac221ee4a1f8159aca141b",
-          "commit_sha": "be98e1d633c5a2e64dd88d5ffb71a7c53ac1d140",
-          "level": "located",
-          "mechanism": "package typescript",
-          "path": "package.json",
-          "repository": "Causal-Civilization-Engine",
-          "repository_id": 1301342142,
-          "sha256": "ae2cd4540df9a25589ce4ce0b729109427450f68d77ed91a11c31191f0524b20",
-          "url": "https://github.com/westkitty/Causal-Civilization-Engine/blob/be98e1d633c5a2e64dd88d5ffb71a7c53ac1d140/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare typescript. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "fcc289577f46ede124",
-      "mechanism": "TypeScript",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -13500,7 +13651,7 @@
       "inspection": {
         "commit_sha": "eb002109d45257eabaec2fb48803a3c82a15a030",
         "errors": [],
-        "inspected_at": "2026-11-21T18:01:49Z",
+        "inspected_at": "2026-11-22T18:33:35Z",
         "sources": {},
         "state": "partial"
       },
@@ -13511,6 +13662,56 @@
       "topics": [],
       "updated_at": "2026-10-21T18:17:01Z",
       "url": "https://github.com/westkitty/batch-analyzer",
+      "visibility": "public"
+    },
+    {
+      "aliases": [],
+      "archived": false,
+      "default_branch": "main",
+      "description": "app",
+      "fork": false,
+      "full_name": "westkitty/Betrayal_Agy",
+      "id": 1467237802,
+      "inspection": {
+        "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
+        "errors": [],
+        "inspected_at": "2026-11-22T18:33:31Z",
+        "sources": {
+          "package.json": {
+            "blob_sha": "0292b120b1be8ee9895cdf18a6b82d0673c09c3b",
+            "commit_sha": "9922de88a5990f0e21fe810138577ff0209c9248",
+            "level": "located",
+            "packages": {
+              "@vitejs/plugin-react": {
+                "section": "dependencies"
+              },
+              "react": {
+                "section": "dependencies"
+              },
+              "three": {
+                "section": "dependencies"
+              },
+              "typescript": {
+                "section": "devDependencies"
+              },
+              "vite": {
+                "section": "dependencies"
+              }
+            },
+            "path": "package.json",
+            "sha256": "79332915da978cb22702c9b5d69b14df39b83b57777de4fb8cbeb4ea0b5c1fb4",
+            "url": "https://github.com/westkitty/Betrayal_Agy/blob/9922de88a5990f0e21fe810138577ff0209c9248/package.json"
+          }
+        },
+        "state": "inspected"
+      },
+      "language": "TypeScript",
+      "metadata_sha256": "c41376a529a7d68a65a3a984df7d6386e56a5f54e3e9529a1683b2edf5ab1873",
+      "name": "Betrayal_Agy",
+      "pushed_at": "2026-11-22T07:40:46Z",
+      "topics": [],
+      "updated_at": "2026-11-22T05:18:41Z",
+      "url": "https://github.com/westkitty/Betrayal_Agy",
       "visibility": "public"
     },
     {
@@ -13946,7 +14147,7 @@
       "inspection": {
         "commit_sha": "dd6b278e8c493b9322d47de70f3bf89a1d0f6fa5",
         "errors": [],
-        "inspected_at": "2026-11-21T18:01:48Z",
+        "inspected_at": "2026-11-22T18:33:34Z",
         "sources": {},
         "state": "partial"
       },
@@ -14029,7 +14230,7 @@
       "inspection": {
         "commit_sha": "5bd357e14d9b68776d50b1dee0829b7bd5ab939f",
         "errors": [],
-        "inspected_at": "2026-11-21T18:01:52Z",
+        "inspected_at": "2026-11-22T18:33:38Z",
         "sources": {},
         "state": "partial"
       },
@@ -14168,7 +14369,7 @@
       "inspection": {
         "commit_sha": "b32877bdff5de1adb3ad51307f8f7b827ad6561b",
         "errors": [],
-        "inspected_at": "2026-11-21T18:01:50Z",
+        "inspected_at": "2026-11-22T18:33:36Z",
         "sources": {},
         "state": "partial"
       },
@@ -14228,7 +14429,7 @@
       "inspection": {
         "commit_sha": "9d9271d4d966f87df412759a374614ca343733ce",
         "errors": [],
-        "inspected_at": "2026-11-21T18:01:56Z",
+        "inspected_at": "2026-11-22T18:33:42Z",
         "sources": {},
         "state": "partial"
       },
@@ -14594,6 +14795,7 @@
       "id": 1446150788,
       "inspection": {
         "commit_sha": "d21bf4640207defc9dbcca75717e9482ab04832d",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-21T18:01:46Z",
         "sources": {
@@ -14625,7 +14827,7 @@
             "url": "https://github.com/westkitty/Dex-Video-Code/blob/d21bf4640207defc9dbcca75717e9482ab04832d/package.json"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "Python",
       "metadata_sha256": "0f7bc9317b5ac48803a2690ccae06ddf2f8f89890f894c7b6fe596d155deada1",
@@ -14697,16 +14899,37 @@
       "aliases": [],
       "archived": false,
       "default_branch": "main",
+      "description": "app",
+      "fork": false,
+      "full_name": "westkitty/Dex_Command",
+      "id": 1467134721,
+      "inspection": {
+        "commit_sha": "1ff00d7f9982001fe6a96ccd0919bfcf25657375",
+        "errors": [],
+        "inspected_at": "2026-11-22T18:33:32Z",
+        "sources": {},
+        "state": "partial"
+      },
+      "language": "Kotlin",
+      "metadata_sha256": "16da5a6d2ca0be5a7918f36678671507b1ce1e919f5b414ab34144ca7d82b9d8",
+      "name": "Dex_Command",
+      "pushed_at": "2026-11-22T02:07:40Z",
+      "topics": [],
+      "updated_at": "2026-11-22T02:07:44Z",
+      "url": "https://github.com/westkitty/Dex_Command",
+      "visibility": "public"
+    },
+    {
+      "aliases": [],
+      "archived": false,
+      "default_branch": "main",
       "description": "",
       "fork": false,
       "full_name": "westkitty/Dex_Hub",
       "id": 1153890810,
       "inspection": {
-        "commit_sha": "884adeb8d53c5c12d8098e0f030bd120047cd60a",
-        "errors": [],
-        "inspected_at": "2026-11-21T18:02:01Z",
-        "sources": {},
-        "state": "partial"
+        "historical_commit_sha": "884adeb8d53c5c12d8098e0f030bd120047cd60a",
+        "state": "not-selected"
       },
       "language": "HTML",
       "metadata_sha256": "0c675555e59dc0081125dc278cbe81012da9b2f2eca280482abc059f095e0670",
@@ -15191,12 +15414,37 @@
       "aliases": [],
       "archived": false,
       "default_branch": "main",
+      "description": "app",
+      "fork": false,
+      "full_name": "westkitty/Dex_Scout",
+      "id": 1467130927,
+      "inspection": {
+        "commit_sha": "fa5d2cd57ffd3c44e909c9056f30d49796ae6948",
+        "errors": [],
+        "inspected_at": "2026-11-22T18:33:33Z",
+        "sources": {},
+        "state": "partial"
+      },
+      "language": "Kotlin",
+      "metadata_sha256": "69d316e93d4cb2c9bfc50b4945dfaa2593a673a3b77ee367f0c9b14a2ae0fb8c",
+      "name": "Dex_Scout",
+      "pushed_at": "2026-11-22T02:00:41Z",
+      "topics": [],
+      "updated_at": "2026-11-22T02:00:50Z",
+      "url": "https://github.com/westkitty/Dex_Scout",
+      "visibility": "public"
+    },
+    {
+      "aliases": [],
+      "archived": false,
+      "default_branch": "main",
       "description": "",
       "fork": false,
       "full_name": "westkitty/Dex_Sculpt",
       "id": 1458515600,
       "inspection": {
         "commit_sha": "66513c1717a87d6dd867ae9b6a0c2a5b4fe46cde",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-21T18:01:45Z",
         "sources": {
@@ -15244,7 +15492,7 @@
             "url": "https://github.com/westkitty/Dex_Sculpt/blob/66513c1717a87d6dd867ae9b6a0c2a5b4fe46cde/package.json"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "TypeScript",
       "metadata_sha256": "4a16bb80921cc622703d2ec7b3b7b0362f985b47c041f9d416ee26762a70dea0",
@@ -15710,10 +15958,8 @@
       "full_name": "westkitty/DexDraw_Redux",
       "id": 1228947668,
       "inspection": {
-        "errors": [
-          "Branch unavailable"
-        ],
-        "state": "error"
+        "historical_commit_sha": "",
+        "state": "not-selected"
       },
       "language": "",
       "metadata_sha256": "86491eca409b8ade86d122cee44ce945c9862d7eac128123abac0268e3c243f8",
@@ -16360,7 +16606,7 @@
       "inspection": {
         "commit_sha": "b1986d53e3dace66dabcd9ac1f5eb2d5fdae2bff",
         "errors": [],
-        "inspected_at": "2026-11-21T18:01:55Z",
+        "inspected_at": "2026-11-22T18:33:40Z",
         "sources": {},
         "state": "partial"
       },
@@ -16655,7 +16901,7 @@
       "inspection": {
         "commit_sha": "907922387731458a3f9e8a72b8ed5013b34ca790",
         "errors": [],
-        "inspected_at": "2026-11-21T18:01:59Z",
+        "inspected_at": "2026-11-22T18:33:45Z",
         "sources": {},
         "state": "partial"
       },
@@ -17400,7 +17646,7 @@
       "inspection": {
         "commit_sha": "3ffae40e8895fd5224d8d4e99bd06a10edbe5d25",
         "errors": [],
-        "inspected_at": "2026-11-21T18:01:58Z",
+        "inspected_at": "2026-11-22T18:33:44Z",
         "sources": {},
         "state": "partial"
       },
@@ -17686,6 +17932,79 @@
       "default_branch": "main",
       "description": "",
       "fork": false,
+      "full_name": "westkitty/Haunted_Betrayal",
+      "id": 1467125924,
+      "inspection": {
+        "commit_sha": "5d585336145c08e8bd96b42b0fab4679803f76d8",
+        "errors": [],
+        "inspected_at": "2026-11-22T18:33:30Z",
+        "sources": {
+          "README.md": {
+            "blob_sha": "3359b741f0c51835576882b0f64852db6020a93e",
+            "commit_sha": "5d585336145c08e8bd96b42b0fab4679803f76d8",
+            "formats": {},
+            "level": "described",
+            "path": "README.md",
+            "referenced_repositories": [],
+            "sha256": "9ea8baa1a25d251d097759f3c8b2db830392b381e1db110bff7e9371e296eb96",
+            "url": "https://github.com/westkitty/Haunted_Betrayal/blob/5d585336145c08e8bd96b42b0fab4679803f76d8/README.md"
+          }
+        },
+        "state": "inspected"
+      },
+      "language": "",
+      "metadata_sha256": "e18952f758168d2f48a1ae161417defcd909b2572b52afb6a2b5f4cf5687ac73",
+      "name": "Haunted_Betrayal",
+      "pushed_at": "2026-11-22T07:46:21Z",
+      "topics": [],
+      "updated_at": "2026-11-22T01:50:53Z",
+      "url": "https://github.com/westkitty/Haunted_Betrayal",
+      "visibility": "public"
+    },
+    {
+      "aliases": [],
+      "archived": false,
+      "default_branch": "main",
+      "description": "",
+      "fork": false,
+      "full_name": "westkitty/Haunted_Exploration",
+      "id": 1467351343,
+      "inspection": {
+        "commit_sha": "070f059b3a05610a68ea6dcdc98143d030005957",
+        "errors": [],
+        "inspected_at": "2026-11-22T18:33:29Z",
+        "sources": {
+          "README.md": {
+            "blob_sha": "d5199269485c4e2c20a591ade716228d4e7cd4e4",
+            "commit_sha": "070f059b3a05610a68ea6dcdc98143d030005957",
+            "formats": {},
+            "level": "described",
+            "path": "README.md",
+            "referenced_repositories": [
+              "Betrayal_Agy",
+              "Haunted_Betrayal"
+            ],
+            "sha256": "1f3177b7617561cead21212501d2099ca1c7e24795b764b393554944d55cc779",
+            "url": "https://github.com/westkitty/Haunted_Exploration/blob/070f059b3a05610a68ea6dcdc98143d030005957/README.md"
+          }
+        },
+        "state": "inspected"
+      },
+      "language": "",
+      "metadata_sha256": "84ad2496e6f34f26fd8eb6b3c5c1fb0c0e76d48c554cc6d46772573e81f1f9c1",
+      "name": "Haunted_Exploration",
+      "pushed_at": "2026-11-22T10:22:22Z",
+      "topics": [],
+      "updated_at": "2026-11-22T08:19:06Z",
+      "url": "https://github.com/westkitty/Haunted_Exploration",
+      "visibility": "public"
+    },
+    {
+      "aliases": [],
+      "archived": false,
+      "default_branch": "main",
+      "description": "",
+      "fork": false,
       "full_name": "westkitty/Heliocide_Viewer",
       "id": 1338746589,
       "inspection": {
@@ -17854,7 +18173,7 @@
       "inspection": {
         "commit_sha": "804183db245f50199fce0a381ecf8bf886582b93",
         "errors": [],
-        "inspected_at": "2026-11-21T18:01:57Z",
+        "inspected_at": "2026-11-22T18:33:43Z",
         "sources": {},
         "state": "partial"
       },
@@ -18131,28 +18450,27 @@
       "full_name": "westkitty/Image_Gen",
       "id": 1275620792,
       "inspection": {
-        "commit_sha": "39534f2eeb55bd3786ab9292aaf785466cef8379",
-        "current_head_verified": false,
+        "commit_sha": "dacf667aaefc8222ce4184cd69a37fc06cb1459d",
         "errors": [],
-        "inspected_at": "2026-11-13T18:34:18Z",
+        "inspected_at": "2026-11-22T18:33:25Z",
         "sources": {
           "README.md": {
             "blob_sha": "d37912f07416e1fafbc574df59cbf2473fc72f4f",
-            "commit_sha": "39534f2eeb55bd3786ab9292aaf785466cef8379",
+            "commit_sha": "dacf667aaefc8222ce4184cd69a37fc06cb1459d",
             "formats": {},
             "level": "described",
             "path": "README.md",
             "referenced_repositories": [],
             "sha256": "2649848fbebc5503463e4078ba4b4f5ca582f5891c6582b861c7fad197f6caa5",
-            "url": "https://github.com/westkitty/Image_Gen/blob/39534f2eeb55bd3786ab9292aaf785466cef8379/README.md"
+            "url": "https://github.com/westkitty/Image_Gen/blob/dacf667aaefc8222ce4184cd69a37fc06cb1459d/README.md"
           }
         },
-        "state": "cached"
+        "state": "inspected"
       },
       "language": "JavaScript",
-      "metadata_sha256": "398d850f4dcddafdf9bfc54ec2be5bb413f77a719f81f8d9070151a2a30f3b37",
+      "metadata_sha256": "5adf752771a3eb3045bcfaa36a9cc1009f5a3f0fb609032c10a2a244ba6b1c9d",
       "name": "Image_Gen",
-      "pushed_at": "2026-11-13T04:21:25Z",
+      "pushed_at": "2026-11-22T18:15:43Z",
       "topics": [],
       "updated_at": "2026-11-12T07:15:13Z",
       "url": "https://github.com/westkitty/Image_Gen",
@@ -18349,28 +18667,27 @@
       "full_name": "westkitty/Infinite_Studio",
       "id": 1458552593,
       "inspection": {
-        "commit_sha": "db230c8a63f9acade76b25a6189ce5ae30188a14",
-        "current_head_verified": false,
+        "commit_sha": "85945dc800cca5fbe69c18ab1f6fed98a8eda66f",
         "errors": [],
-        "inspected_at": "2026-11-16T21:04:32Z",
+        "inspected_at": "2026-11-22T18:33:27Z",
         "sources": {
           "README.md": {
             "blob_sha": "e4a9010006b4fb11c8327680fcf0a4391fb18983",
-            "commit_sha": "db230c8a63f9acade76b25a6189ce5ae30188a14",
+            "commit_sha": "85945dc800cca5fbe69c18ab1f6fed98a8eda66f",
             "formats": {},
             "level": "described",
             "path": "README.md",
             "referenced_repositories": [],
             "sha256": "95fc37d3111bd100c2680e2cb43bb0340f7fa136a3523420bfff4bc742678fa3",
-            "url": "https://github.com/westkitty/Infinite_Studio/blob/db230c8a63f9acade76b25a6189ce5ae30188a14/README.md"
+            "url": "https://github.com/westkitty/Infinite_Studio/blob/85945dc800cca5fbe69c18ab1f6fed98a8eda66f/README.md"
           }
         },
-        "state": "cached"
+        "state": "inspected"
       },
       "language": "Kotlin",
-      "metadata_sha256": "453a6b653df26de83ce2a2224d326d473f1093fc0c8af0c1c2b1d22086cf71c0",
+      "metadata_sha256": "d688b99a1e7d8e5bd275cb87b9993c5ec7ec9240ca3ce0c042e1f96ee3766ab4",
       "name": "Infinite_Studio",
-      "pushed_at": "2026-11-17T19:55:06Z",
+      "pushed_at": "2026-11-22T16:59:44Z",
       "topics": [],
       "updated_at": "2026-11-16T06:42:25Z",
       "url": "https://github.com/westkitty/Infinite_Studio",
@@ -18734,7 +19051,7 @@
       "inspection": {
         "commit_sha": "1a0fb6df7eb90598ff3947bab73a214192f49b3e",
         "errors": [],
-        "inspected_at": "2026-11-21T18:01:53Z",
+        "inspected_at": "2026-11-22T18:33:39Z",
         "sources": {},
         "state": "partial"
       },
@@ -18828,13 +19145,13 @@
       "full_name": "westkitty/museum-of-me-vnext",
       "id": 1340180608,
       "inspection": {
-        "commit_sha": "384055117ad831cc594dd80c1023f60a9d40ee8c",
+        "commit_sha": "96145564f1fda5e8e37c775f53e5b2268790e863",
         "errors": [],
-        "inspected_at": "2026-11-21T18:01:41Z",
+        "inspected_at": "2026-11-22T18:33:26Z",
         "sources": {
           "README.md": {
             "blob_sha": "f8c9bdae28c60f75fab5aed7869b0feb8c49708b",
-            "commit_sha": "384055117ad831cc594dd80c1023f60a9d40ee8c",
+            "commit_sha": "96145564f1fda5e8e37c775f53e5b2268790e863",
             "formats": {
               "svg": [
                 "import"
@@ -18844,11 +19161,11 @@
             "path": "README.md",
             "referenced_repositories": [],
             "sha256": "64fa5e05f1fe418f1486799e98400d9790ff2edfee5436bc0a6f37b42b8fc6ac",
-            "url": "https://github.com/westkitty/museum-of-me-vnext/blob/384055117ad831cc594dd80c1023f60a9d40ee8c/README.md"
+            "url": "https://github.com/westkitty/museum-of-me-vnext/blob/96145564f1fda5e8e37c775f53e5b2268790e863/README.md"
           },
           "package.json": {
             "blob_sha": "526e9f66000432d628f0632038874a9e297831d3",
-            "commit_sha": "384055117ad831cc594dd80c1023f60a9d40ee8c",
+            "commit_sha": "96145564f1fda5e8e37c775f53e5b2268790e863",
             "level": "located",
             "packages": {
               "three": {
@@ -18866,15 +19183,15 @@
             },
             "path": "package.json",
             "sha256": "32bddf1a2455758ebd9633872422e7c6dfdf56349e3eb2515865825dca09244c",
-            "url": "https://github.com/westkitty/museum-of-me-vnext/blob/384055117ad831cc594dd80c1023f60a9d40ee8c/package.json"
+            "url": "https://github.com/westkitty/museum-of-me-vnext/blob/96145564f1fda5e8e37c775f53e5b2268790e863/package.json"
           }
         },
         "state": "inspected"
       },
       "language": "TypeScript",
-      "metadata_sha256": "73651ea9ebf2f953d9ce463706a48b2c0a365d2558c630c0b4f7b31c63775a20",
+      "metadata_sha256": "c978333b971fe2e0e56f0d524a084af786fb2c7d6aaa3305a2bf99b3c44c5d42",
       "name": "museum-of-me-vnext",
-      "pushed_at": "2026-11-21T15:54:46Z",
+      "pushed_at": "2026-11-22T17:23:52Z",
       "topics": [],
       "updated_at": "2026-11-12T02:27:01Z",
       "url": "https://github.com/westkitty/museum-of-me-vnext",
@@ -18890,6 +19207,7 @@
       "id": 1457007644,
       "inspection": {
         "commit_sha": "5a89fc1539c363b4a90c468120571a1e087d2a62",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-21T18:01:42Z",
         "sources": {
@@ -18930,7 +19248,7 @@
             "url": "https://github.com/westkitty/museum_demos/blob/5a89fc1539c363b4a90c468120571a1e087d2a62/package.json"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "TypeScript",
       "metadata_sha256": "bbe14a95fef395fcfbb0c5253b04324e9ed7b98b488384cecfee91dc86ac2629",
@@ -18995,10 +19313,8 @@
       "full_name": "westkitty/OffGrid",
       "id": 1265562759,
       "inspection": {
-        "errors": [
-          "Branch unavailable"
-        ],
-        "state": "error"
+        "historical_commit_sha": "",
+        "state": "not-selected"
       },
       "language": "",
       "metadata_sha256": "7f55c5f2b9dbae96ab28aaf907ebff8660dade45c5d076f6f57aea8b939defed",
@@ -19179,23 +19495,23 @@
       "full_name": "westkitty/Palimpsest",
       "id": 1456641666,
       "inspection": {
-        "commit_sha": "86d6f4214af204dbbe347a04f7aa9e18f18b7876",
+        "commit_sha": "41dddee6383d94e8ce0f68303a506cd9290225ee",
         "errors": [],
-        "inspected_at": "2026-11-21T18:01:44Z",
+        "inspected_at": "2026-11-22T18:33:24Z",
         "sources": {
           "README.md": {
-            "blob_sha": "db8a023cbbd4c34bdabb41c02f41fa1d3ffbbaad",
-            "commit_sha": "86d6f4214af204dbbe347a04f7aa9e18f18b7876",
+            "blob_sha": "4fb3ecf082ce7ae7fba35b42dc7754d069fb8031",
+            "commit_sha": "41dddee6383d94e8ce0f68303a506cd9290225ee",
             "formats": {},
             "level": "described",
             "path": "README.md",
             "referenced_repositories": [],
-            "sha256": "b2dc8f2d4c8a73fac578804d959b60a4cd1b8794d9bd744eb3a9f9d4f2cb7905",
-            "url": "https://github.com/westkitty/Palimpsest/blob/86d6f4214af204dbbe347a04f7aa9e18f18b7876/README.md"
+            "sha256": "9374d8207d12add942c9e0bf07cea90d3091491ff563b0a1678f761b0e8f4bd5",
+            "url": "https://github.com/westkitty/Palimpsest/blob/41dddee6383d94e8ce0f68303a506cd9290225ee/README.md"
           },
           "package.json": {
             "blob_sha": "5e21448046fa7196f2268e23a2d89dc3c637106e",
-            "commit_sha": "86d6f4214af204dbbe347a04f7aa9e18f18b7876",
+            "commit_sha": "41dddee6383d94e8ce0f68303a506cd9290225ee",
             "level": "located",
             "packages": {
               "@vitejs/plugin-react": {
@@ -19216,15 +19532,15 @@
             },
             "path": "package.json",
             "sha256": "5d0bc6f467b8536ff9bfa34c36db9f990c06d27a293dcef1f220244791ba40ef",
-            "url": "https://github.com/westkitty/Palimpsest/blob/86d6f4214af204dbbe347a04f7aa9e18f18b7876/package.json"
+            "url": "https://github.com/westkitty/Palimpsest/blob/41dddee6383d94e8ce0f68303a506cd9290225ee/package.json"
           }
         },
         "state": "inspected"
       },
       "language": "TypeScript",
-      "metadata_sha256": "cf065b46b64060c7d7d5fd367f2d78a780fb9716a0953098df7a85843320e7ff",
+      "metadata_sha256": "668feba45088b704dc3f6a0dd6f4db666d52e23da47ceb848eb7d422fb38ad51",
       "name": "Palimpsest",
-      "pushed_at": "2026-11-21T05:01:53Z",
+      "pushed_at": "2026-11-22T18:32:43Z",
       "topics": [],
       "updated_at": "2026-11-13T13:36:46Z",
       "url": "https://github.com/westkitty/Palimpsest",
@@ -19560,10 +19876,8 @@
       "full_name": "westkitty/Project_Forge",
       "id": 1268688565,
       "inspection": {
-        "errors": [
-          "Branch unavailable"
-        ],
-        "state": "error"
+        "historical_commit_sha": "",
+        "state": "not-selected"
       },
       "language": "",
       "metadata_sha256": "1ba2ad193e3287d1ee4752104e426cf3407b2b49f0761757e537457104bbfab5",
@@ -19709,13 +20023,13 @@
       "full_name": "westkitty/Repo_Dex",
       "id": 1438116524,
       "inspection": {
-        "commit_sha": "c1e41fd8376f4242413cf754507aa6532753a092",
+        "commit_sha": "218629cffeb8e80ba1f6fc309e2c73047662d3fa",
         "errors": [],
-        "inspected_at": "2026-11-21T18:01:47Z",
+        "inspected_at": "2026-11-22T18:33:28Z",
         "sources": {
           "README.md": {
             "blob_sha": "f789c47e964dc932353c7815293116dd8d0be3be",
-            "commit_sha": "c1e41fd8376f4242413cf754507aa6532753a092",
+            "commit_sha": "218629cffeb8e80ba1f6fc309e2c73047662d3fa",
             "formats": {
               "json": [
                 "export"
@@ -19725,15 +20039,15 @@
             "path": "README.md",
             "referenced_repositories": [],
             "sha256": "df9c19a4fb8f655760642f1a91f93705e79b56cc4e71a146f3ee18fbded4bfdc",
-            "url": "https://github.com/westkitty/Repo_Dex/blob/c1e41fd8376f4242413cf754507aa6532753a092/README.md"
+            "url": "https://github.com/westkitty/Repo_Dex/blob/218629cffeb8e80ba1f6fc309e2c73047662d3fa/README.md"
           }
         },
         "state": "inspected"
       },
       "language": "Python",
-      "metadata_sha256": "49c64c8c5c6215ad670f4a15b2fa8f6fa37bca4b58b2135cd0c5697e12ae601a",
+      "metadata_sha256": "fe16eb2c19584e34ce817dd885e76b40e1e32f6e7381866f14e620dd3984de08",
       "name": "Repo_Dex",
-      "pushed_at": "2026-11-20T19:08:48Z",
+      "pushed_at": "2026-11-21T18:02:02Z",
       "topics": [],
       "updated_at": "2026-11-11T19:44:58Z",
       "url": "https://github.com/westkitty/Repo_Dex",
@@ -20270,7 +20584,7 @@
       "inspection": {
         "commit_sha": "a8face4e8969254940cc5ff5c120e3decf555a57",
         "errors": [],
-        "inspected_at": "2026-11-21T18:01:51Z",
+        "inspected_at": "2026-11-22T18:33:37Z",
         "sources": {},
         "state": "partial"
       },
@@ -21528,7 +21842,7 @@
       "inspection": {
         "commit_sha": "cd3fabea9dd4dcca91b1fd91b599b5608214cc22",
         "errors": [],
-        "inspected_at": "2026-11-21T18:02:00Z",
+        "inspected_at": "2026-11-22T18:33:46Z",
         "sources": {},
         "state": "partial"
       },
@@ -21608,27 +21922,27 @@
       "full_name": "westkitty/westkitty",
       "id": 1167956798,
       "inspection": {
-        "commit_sha": "ebeff2e1a941590e0df23cbcd017802a5ffc92da",
+        "commit_sha": "4cddefbee82c57d394b4fa716e90d4bc6e44865b",
         "errors": [],
-        "inspected_at": "2026-11-21T18:01:43Z",
+        "inspected_at": "2026-11-22T18:33:28Z",
         "sources": {
           "README.md": {
             "blob_sha": "7657b525c87153c56c5f391962a348bb43660e10",
-            "commit_sha": "ebeff2e1a941590e0df23cbcd017802a5ffc92da",
+            "commit_sha": "4cddefbee82c57d394b4fa716e90d4bc6e44865b",
             "formats": {},
             "level": "described",
             "path": "README.md",
             "referenced_repositories": [],
             "sha256": "ff1e5240a084c6d36698818bc3d0d15d45883e42786b4d0ddc3bf4c28b3a5366",
-            "url": "https://github.com/westkitty/westkitty/blob/ebeff2e1a941590e0df23cbcd017802a5ffc92da/README.md"
+            "url": "https://github.com/westkitty/westkitty/blob/4cddefbee82c57d394b4fa716e90d4bc6e44865b/README.md"
           }
         },
         "state": "inspected"
       },
       "language": "Python",
-      "metadata_sha256": "3d6430dce821a77ca02eb33c29a35060b9a7830734922119d720b01448a187db",
+      "metadata_sha256": "ddcacb78e6c3442e1a69e1bbdd0719733ef9a9a3df168efb412c63a38d2f6ac4",
       "name": "westkitty",
-      "pushed_at": "2026-11-21T05:28:11Z",
+      "pushed_at": "2026-11-22T04:53:03Z",
       "topics": [],
       "updated_at": "2026-11-12T06:36:27Z",
       "url": "https://github.com/westkitty/westkitty",
@@ -21645,7 +21959,7 @@
       "inspection": {
         "commit_sha": "e31d9a68e8c31d92e15f2d3aca998829c90da39b",
         "errors": [],
-        "inspected_at": "2026-11-21T18:01:47Z",
+        "inspected_at": "2026-11-22T18:33:33Z",
         "sources": {},
         "state": "partial"
       },
@@ -21769,7 +22083,7 @@
       "inspection": {
         "commit_sha": "e4a8be0ca6262366c0d4849d2b3199d669ef9f0e",
         "errors": [],
-        "inspected_at": "2026-11-21T18:01:54Z",
+        "inspected_at": "2026-11-22T18:33:40Z",
         "sources": {},
         "state": "partial"
       },
