@@ -2250,7 +2250,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "a48831fb3008984090",
       "kind": "declared-package",
       "repository_id": 1340180608,
@@ -2271,7 +2271,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "c4f7a0390592fcd85a",
       "kind": "declared-package",
       "repository_id": 1340180608,
@@ -2292,7 +2292,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "083e1e82808dcec21c",
       "kind": "declared-package",
       "repository_id": 1340180608,
@@ -2313,7 +2313,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "bd58aca56271a09921",
       "kind": "declared-package",
       "repository_id": 1340180608,
@@ -2334,7 +2334,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "described",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "2cfca63527d5e3cb14",
       "kind": "described-import",
       "repository_id": 1340180608,
@@ -6015,14 +6015,14 @@
       "repository_id": 1438116524,
       "source": {
         "blob_sha": "f789c47e964dc932353c7815293116dd8d0be3be",
-        "commit_sha": "fe54bc6cf79e48e924865b5b39249de5fcdfb1f6",
+        "commit_sha": "22d3c34b7b7c98213302ccad65a6b50cf1cfc02c",
         "level": "described",
         "mechanism": "described-export json",
         "path": "README.md",
         "repository": "Repo_Dex",
         "repository_id": 1438116524,
         "sha256": "df9c19a4fb8f655760642f1a91f93705e79b56cc4e71a146f3ee18fbded4bfdc",
-        "url": "https://github.com/westkitty/Repo_Dex/blob/fe54bc6cf79e48e924865b5b39249de5fcdfb1f6/README.md"
+        "url": "https://github.com/westkitty/Repo_Dex/blob/22d3c34b7b7c98213302ccad65a6b50cf1cfc02c/README.md"
       },
       "statement": "README describes export of json",
       "token": "json"
@@ -6450,7 +6450,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "147799ade32eb097a2",
       "kind": "declared-package",
       "repository_id": 1456641666,
@@ -6471,7 +6471,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "615a10282611418704",
       "kind": "declared-package",
       "repository_id": 1456641666,
@@ -6492,7 +6492,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "84f25a02b55254c53f",
       "kind": "declared-package",
       "repository_id": 1456641666,
@@ -6513,7 +6513,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "9532c257c13a2988cc",
       "kind": "declared-package",
       "repository_id": 1456641666,
@@ -6534,7 +6534,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "58c607ffadaa38ade9",
       "kind": "declared-package",
       "repository_id": 1456641666,
@@ -7036,13 +7036,12 @@
       "token": "vite"
     }
   ],
-  "content_sha256": "7910570e83bb0fa52170126993cfa2e2b1093bbd70781701c6e4297f630d8a44",
+  "content_sha256": "184b0c7f1a30e79fddf8753c6408587a059f67a5dfce63a7b432c834f811896c",
   "delta": {
     "archived": [],
     "changed": [
       "Image_Gen",
-      "museum-of-me-vnext",
-      "Palimpsest",
+      "Parable",
       "Repo_Dex",
       "westkitty"
     ],
@@ -7058,11 +7057,11 @@
     "verified",
     "transferred"
   ],
-  "generated_at": "2026-11-23T22:42:11Z",
+  "generated_at": "2026-11-24T21:17:43Z",
   "inventory": {
     "complete": true,
     "cumulative_source_repositories": 162,
-    "historical_cached_repositories": 157,
+    "historical_cached_repositories": 158,
     "inspected_repositories": 22,
     "public_repositories": 220,
     "sampling_limit": 36,
@@ -7165,8 +7164,7 @@
       "message": "Repository metadata or push state changed",
       "repositories": [
         "Image_Gen",
-        "museum-of-me-vnext",
-        "Palimpsest",
+        "Parable",
         "Repo_Dex",
         "westkitty"
       ],
@@ -13649,7 +13647,7 @@
       "inspection": {
         "commit_sha": "eb002109d45257eabaec2fb48803a3c82a15a030",
         "errors": [],
-        "inspected_at": "2026-11-23T22:41:52Z",
+        "inspected_at": "2026-11-24T21:17:27Z",
         "sources": {},
         "state": "partial"
       },
@@ -14146,7 +14144,7 @@
       "inspection": {
         "commit_sha": "dd6b278e8c493b9322d47de70f3bf89a1d0f6fa5",
         "errors": [],
-        "inspected_at": "2026-11-23T22:41:51Z",
+        "inspected_at": "2026-11-24T21:17:26Z",
         "sources": {},
         "state": "partial"
       },
@@ -14229,7 +14227,7 @@
       "inspection": {
         "commit_sha": "5bd357e14d9b68776d50b1dee0829b7bd5ab939f",
         "errors": [],
-        "inspected_at": "2026-11-23T22:41:57Z",
+        "inspected_at": "2026-11-24T21:17:30Z",
         "sources": {},
         "state": "partial"
       },
@@ -14368,7 +14366,7 @@
       "inspection": {
         "commit_sha": "b32877bdff5de1adb3ad51307f8f7b827ad6561b",
         "errors": [],
-        "inspected_at": "2026-11-23T22:41:54Z",
+        "inspected_at": "2026-11-24T21:17:28Z",
         "sources": {},
         "state": "partial"
       },
@@ -14428,7 +14426,7 @@
       "inspection": {
         "commit_sha": "9d9271d4d966f87df412759a374614ca343733ce",
         "errors": [],
-        "inspected_at": "2026-11-23T22:42:04Z",
+        "inspected_at": "2026-11-24T21:17:36Z",
         "sources": {},
         "state": "partial"
       },
@@ -14905,7 +14903,7 @@
       "inspection": {
         "commit_sha": "1ff00d7f9982001fe6a96ccd0919bfcf25657375",
         "errors": [],
-        "inspected_at": "2026-11-23T22:41:47Z",
+        "inspected_at": "2026-11-24T21:17:23Z",
         "sources": {},
         "state": "partial"
       },
@@ -14929,7 +14927,7 @@
       "inspection": {
         "commit_sha": "884adeb8d53c5c12d8098e0f030bd120047cd60a",
         "errors": [],
-        "inspected_at": "2026-11-23T22:42:11Z",
+        "inspected_at": "2026-11-24T21:17:42Z",
         "sources": {},
         "state": "partial"
       },
@@ -15423,7 +15421,7 @@
       "inspection": {
         "commit_sha": "fa5d2cd57ffd3c44e909c9056f30d49796ae6948",
         "errors": [],
-        "inspected_at": "2026-11-23T22:41:48Z",
+        "inspected_at": "2026-11-24T21:17:24Z",
         "sources": {},
         "state": "partial"
       },
@@ -16610,7 +16608,7 @@
       "inspection": {
         "commit_sha": "b1986d53e3dace66dabcd9ac1f5eb2d5fdae2bff",
         "errors": [],
-        "inspected_at": "2026-11-23T22:42:01Z",
+        "inspected_at": "2026-11-24T21:17:34Z",
         "sources": {},
         "state": "partial"
       },
@@ -16905,7 +16903,7 @@
       "inspection": {
         "commit_sha": "907922387731458a3f9e8a72b8ed5013b34ca790",
         "errors": [],
-        "inspected_at": "2026-11-23T22:42:07Z",
+        "inspected_at": "2026-11-24T21:17:39Z",
         "sources": {},
         "state": "partial"
       },
@@ -17650,7 +17648,7 @@
       "inspection": {
         "commit_sha": "3ffae40e8895fd5224d8d4e99bd06a10edbe5d25",
         "errors": [],
-        "inspected_at": "2026-11-23T22:42:06Z",
+        "inspected_at": "2026-11-24T21:17:38Z",
         "sources": {},
         "state": "partial"
       },
@@ -18179,7 +18177,7 @@
       "inspection": {
         "commit_sha": "804183db245f50199fce0a381ecf8bf886582b93",
         "errors": [],
-        "inspected_at": "2026-11-23T22:42:05Z",
+        "inspected_at": "2026-11-24T21:17:37Z",
         "sources": {},
         "state": "partial"
       },
@@ -18474,9 +18472,9 @@
         "state": "inspected"
       },
       "language": "JavaScript",
-      "metadata_sha256": "4e52f04a8691bfe34716386ca3e0e51decca5b02e110ae2691764f2e43bdc11d",
+      "metadata_sha256": "7e857410706b11d0a2059e530e589b1f85f9a1b435e98a5e39cb2d2c0fd4997c",
       "name": "Image_Gen",
-      "pushed_at": "2026-11-23T03:42:39Z",
+      "pushed_at": "2026-11-24T21:05:52Z",
       "topics": [],
       "updated_at": "2026-11-12T07:15:13Z",
       "url": "https://github.com/westkitty/Image_Gen",
@@ -19058,7 +19056,7 @@
       "inspection": {
         "commit_sha": "1a0fb6df7eb90598ff3947bab73a214192f49b3e",
         "errors": [],
-        "inspected_at": "2026-11-23T22:41:58Z",
+        "inspected_at": "2026-11-24T21:17:31Z",
         "sources": {},
         "state": "partial"
       },
@@ -19153,6 +19151,7 @@
       "id": 1340180608,
       "inspection": {
         "commit_sha": "ff6d983ebe47c0d4dc7980a9632f89925cb3f0d4",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-23T22:41:44Z",
         "sources": {
@@ -19193,7 +19192,7 @@
             "url": "https://github.com/westkitty/museum-of-me-vnext/blob/ff6d983ebe47c0d4dc7980a9632f89925cb3f0d4/package.json"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "TypeScript",
       "metadata_sha256": "e3f9d6b590495fbf02aaa32a17d99ba93444c7481d7859277e7260d479621d5c",
@@ -19505,6 +19504,7 @@
       "id": 1456641666,
       "inspection": {
         "commit_sha": "4f75ef336ce9f13329ec45105c6d0e640b8b9fbb",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-23T22:41:40Z",
         "sources": {
@@ -19544,7 +19544,7 @@
             "url": "https://github.com/westkitty/Palimpsest/blob/4f75ef336ce9f13329ec45105c6d0e640b8b9fbb/package.json"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "TypeScript",
       "metadata_sha256": "d93dd150b91009b3414944fcc2a1e0c7680b1de8c9a2ef2a03720e28f3320622",
@@ -19601,9 +19601,8 @@
       "id": 1240965690,
       "inspection": {
         "commit_sha": "6c96ce7dd08e2a064dfe77ae59016bcc7d139e66",
-        "current_head_verified": false,
         "errors": [],
-        "inspected_at": "2026-11-08T21:42:44Z",
+        "inspected_at": "2026-11-24T21:17:19Z",
         "sources": {
           "README.md": {
             "blob_sha": "4b931ab89495b7c2ca2bb120be309eea8c6f68e2",
@@ -19625,12 +19624,12 @@
             "url": "https://github.com/westkitty/Parable/blob/6c96ce7dd08e2a064dfe77ae59016bcc7d139e66/package.json"
           }
         },
-        "state": "cached"
+        "state": "inspected"
       },
       "language": "JavaScript",
-      "metadata_sha256": "54d237e8c865d22434cd89e32e2f037ca41f45bfda7f399c3bb6e6c49b9d2f10",
+      "metadata_sha256": "7ebe105b7b02de3d5e3bf5f887a4b3e4699f7a2821b812a7fdf226088243d103",
       "name": "Parable",
-      "pushed_at": "2026-09-18T02:06:56Z",
+      "pushed_at": "2026-11-24T10:01:59Z",
       "topics": [],
       "updated_at": "2026-07-02T06:45:44Z",
       "url": "https://github.com/westkitty/Parable",
@@ -20034,13 +20033,13 @@
       "full_name": "westkitty/Repo_Dex",
       "id": 1438116524,
       "inspection": {
-        "commit_sha": "fe54bc6cf79e48e924865b5b39249de5fcdfb1f6",
+        "commit_sha": "22d3c34b7b7c98213302ccad65a6b50cf1cfc02c",
         "errors": [],
-        "inspected_at": "2026-11-23T22:41:46Z",
+        "inspected_at": "2026-11-24T21:17:22Z",
         "sources": {
           "README.md": {
             "blob_sha": "f789c47e964dc932353c7815293116dd8d0be3be",
-            "commit_sha": "fe54bc6cf79e48e924865b5b39249de5fcdfb1f6",
+            "commit_sha": "22d3c34b7b7c98213302ccad65a6b50cf1cfc02c",
             "formats": {
               "json": [
                 "export"
@@ -20050,15 +20049,15 @@
             "path": "README.md",
             "referenced_repositories": [],
             "sha256": "df9c19a4fb8f655760642f1a91f93705e79b56cc4e71a146f3ee18fbded4bfdc",
-            "url": "https://github.com/westkitty/Repo_Dex/blob/fe54bc6cf79e48e924865b5b39249de5fcdfb1f6/README.md"
+            "url": "https://github.com/westkitty/Repo_Dex/blob/22d3c34b7b7c98213302ccad65a6b50cf1cfc02c/README.md"
           }
         },
         "state": "inspected"
       },
       "language": "Python",
-      "metadata_sha256": "b0a3486d0905cffefda42db4a14e90f23ec1aab327212a64a839a9a3137b303d",
+      "metadata_sha256": "84ea9304b0abc85493a44d9500d4312165aa8c14ac75a3dcc357996b68991301",
       "name": "Repo_Dex",
-      "pushed_at": "2026-11-22T18:33:47Z",
+      "pushed_at": "2026-11-23T22:42:13Z",
       "topics": [],
       "updated_at": "2026-11-11T19:44:58Z",
       "url": "https://github.com/westkitty/Repo_Dex",
@@ -20595,7 +20594,7 @@
       "inspection": {
         "commit_sha": "a8face4e8969254940cc5ff5c120e3decf555a57",
         "errors": [],
-        "inspected_at": "2026-11-23T22:41:55Z",
+        "inspected_at": "2026-11-24T21:17:29Z",
         "sources": {},
         "state": "partial"
       },
@@ -21708,8 +21707,11 @@
       "full_name": "westkitty/Vault_Architect",
       "id": 1214827574,
       "inspection": {
-        "historical_commit_sha": "",
-        "state": "not-selected"
+        "commit_sha": "43bf3685007b64134b9e3a6c20ea09a48dd8db02",
+        "errors": [],
+        "inspected_at": "2026-11-24T21:17:43Z",
+        "sources": {},
+        "state": "partial"
       },
       "language": "HTML",
       "metadata_sha256": "2d5fe86645937789621a40ce029ecaa4d932ebe7e555ab3e28500773086161fa",
@@ -21853,7 +21855,7 @@
       "inspection": {
         "commit_sha": "cd3fabea9dd4dcca91b1fd91b599b5608214cc22",
         "errors": [],
-        "inspected_at": "2026-11-23T22:42:09Z",
+        "inspected_at": "2026-11-24T21:17:40Z",
         "sources": {},
         "state": "partial"
       },
@@ -21933,27 +21935,27 @@
       "full_name": "westkitty/westkitty",
       "id": 1167956798,
       "inspection": {
-        "commit_sha": "c9807dd5a9918b3aa061666c3edfa77e86872f1c",
+        "commit_sha": "7081022f07375676cd44a376a482ab69acfb688c",
         "errors": [],
-        "inspected_at": "2026-11-23T22:41:42Z",
+        "inspected_at": "2026-11-24T21:17:21Z",
         "sources": {
           "README.md": {
             "blob_sha": "7657b525c87153c56c5f391962a348bb43660e10",
-            "commit_sha": "c9807dd5a9918b3aa061666c3edfa77e86872f1c",
+            "commit_sha": "7081022f07375676cd44a376a482ab69acfb688c",
             "formats": {},
             "level": "described",
             "path": "README.md",
             "referenced_repositories": [],
             "sha256": "ff1e5240a084c6d36698818bc3d0d15d45883e42786b4d0ddc3bf4c28b3a5366",
-            "url": "https://github.com/westkitty/westkitty/blob/c9807dd5a9918b3aa061666c3edfa77e86872f1c/README.md"
+            "url": "https://github.com/westkitty/westkitty/blob/7081022f07375676cd44a376a482ab69acfb688c/README.md"
           }
         },
         "state": "inspected"
       },
       "language": "Python",
-      "metadata_sha256": "e6d1474baf4648dad63714407bedb338af5d8856f3f71f4ed375b906a4a84551",
+      "metadata_sha256": "70bd6ce8012ed7402acbedc33983560c573a359d57d4a156c41459d57eb7f74e",
       "name": "westkitty",
-      "pushed_at": "2026-11-23T05:33:43Z",
+      "pushed_at": "2026-11-24T08:11:27Z",
       "topics": [],
       "updated_at": "2026-11-12T06:36:27Z",
       "url": "https://github.com/westkitty/westkitty",
@@ -21970,7 +21972,7 @@
       "inspection": {
         "commit_sha": "e31d9a68e8c31d92e15f2d3aca998829c90da39b",
         "errors": [],
-        "inspected_at": "2026-11-23T22:41:50Z",
+        "inspected_at": "2026-11-24T21:17:25Z",
         "sources": {},
         "state": "partial"
       },
@@ -22094,7 +22096,7 @@
       "inspection": {
         "commit_sha": "e4a8be0ca6262366c0d4849d2b3199d669ef9f0e",
         "errors": [],
-        "inspected_at": "2026-11-23T22:42:00Z",
+        "inspected_at": "2026-11-24T21:17:33Z",
         "sources": {},
         "state": "partial"
       },
