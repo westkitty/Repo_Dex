@@ -6015,14 +6015,14 @@
       "repository_id": 1438116524,
       "source": {
         "blob_sha": "f789c47e964dc932353c7815293116dd8d0be3be",
-        "commit_sha": "22d3c34b7b7c98213302ccad65a6b50cf1cfc02c",
+        "commit_sha": "3a08501a8b629b7e9384a5aeba214249922d4550",
         "level": "described",
         "mechanism": "described-export json",
         "path": "README.md",
         "repository": "Repo_Dex",
         "repository_id": 1438116524,
         "sha256": "df9c19a4fb8f655760642f1a91f93705e79b56cc4e71a146f3ee18fbded4bfdc",
-        "url": "https://github.com/westkitty/Repo_Dex/blob/22d3c34b7b7c98213302ccad65a6b50cf1cfc02c/README.md"
+        "url": "https://github.com/westkitty/Repo_Dex/blob/3a08501a8b629b7e9384a5aeba214249922d4550/README.md"
       },
       "statement": "README describes export of json",
       "token": "json"
@@ -6450,20 +6450,20 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "historical",
+      "freshness": "sampled-head",
       "id": "147799ade32eb097a2",
       "kind": "declared-package",
       "repository_id": 1456641666,
       "source": {
-        "blob_sha": "5e21448046fa7196f2268e23a2d89dc3c637106e",
-        "commit_sha": "4f75ef336ce9f13329ec45105c6d0e640b8b9fbb",
+        "blob_sha": "c6660ee8f131bea6263e864372d62833d8625b36",
+        "commit_sha": "4f80b454ab73740b874959298ee994ebf7bb6a13",
         "level": "located",
         "mechanism": "declared-package @vitejs/plugin-react",
         "path": "package.json",
         "repository": "Palimpsest",
         "repository_id": 1456641666,
-        "sha256": "5d0bc6f467b8536ff9bfa34c36db9f990c06d27a293dcef1f220244791ba40ef",
-        "url": "https://github.com/westkitty/Palimpsest/blob/4f75ef336ce9f13329ec45105c6d0e640b8b9fbb/package.json"
+        "sha256": "490dcaef5c59d473157a26069049cb76dacd2c3948a7c1b96df9763ad4d95118",
+        "url": "https://github.com/westkitty/Palimpsest/blob/4f80b454ab73740b874959298ee994ebf7bb6a13/package.json"
       },
       "statement": "Dependency manifest declares @vitejs/plugin-react",
       "token": "@vitejs/plugin-react"
@@ -6471,20 +6471,20 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "historical",
+      "freshness": "sampled-head",
       "id": "615a10282611418704",
       "kind": "declared-package",
       "repository_id": 1456641666,
       "source": {
-        "blob_sha": "5e21448046fa7196f2268e23a2d89dc3c637106e",
-        "commit_sha": "4f75ef336ce9f13329ec45105c6d0e640b8b9fbb",
+        "blob_sha": "c6660ee8f131bea6263e864372d62833d8625b36",
+        "commit_sha": "4f80b454ab73740b874959298ee994ebf7bb6a13",
         "level": "located",
         "mechanism": "declared-package react",
         "path": "package.json",
         "repository": "Palimpsest",
         "repository_id": 1456641666,
-        "sha256": "5d0bc6f467b8536ff9bfa34c36db9f990c06d27a293dcef1f220244791ba40ef",
-        "url": "https://github.com/westkitty/Palimpsest/blob/4f75ef336ce9f13329ec45105c6d0e640b8b9fbb/package.json"
+        "sha256": "490dcaef5c59d473157a26069049cb76dacd2c3948a7c1b96df9763ad4d95118",
+        "url": "https://github.com/westkitty/Palimpsest/blob/4f80b454ab73740b874959298ee994ebf7bb6a13/package.json"
       },
       "statement": "Dependency manifest declares react",
       "token": "react"
@@ -6492,20 +6492,20 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "historical",
+      "freshness": "sampled-head",
       "id": "84f25a02b55254c53f",
       "kind": "declared-package",
       "repository_id": 1456641666,
       "source": {
-        "blob_sha": "5e21448046fa7196f2268e23a2d89dc3c637106e",
-        "commit_sha": "4f75ef336ce9f13329ec45105c6d0e640b8b9fbb",
+        "blob_sha": "c6660ee8f131bea6263e864372d62833d8625b36",
+        "commit_sha": "4f80b454ab73740b874959298ee994ebf7bb6a13",
         "level": "located",
         "mechanism": "declared-package three",
         "path": "package.json",
         "repository": "Palimpsest",
         "repository_id": 1456641666,
-        "sha256": "5d0bc6f467b8536ff9bfa34c36db9f990c06d27a293dcef1f220244791ba40ef",
-        "url": "https://github.com/westkitty/Palimpsest/blob/4f75ef336ce9f13329ec45105c6d0e640b8b9fbb/package.json"
+        "sha256": "490dcaef5c59d473157a26069049cb76dacd2c3948a7c1b96df9763ad4d95118",
+        "url": "https://github.com/westkitty/Palimpsest/blob/4f80b454ab73740b874959298ee994ebf7bb6a13/package.json"
       },
       "statement": "Dependency manifest declares three",
       "token": "three"
@@ -6513,20 +6513,20 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "historical",
+      "freshness": "sampled-head",
       "id": "9532c257c13a2988cc",
       "kind": "declared-package",
       "repository_id": 1456641666,
       "source": {
-        "blob_sha": "5e21448046fa7196f2268e23a2d89dc3c637106e",
-        "commit_sha": "4f75ef336ce9f13329ec45105c6d0e640b8b9fbb",
+        "blob_sha": "c6660ee8f131bea6263e864372d62833d8625b36",
+        "commit_sha": "4f80b454ab73740b874959298ee994ebf7bb6a13",
         "level": "located",
         "mechanism": "declared-package typescript",
         "path": "package.json",
         "repository": "Palimpsest",
         "repository_id": 1456641666,
-        "sha256": "5d0bc6f467b8536ff9bfa34c36db9f990c06d27a293dcef1f220244791ba40ef",
-        "url": "https://github.com/westkitty/Palimpsest/blob/4f75ef336ce9f13329ec45105c6d0e640b8b9fbb/package.json"
+        "sha256": "490dcaef5c59d473157a26069049cb76dacd2c3948a7c1b96df9763ad4d95118",
+        "url": "https://github.com/westkitty/Palimpsest/blob/4f80b454ab73740b874959298ee994ebf7bb6a13/package.json"
       },
       "statement": "Dependency manifest declares typescript",
       "token": "typescript"
@@ -6534,20 +6534,20 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "historical",
+      "freshness": "sampled-head",
       "id": "58c607ffadaa38ade9",
       "kind": "declared-package",
       "repository_id": 1456641666,
       "source": {
-        "blob_sha": "5e21448046fa7196f2268e23a2d89dc3c637106e",
-        "commit_sha": "4f75ef336ce9f13329ec45105c6d0e640b8b9fbb",
+        "blob_sha": "c6660ee8f131bea6263e864372d62833d8625b36",
+        "commit_sha": "4f80b454ab73740b874959298ee994ebf7bb6a13",
         "level": "located",
         "mechanism": "declared-package vite",
         "path": "package.json",
         "repository": "Palimpsest",
         "repository_id": 1456641666,
-        "sha256": "5d0bc6f467b8536ff9bfa34c36db9f990c06d27a293dcef1f220244791ba40ef",
-        "url": "https://github.com/westkitty/Palimpsest/blob/4f75ef336ce9f13329ec45105c6d0e640b8b9fbb/package.json"
+        "sha256": "490dcaef5c59d473157a26069049cb76dacd2c3948a7c1b96df9763ad4d95118",
+        "url": "https://github.com/westkitty/Palimpsest/blob/4f80b454ab73740b874959298ee994ebf7bb6a13/package.json"
       },
       "statement": "Dependency manifest declares vite",
       "token": "vite"
@@ -7034,19 +7034,89 @@
       },
       "statement": "Dependency manifest declares vite",
       "token": "vite"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "dd2048a79ff6927a1a",
+      "kind": "declared-package",
+      "repository_id": 1471111643,
+      "source": {
+        "blob_sha": "6de9e10fac6d8e7a16510d504fb5b7e5352f0824",
+        "commit_sha": "f732b8e079b132bcb187126ba3363972e7c981f7",
+        "level": "located",
+        "mechanism": "declared-package three",
+        "path": "package.json",
+        "repository": "Shardling_Gallery",
+        "repository_id": 1471111643,
+        "sha256": "febae07485c3dc09d4268f51c3410c9a377321648811e7fc4c25be0ac4864f96",
+        "url": "https://github.com/westkitty/Shardling_Gallery/blob/f732b8e079b132bcb187126ba3363972e7c981f7/package.json"
+      },
+      "statement": "Dependency manifest declares three",
+      "token": "three"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "described",
+      "freshness": "sampled-head",
+      "id": "3e26b49a24404422cb",
+      "kind": "described-export",
+      "repository_id": 1471111643,
+      "source": {
+        "blob_sha": "6a08dd3c6440532879daa2fa968e6044bb74c85e",
+        "commit_sha": "f732b8e079b132bcb187126ba3363972e7c981f7",
+        "level": "described",
+        "mechanism": "described-export json",
+        "path": "README.md",
+        "repository": "Shardling_Gallery",
+        "repository_id": 1471111643,
+        "sha256": "c2f6faa61848f9b624565e24bd14e767efb202bc47619ae8f144a6916ae5006a",
+        "url": "https://github.com/westkitty/Shardling_Gallery/blob/f732b8e079b132bcb187126ba3363972e7c981f7/README.md"
+      },
+      "statement": "README describes export of json",
+      "token": "json"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "described",
+      "freshness": "sampled-head",
+      "id": "36c4a7456970e804f5",
+      "kind": "described-import",
+      "repository_id": 1471111643,
+      "source": {
+        "blob_sha": "6a08dd3c6440532879daa2fa968e6044bb74c85e",
+        "commit_sha": "f732b8e079b132bcb187126ba3363972e7c981f7",
+        "level": "described",
+        "mechanism": "described-import glb",
+        "path": "README.md",
+        "repository": "Shardling_Gallery",
+        "repository_id": 1471111643,
+        "sha256": "c2f6faa61848f9b624565e24bd14e767efb202bc47619ae8f144a6916ae5006a",
+        "url": "https://github.com/westkitty/Shardling_Gallery/blob/f732b8e079b132bcb187126ba3363972e7c981f7/README.md"
+      },
+      "statement": "README describes import of glb",
+      "token": "glb"
     }
   ],
-  "content_sha256": "184b0c7f1a30e79fddf8753c6408587a059f67a5dfce63a7b432c834f811896c",
+  "content_sha256": "c074316df3b7b493dbbd6350ee7664bec7f4f551f1c9b577a3e3ea03edecf72b",
   "delta": {
     "archived": [],
     "changed": [
+      "Haunted_Betrayal",
       "Image_Gen",
-      "Parable",
+      "Palimpsest",
       "Repo_Dex",
+      "Starsilk_Command",
       "westkitty"
     ],
     "kind": "incremental",
-    "new": [],
+    "new": [
+      "Cache_Clear",
+      "DexDictate_AndroidApp",
+      "orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut",
+      "Shardling_Gallery"
+    ],
     "removed": [],
     "renamed": []
   },
@@ -7057,13 +7127,13 @@
     "verified",
     "transferred"
   ],
-  "generated_at": "2026-11-24T21:17:43Z",
+  "generated_at": "2026-11-25T20:30:17Z",
   "inventory": {
     "complete": true,
-    "cumulative_source_repositories": 162,
-    "historical_cached_repositories": 158,
-    "inspected_repositories": 22,
-    "public_repositories": 220,
+    "cumulative_source_repositories": 165,
+    "historical_cached_repositories": 156,
+    "inspected_repositories": 25,
+    "public_repositories": 224,
     "sampling_limit": 36,
     "source_errors": [
       {
@@ -7100,12 +7170,6 @@
         "errors": [
           "Branch unavailable"
         ],
-        "repository": "DexDraw_Redux"
-      },
-      {
-        "errors": [
-          "Branch unavailable"
-        ],
         "repository": "Game_Art_Director"
       },
       {
@@ -7136,18 +7200,6 @@
         "errors": [
           "Branch unavailable"
         ],
-        "repository": "OffGrid"
-      },
-      {
-        "errors": [
-          "Branch unavailable"
-        ],
-        "repository": "Project_Forge"
-      },
-      {
-        "errors": [
-          "Branch unavailable"
-        ],
         "repository": "Sprite_Foundry"
       }
     ]
@@ -7160,12 +7212,25 @@
   ],
   "observations": [
     {
+      "kind": "new",
+      "message": "New public repositories",
+      "repositories": [
+        "Cache_Clear",
+        "DexDictate_AndroidApp",
+        "orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut",
+        "Shardling_Gallery"
+      ],
+      "severity": "info"
+    },
+    {
       "kind": "changed",
       "message": "Repository metadata or push state changed",
       "repositories": [
+        "Haunted_Betrayal",
         "Image_Gen",
-        "Parable",
+        "Palimpsest",
         "Repo_Dex",
+        "Starsilk_Command",
         "westkitty"
       ],
       "severity": "info"
@@ -11999,20 +12064,20 @@
       "b": 1342404525,
       "evidence": [
         {
-          "blob_sha": "2de32fe8a3b594812db73c9d983232cd7dad7f19",
-          "commit_sha": "b3def11d64c0fc0e75d13fb59415e06a16f70120",
+          "blob_sha": "947a4e001603f5cd854e1e71c5382122cda8409d",
+          "commit_sha": "e848bfdfe521e829b6146a6e4896057b7db868b1",
           "level": "described",
           "mechanism": "explicit GitHub repository URL",
           "path": "README.md",
           "repository": "Starsilk_Command",
           "repository_id": 1440793866,
-          "sha256": "e79414b8c0de9573051e50c78cb5567b762df71fee4a26db24c7dd1e69e0c02c",
-          "url": "https://github.com/westkitty/Starsilk_Command/blob/b3def11d64c0fc0e75d13fb59415e06a16f70120/README.md"
+          "sha256": "95c09a0f95b431f6d75c454f6b2ed13cfdafefed8172e5b59a102e1f79aae71a",
+          "url": "https://github.com/westkitty/Starsilk_Command/blob/e848bfdfe521e829b6146a6e4896057b7db868b1/README.md"
         }
       ],
       "evidence_level": "described",
       "explanation": "Starsilk_Command README links to Starsilk_Character_Dossier. A documentation link does not establish a software dependency or approved integration.",
-      "freshness": "historical",
+      "freshness": "sampled-head",
       "id": "d50d32cbb586d2d58f",
       "mechanism": "explicit repository URL",
       "status": "documented",
@@ -13647,7 +13712,7 @@
       "inspection": {
         "commit_sha": "eb002109d45257eabaec2fb48803a3c82a15a030",
         "errors": [],
-        "inspected_at": "2026-11-24T21:17:27Z",
+        "inspected_at": "2026-11-25T20:30:05Z",
         "sources": {},
         "state": "partial"
       },
@@ -13849,6 +13914,41 @@
       "topics": [],
       "updated_at": "2026-07-03T10:43:42Z",
       "url": "https://github.com/westkitty/c_chase",
+      "visibility": "public"
+    },
+    {
+      "aliases": [],
+      "archived": false,
+      "default_branch": "main",
+      "description": "app",
+      "fork": false,
+      "full_name": "westkitty/Cache_Clear",
+      "id": 1471171150,
+      "inspection": {
+        "commit_sha": "d1eabbd8aa505468b24ca7ff62bbcf6772964d9b",
+        "errors": [],
+        "inspected_at": "2026-11-25T20:29:58Z",
+        "sources": {
+          "README.md": {
+            "blob_sha": "086548dcbf591fe2b2008cf977c04c1c84acf420",
+            "commit_sha": "d1eabbd8aa505468b24ca7ff62bbcf6772964d9b",
+            "formats": {},
+            "level": "described",
+            "path": "README.md",
+            "referenced_repositories": [],
+            "sha256": "1de42737ac928ea3dcbae058c07abf7fc49154b568f8fc16f19a41431d94f83d",
+            "url": "https://github.com/westkitty/Cache_Clear/blob/d1eabbd8aa505468b24ca7ff62bbcf6772964d9b/README.md"
+          }
+        },
+        "state": "inspected"
+      },
+      "language": "Kotlin",
+      "metadata_sha256": "52406ddf9fb9497800c98cf1c7829b0655bb374540dd62009d75ac4dd83cd05f",
+      "name": "Cache_Clear",
+      "pushed_at": "2026-11-25T06:06:12Z",
+      "topics": [],
+      "updated_at": "2026-11-25T03:37:38Z",
+      "url": "https://github.com/westkitty/Cache_Clear",
       "visibility": "public"
     },
     {
@@ -14144,7 +14244,7 @@
       "inspection": {
         "commit_sha": "dd6b278e8c493b9322d47de70f3bf89a1d0f6fa5",
         "errors": [],
-        "inspected_at": "2026-11-24T21:17:26Z",
+        "inspected_at": "2026-11-25T20:30:04Z",
         "sources": {},
         "state": "partial"
       },
@@ -14227,7 +14327,7 @@
       "inspection": {
         "commit_sha": "5bd357e14d9b68776d50b1dee0829b7bd5ab939f",
         "errors": [],
-        "inspected_at": "2026-11-24T21:17:30Z",
+        "inspected_at": "2026-11-25T20:30:08Z",
         "sources": {},
         "state": "partial"
       },
@@ -14366,7 +14466,7 @@
       "inspection": {
         "commit_sha": "b32877bdff5de1adb3ad51307f8f7b827ad6561b",
         "errors": [],
-        "inspected_at": "2026-11-24T21:17:28Z",
+        "inspected_at": "2026-11-25T20:30:06Z",
         "sources": {},
         "state": "partial"
       },
@@ -14426,7 +14526,7 @@
       "inspection": {
         "commit_sha": "9d9271d4d966f87df412759a374614ca343733ce",
         "errors": [],
-        "inspected_at": "2026-11-24T21:17:36Z",
+        "inspected_at": "2026-11-25T20:30:14Z",
         "sources": {},
         "state": "partial"
       },
@@ -14903,7 +15003,7 @@
       "inspection": {
         "commit_sha": "1ff00d7f9982001fe6a96ccd0919bfcf25657375",
         "errors": [],
-        "inspected_at": "2026-11-24T21:17:23Z",
+        "inspected_at": "2026-11-25T20:30:01Z",
         "sources": {},
         "state": "partial"
       },
@@ -14925,11 +15025,8 @@
       "full_name": "westkitty/Dex_Hub",
       "id": 1153890810,
       "inspection": {
-        "commit_sha": "884adeb8d53c5c12d8098e0f030bd120047cd60a",
-        "errors": [],
-        "inspected_at": "2026-11-24T21:17:42Z",
-        "sources": {},
-        "state": "partial"
+        "historical_commit_sha": "884adeb8d53c5c12d8098e0f030bd120047cd60a",
+        "state": "not-selected"
       },
       "language": "HTML",
       "metadata_sha256": "0c675555e59dc0081125dc278cbe81012da9b2f2eca280482abc059f095e0670",
@@ -15421,7 +15518,7 @@
       "inspection": {
         "commit_sha": "fa5d2cd57ffd3c44e909c9056f30d49796ae6948",
         "errors": [],
-        "inspected_at": "2026-11-24T21:17:24Z",
+        "inspected_at": "2026-11-25T20:30:02Z",
         "sources": {},
         "state": "partial"
       },
@@ -15819,6 +15916,30 @@
       "aliases": [],
       "archived": false,
       "default_branch": "main",
+      "description": "app",
+      "fork": false,
+      "full_name": "westkitty/DexDictate_AndroidApp",
+      "id": 1471170097,
+      "inspection": {
+        "commit_sha": "657f59c5584f4ae8b45d705824afbae2ef4eaa19",
+        "errors": [],
+        "inspected_at": "2026-11-25T20:29:59Z",
+        "sources": {},
+        "state": "partial"
+      },
+      "language": "Kotlin",
+      "metadata_sha256": "ca5ab4737232cb8754bf8735fd3e58fe1276600f246ac26badc8a6c6f0aca32f",
+      "name": "DexDictate_AndroidApp",
+      "pushed_at": "2026-11-25T03:37:36Z",
+      "topics": [],
+      "updated_at": "2026-11-25T03:37:40Z",
+      "url": "https://github.com/westkitty/DexDictate_AndroidApp",
+      "visibility": "public"
+    },
+    {
+      "aliases": [],
+      "archived": false,
+      "default_branch": "main",
       "description": "",
       "fork": false,
       "full_name": "westkitty/DexDictate_ChromeOS",
@@ -15958,10 +16079,8 @@
       "full_name": "westkitty/DexDraw_Redux",
       "id": 1228947668,
       "inspection": {
-        "errors": [
-          "Branch unavailable"
-        ],
-        "state": "error"
+        "historical_commit_sha": "",
+        "state": "not-selected"
       },
       "language": "",
       "metadata_sha256": "86491eca409b8ade86d122cee44ce945c9862d7eac128123abac0268e3c243f8",
@@ -16608,7 +16727,7 @@
       "inspection": {
         "commit_sha": "b1986d53e3dace66dabcd9ac1f5eb2d5fdae2bff",
         "errors": [],
-        "inspected_at": "2026-11-24T21:17:34Z",
+        "inspected_at": "2026-11-25T20:30:12Z",
         "sources": {},
         "state": "partial"
       },
@@ -16903,7 +17022,7 @@
       "inspection": {
         "commit_sha": "907922387731458a3f9e8a72b8ed5013b34ca790",
         "errors": [],
-        "inspected_at": "2026-11-24T21:17:39Z",
+        "inspected_at": "2026-11-25T20:30:17Z",
         "sources": {},
         "state": "partial"
       },
@@ -17648,7 +17767,7 @@
       "inspection": {
         "commit_sha": "3ffae40e8895fd5224d8d4e99bd06a10edbe5d25",
         "errors": [],
-        "inspected_at": "2026-11-24T21:17:38Z",
+        "inspected_at": "2026-11-25T20:30:16Z",
         "sources": {},
         "state": "partial"
       },
@@ -17938,9 +18057,8 @@
       "id": 1467125924,
       "inspection": {
         "commit_sha": "5d585336145c08e8bd96b42b0fab4679803f76d8",
-        "current_head_verified": false,
         "errors": [],
-        "inspected_at": "2026-11-22T18:33:30Z",
+        "inspected_at": "2026-11-25T20:29:54Z",
         "sources": {
           "README.md": {
             "blob_sha": "3359b741f0c51835576882b0f64852db6020a93e",
@@ -17953,12 +18071,12 @@
             "url": "https://github.com/westkitty/Haunted_Betrayal/blob/5d585336145c08e8bd96b42b0fab4679803f76d8/README.md"
           }
         },
-        "state": "cached"
+        "state": "inspected"
       },
       "language": "",
-      "metadata_sha256": "e18952f758168d2f48a1ae161417defcd909b2572b52afb6a2b5f4cf5687ac73",
+      "metadata_sha256": "82200099f28e1b52dc5f41bea9660df299cd3768b232f8b21e31ae40b3e67c9f",
       "name": "Haunted_Betrayal",
-      "pushed_at": "2026-11-22T07:46:21Z",
+      "pushed_at": "2026-11-25T12:06:39Z",
       "topics": [],
       "updated_at": "2026-11-22T01:50:53Z",
       "url": "https://github.com/westkitty/Haunted_Betrayal",
@@ -18177,7 +18295,7 @@
       "inspection": {
         "commit_sha": "804183db245f50199fce0a381ecf8bf886582b93",
         "errors": [],
-        "inspected_at": "2026-11-24T21:17:37Z",
+        "inspected_at": "2026-11-25T20:30:15Z",
         "sources": {},
         "state": "partial"
       },
@@ -18454,27 +18572,27 @@
       "full_name": "westkitty/Image_Gen",
       "id": 1275620792,
       "inspection": {
-        "commit_sha": "3d8b885f6b5836dc96c1014887396a0d7e235562",
+        "commit_sha": "a1a865ef9273823116fef3ab6a8037a9f634e4af",
         "errors": [],
-        "inspected_at": "2026-11-23T22:41:43Z",
+        "inspected_at": "2026-11-25T20:29:52Z",
         "sources": {
           "README.md": {
             "blob_sha": "d37912f07416e1fafbc574df59cbf2473fc72f4f",
-            "commit_sha": "3d8b885f6b5836dc96c1014887396a0d7e235562",
+            "commit_sha": "a1a865ef9273823116fef3ab6a8037a9f634e4af",
             "formats": {},
             "level": "described",
             "path": "README.md",
             "referenced_repositories": [],
             "sha256": "2649848fbebc5503463e4078ba4b4f5ca582f5891c6582b861c7fad197f6caa5",
-            "url": "https://github.com/westkitty/Image_Gen/blob/3d8b885f6b5836dc96c1014887396a0d7e235562/README.md"
+            "url": "https://github.com/westkitty/Image_Gen/blob/a1a865ef9273823116fef3ab6a8037a9f634e4af/README.md"
           }
         },
         "state": "inspected"
       },
       "language": "JavaScript",
-      "metadata_sha256": "7e857410706b11d0a2059e530e589b1f85f9a1b435e98a5e39cb2d2c0fd4997c",
+      "metadata_sha256": "4d7072f8892a8322b72a49d8619ceaf56d367453f728266a93b12d6ae5e6209a",
       "name": "Image_Gen",
-      "pushed_at": "2026-11-24T21:05:52Z",
+      "pushed_at": "2026-11-25T12:35:21Z",
       "topics": [],
       "updated_at": "2026-11-12T07:15:13Z",
       "url": "https://github.com/westkitty/Image_Gen",
@@ -19056,7 +19174,7 @@
       "inspection": {
         "commit_sha": "1a0fb6df7eb90598ff3947bab73a214192f49b3e",
         "errors": [],
-        "inspected_at": "2026-11-24T21:17:31Z",
+        "inspected_at": "2026-11-25T20:30:09Z",
         "sources": {},
         "state": "partial"
       },
@@ -19319,10 +19437,8 @@
       "full_name": "westkitty/OffGrid",
       "id": 1265562759,
       "inspection": {
-        "errors": [
-          "Branch unavailable"
-        ],
-        "state": "error"
+        "historical_commit_sha": "",
+        "state": "not-selected"
       },
       "language": "",
       "metadata_sha256": "7f55c5f2b9dbae96ab28aaf907ebff8660dade45c5d076f6f57aea8b939defed",
@@ -19386,6 +19502,50 @@
       "topics": [],
       "updated_at": "2026-08-23T09:55:36Z",
       "url": "https://github.com/westkitty/orbital_scrapper",
+      "visibility": "public"
+    },
+    {
+      "aliases": [],
+      "archived": false,
+      "default_branch": "main",
+      "description": "",
+      "fork": false,
+      "full_name": "westkitty/orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut",
+      "id": 1471711529,
+      "inspection": {
+        "commit_sha": "85a06aa4b2129c39344183990cdfc5cf22a0f2ae",
+        "errors": [],
+        "inspected_at": "2026-11-25T20:29:57Z",
+        "sources": {
+          "README.md": {
+            "blob_sha": "07dcc80c0c1649e9acff2fc99bc798e4ad1d9d24",
+            "commit_sha": "85a06aa4b2129c39344183990cdfc5cf22a0f2ae",
+            "formats": {},
+            "level": "described",
+            "path": "README.md",
+            "referenced_repositories": [],
+            "sha256": "2a7551585a0c2622e98498088bfaee0f737d07f61bc05c039b0737bd55cc223b",
+            "url": "https://github.com/westkitty/orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut/blob/85a06aa4b2129c39344183990cdfc5cf22a0f2ae/README.md"
+          },
+          "package.json": {
+            "blob_sha": "0fe94c6838c3710d5ebcd8495f58c176abe8fc9f",
+            "commit_sha": "85a06aa4b2129c39344183990cdfc5cf22a0f2ae",
+            "level": "located",
+            "packages": {},
+            "path": "package.json",
+            "sha256": "5d9983692b982bb06c2052664fb61fcb5ab78c8e2563e162b1efab0859ece912",
+            "url": "https://github.com/westkitty/orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut/blob/85a06aa4b2129c39344183990cdfc5cf22a0f2ae/package.json"
+          }
+        },
+        "state": "inspected"
+      },
+      "language": "JavaScript",
+      "metadata_sha256": "cd3edf8c3c3099795d550e3ada6e27efeda63e5e70b9b201effbd5ac644c7453",
+      "name": "orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut",
+      "pushed_at": "2026-11-25T20:16:06Z",
+      "topics": [],
+      "updated_at": "2026-11-25T13:20:05Z",
+      "url": "https://github.com/westkitty/orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut",
       "visibility": "public"
     },
     {
@@ -19503,24 +19663,23 @@
       "full_name": "westkitty/Palimpsest",
       "id": 1456641666,
       "inspection": {
-        "commit_sha": "4f75ef336ce9f13329ec45105c6d0e640b8b9fbb",
-        "current_head_verified": false,
+        "commit_sha": "4f80b454ab73740b874959298ee994ebf7bb6a13",
         "errors": [],
-        "inspected_at": "2026-11-23T22:41:40Z",
+        "inspected_at": "2026-11-25T20:29:54Z",
         "sources": {
           "README.md": {
             "blob_sha": "4fb3ecf082ce7ae7fba35b42dc7754d069fb8031",
-            "commit_sha": "4f75ef336ce9f13329ec45105c6d0e640b8b9fbb",
+            "commit_sha": "4f80b454ab73740b874959298ee994ebf7bb6a13",
             "formats": {},
             "level": "described",
             "path": "README.md",
             "referenced_repositories": [],
             "sha256": "9374d8207d12add942c9e0bf07cea90d3091491ff563b0a1678f761b0e8f4bd5",
-            "url": "https://github.com/westkitty/Palimpsest/blob/4f75ef336ce9f13329ec45105c6d0e640b8b9fbb/README.md"
+            "url": "https://github.com/westkitty/Palimpsest/blob/4f80b454ab73740b874959298ee994ebf7bb6a13/README.md"
           },
           "package.json": {
-            "blob_sha": "5e21448046fa7196f2268e23a2d89dc3c637106e",
-            "commit_sha": "4f75ef336ce9f13329ec45105c6d0e640b8b9fbb",
+            "blob_sha": "c6660ee8f131bea6263e864372d62833d8625b36",
+            "commit_sha": "4f80b454ab73740b874959298ee994ebf7bb6a13",
             "level": "located",
             "packages": {
               "@vitejs/plugin-react": {
@@ -19540,16 +19699,16 @@
               }
             },
             "path": "package.json",
-            "sha256": "5d0bc6f467b8536ff9bfa34c36db9f990c06d27a293dcef1f220244791ba40ef",
-            "url": "https://github.com/westkitty/Palimpsest/blob/4f75ef336ce9f13329ec45105c6d0e640b8b9fbb/package.json"
+            "sha256": "490dcaef5c59d473157a26069049cb76dacd2c3948a7c1b96df9763ad4d95118",
+            "url": "https://github.com/westkitty/Palimpsest/blob/4f80b454ab73740b874959298ee994ebf7bb6a13/package.json"
           }
         },
-        "state": "cached"
+        "state": "inspected"
       },
       "language": "TypeScript",
-      "metadata_sha256": "d93dd150b91009b3414944fcc2a1e0c7680b1de8c9a2ef2a03720e28f3320622",
+      "metadata_sha256": "78b36afb3610b455730ce2cc09de2609151131bf6c60d21126f9347122b11359",
       "name": "Palimpsest",
-      "pushed_at": "2026-11-23T18:52:11Z",
+      "pushed_at": "2026-11-25T12:02:33Z",
       "topics": [],
       "updated_at": "2026-11-13T13:36:46Z",
       "url": "https://github.com/westkitty/Palimpsest",
@@ -19601,6 +19760,7 @@
       "id": 1240965690,
       "inspection": {
         "commit_sha": "6c96ce7dd08e2a064dfe77ae59016bcc7d139e66",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-24T21:17:19Z",
         "sources": {
@@ -19624,7 +19784,7 @@
             "url": "https://github.com/westkitty/Parable/blob/6c96ce7dd08e2a064dfe77ae59016bcc7d139e66/package.json"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "JavaScript",
       "metadata_sha256": "7ebe105b7b02de3d5e3bf5f887a4b3e4699f7a2821b812a7fdf226088243d103",
@@ -19884,10 +20044,8 @@
       "full_name": "westkitty/Project_Forge",
       "id": 1268688565,
       "inspection": {
-        "errors": [
-          "Branch unavailable"
-        ],
-        "state": "error"
+        "historical_commit_sha": "",
+        "state": "not-selected"
       },
       "language": "",
       "metadata_sha256": "1ba2ad193e3287d1ee4752104e426cf3407b2b49f0761757e537457104bbfab5",
@@ -20033,13 +20191,13 @@
       "full_name": "westkitty/Repo_Dex",
       "id": 1438116524,
       "inspection": {
-        "commit_sha": "22d3c34b7b7c98213302ccad65a6b50cf1cfc02c",
+        "commit_sha": "3a08501a8b629b7e9384a5aeba214249922d4550",
         "errors": [],
-        "inspected_at": "2026-11-24T21:17:22Z",
+        "inspected_at": "2026-11-25T20:29:56Z",
         "sources": {
           "README.md": {
             "blob_sha": "f789c47e964dc932353c7815293116dd8d0be3be",
-            "commit_sha": "22d3c34b7b7c98213302ccad65a6b50cf1cfc02c",
+            "commit_sha": "3a08501a8b629b7e9384a5aeba214249922d4550",
             "formats": {
               "json": [
                 "export"
@@ -20049,15 +20207,15 @@
             "path": "README.md",
             "referenced_repositories": [],
             "sha256": "df9c19a4fb8f655760642f1a91f93705e79b56cc4e71a146f3ee18fbded4bfdc",
-            "url": "https://github.com/westkitty/Repo_Dex/blob/22d3c34b7b7c98213302ccad65a6b50cf1cfc02c/README.md"
+            "url": "https://github.com/westkitty/Repo_Dex/blob/3a08501a8b629b7e9384a5aeba214249922d4550/README.md"
           }
         },
         "state": "inspected"
       },
       "language": "Python",
-      "metadata_sha256": "84ea9304b0abc85493a44d9500d4312165aa8c14ac75a3dcc357996b68991301",
+      "metadata_sha256": "a129dbabbedde5e5ecddd3957cb2fea8c1489bdd04971f0725da3e48d655c5f7",
       "name": "Repo_Dex",
-      "pushed_at": "2026-11-23T22:42:13Z",
+      "pushed_at": "2026-11-24T21:17:44Z",
       "topics": [],
       "updated_at": "2026-11-11T19:44:58Z",
       "url": "https://github.com/westkitty/Repo_Dex",
@@ -20272,6 +20430,61 @@
       "topics": [],
       "updated_at": "2026-10-14T21:35:30Z",
       "url": "https://github.com/westkitty/ShakeDown",
+      "visibility": "public"
+    },
+    {
+      "aliases": [],
+      "archived": false,
+      "default_branch": "main",
+      "description": "Offline Three.js character gallery and reusable rig toolkit for the Starsilk Shardlings.",
+      "fork": false,
+      "full_name": "westkitty/Shardling_Gallery",
+      "id": 1471111643,
+      "inspection": {
+        "commit_sha": "f732b8e079b132bcb187126ba3363972e7c981f7",
+        "errors": [],
+        "inspected_at": "2026-11-25T20:30:00Z",
+        "sources": {
+          "README.md": {
+            "blob_sha": "6a08dd3c6440532879daa2fa968e6044bb74c85e",
+            "commit_sha": "f732b8e079b132bcb187126ba3363972e7c981f7",
+            "formats": {
+              "glb": [
+                "import"
+              ],
+              "json": [
+                "export"
+              ]
+            },
+            "level": "described",
+            "path": "README.md",
+            "referenced_repositories": [],
+            "sha256": "c2f6faa61848f9b624565e24bd14e767efb202bc47619ae8f144a6916ae5006a",
+            "url": "https://github.com/westkitty/Shardling_Gallery/blob/f732b8e079b132bcb187126ba3363972e7c981f7/README.md"
+          },
+          "package.json": {
+            "blob_sha": "6de9e10fac6d8e7a16510d504fb5b7e5352f0824",
+            "commit_sha": "f732b8e079b132bcb187126ba3363972e7c981f7",
+            "level": "located",
+            "packages": {
+              "three": {
+                "section": "dependencies"
+              }
+            },
+            "path": "package.json",
+            "sha256": "febae07485c3dc09d4268f51c3410c9a377321648811e7fc4c25be0ac4864f96",
+            "url": "https://github.com/westkitty/Shardling_Gallery/blob/f732b8e079b132bcb187126ba3363972e7c981f7/package.json"
+          }
+        },
+        "state": "inspected"
+      },
+      "language": "JavaScript",
+      "metadata_sha256": "fff354e2ed6d40649f2a6b6f41b9786dab0d17fd29443af00c7578a24ddba8ce",
+      "name": "Shardling_Gallery",
+      "pushed_at": "2026-11-25T02:26:03Z",
+      "topics": [],
+      "updated_at": "2026-11-25T02:26:07Z",
+      "url": "https://github.com/westkitty/Shardling_Gallery",
       "visibility": "public"
     },
     {
@@ -20594,7 +20807,7 @@
       "inspection": {
         "commit_sha": "a8face4e8969254940cc5ff5c120e3decf555a57",
         "errors": [],
-        "inspected_at": "2026-11-24T21:17:29Z",
+        "inspected_at": "2026-11-25T20:30:07Z",
         "sources": {},
         "state": "partial"
       },
@@ -20828,39 +21041,38 @@
       "full_name": "westkitty/Starsilk_Command",
       "id": 1440793866,
       "inspection": {
-        "commit_sha": "b3def11d64c0fc0e75d13fb59415e06a16f70120",
-        "current_head_verified": false,
+        "commit_sha": "e848bfdfe521e829b6146a6e4896057b7db868b1",
         "errors": [],
-        "inspected_at": "2026-11-08T19:18:44Z",
+        "inspected_at": "2026-11-25T20:29:53Z",
         "sources": {
           "README.md": {
-            "blob_sha": "2de32fe8a3b594812db73c9d983232cd7dad7f19",
-            "commit_sha": "b3def11d64c0fc0e75d13fb59415e06a16f70120",
+            "blob_sha": "947a4e001603f5cd854e1e71c5382122cda8409d",
+            "commit_sha": "e848bfdfe521e829b6146a6e4896057b7db868b1",
             "formats": {},
             "level": "described",
             "path": "README.md",
             "referenced_repositories": [
               "Starsilk_Character_Dossier"
             ],
-            "sha256": "e79414b8c0de9573051e50c78cb5567b762df71fee4a26db24c7dd1e69e0c02c",
-            "url": "https://github.com/westkitty/Starsilk_Command/blob/b3def11d64c0fc0e75d13fb59415e06a16f70120/README.md"
+            "sha256": "95c09a0f95b431f6d75c454f6b2ed13cfdafefed8172e5b59a102e1f79aae71a",
+            "url": "https://github.com/westkitty/Starsilk_Command/blob/e848bfdfe521e829b6146a6e4896057b7db868b1/README.md"
           },
           "package.json": {
             "blob_sha": "8abad074499f71bb1e314476412395cab4b77a10",
-            "commit_sha": "b3def11d64c0fc0e75d13fb59415e06a16f70120",
+            "commit_sha": "e848bfdfe521e829b6146a6e4896057b7db868b1",
             "level": "located",
             "packages": {},
             "path": "package.json",
             "sha256": "0c2b1d422a604efd50801e020d99509e048f440cec7caad9f34b8450faa7af96",
-            "url": "https://github.com/westkitty/Starsilk_Command/blob/b3def11d64c0fc0e75d13fb59415e06a16f70120/package.json"
+            "url": "https://github.com/westkitty/Starsilk_Command/blob/e848bfdfe521e829b6146a6e4896057b7db868b1/package.json"
           }
         },
-        "state": "cached"
+        "state": "inspected"
       },
       "language": "JavaScript",
-      "metadata_sha256": "b63d82ecf8cd23ce2aef3a272341c1995fb5635aa8f2ffe68c10fddf1aa66649",
+      "metadata_sha256": "901ea56d02772fb67bd648ed5dbf7d3a9c376105de648d1c7f2e4fbb69a1413a",
       "name": "Starsilk_Command",
-      "pushed_at": "2026-10-31T12:19:03Z",
+      "pushed_at": "2026-11-25T12:32:43Z",
       "topics": [],
       "updated_at": "2026-10-31T12:19:07Z",
       "url": "https://github.com/westkitty/Starsilk_Command",
@@ -21707,11 +21919,8 @@
       "full_name": "westkitty/Vault_Architect",
       "id": 1214827574,
       "inspection": {
-        "commit_sha": "43bf3685007b64134b9e3a6c20ea09a48dd8db02",
-        "errors": [],
-        "inspected_at": "2026-11-24T21:17:43Z",
-        "sources": {},
-        "state": "partial"
+        "historical_commit_sha": "43bf3685007b64134b9e3a6c20ea09a48dd8db02",
+        "state": "not-selected"
       },
       "language": "HTML",
       "metadata_sha256": "2d5fe86645937789621a40ce029ecaa4d932ebe7e555ab3e28500773086161fa",
@@ -21853,11 +22062,8 @@
       "full_name": "westkitty/welcome_to_vibe_coding",
       "id": 1258993482,
       "inspection": {
-        "commit_sha": "cd3fabea9dd4dcca91b1fd91b599b5608214cc22",
-        "errors": [],
-        "inspected_at": "2026-11-24T21:17:40Z",
-        "sources": {},
-        "state": "partial"
+        "historical_commit_sha": "cd3fabea9dd4dcca91b1fd91b599b5608214cc22",
+        "state": "not-selected"
       },
       "language": "HTML",
       "metadata_sha256": "d246e43b22db2c2b6d06039270acee3bcb120409f1d3cb9f413c162a66b3099c",
@@ -21935,27 +22141,27 @@
       "full_name": "westkitty/westkitty",
       "id": 1167956798,
       "inspection": {
-        "commit_sha": "7081022f07375676cd44a376a482ab69acfb688c",
+        "commit_sha": "f910c519d15eba164b5da154a4474ec13b11be58",
         "errors": [],
-        "inspected_at": "2026-11-24T21:17:21Z",
+        "inspected_at": "2026-11-25T20:29:55Z",
         "sources": {
           "README.md": {
             "blob_sha": "7657b525c87153c56c5f391962a348bb43660e10",
-            "commit_sha": "7081022f07375676cd44a376a482ab69acfb688c",
+            "commit_sha": "f910c519d15eba164b5da154a4474ec13b11be58",
             "formats": {},
             "level": "described",
             "path": "README.md",
             "referenced_repositories": [],
             "sha256": "ff1e5240a084c6d36698818bc3d0d15d45883e42786b4d0ddc3bf4c28b3a5366",
-            "url": "https://github.com/westkitty/westkitty/blob/7081022f07375676cd44a376a482ab69acfb688c/README.md"
+            "url": "https://github.com/westkitty/westkitty/blob/f910c519d15eba164b5da154a4474ec13b11be58/README.md"
           }
         },
         "state": "inspected"
       },
       "language": "Python",
-      "metadata_sha256": "70bd6ce8012ed7402acbedc33983560c573a359d57d4a156c41459d57eb7f74e",
+      "metadata_sha256": "421bc492fa4e475816e7b10215fa6410986031e5ed17c165cc3887a9c1a30d47",
       "name": "westkitty",
-      "pushed_at": "2026-11-24T08:11:27Z",
+      "pushed_at": "2026-11-25T06:49:22Z",
       "topics": [],
       "updated_at": "2026-11-12T06:36:27Z",
       "url": "https://github.com/westkitty/westkitty",
@@ -21972,7 +22178,7 @@
       "inspection": {
         "commit_sha": "e31d9a68e8c31d92e15f2d3aca998829c90da39b",
         "errors": [],
-        "inspected_at": "2026-11-24T21:17:25Z",
+        "inspected_at": "2026-11-25T20:30:03Z",
         "sources": {},
         "state": "partial"
       },
@@ -22096,7 +22302,7 @@
       "inspection": {
         "commit_sha": "e4a8be0ca6262366c0d4849d2b3199d669ef9f0e",
         "errors": [],
-        "inspected_at": "2026-11-24T21:17:33Z",
+        "inspected_at": "2026-11-25T20:30:11Z",
         "sources": {},
         "state": "partial"
       },
