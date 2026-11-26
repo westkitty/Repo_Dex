@@ -2250,7 +2250,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "historical",
+      "freshness": "sampled-head",
       "id": "a48831fb3008984090",
       "kind": "declared-package",
       "repository_id": 1340180608,
@@ -2271,7 +2271,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "historical",
+      "freshness": "sampled-head",
       "id": "c4f7a0390592fcd85a",
       "kind": "declared-package",
       "repository_id": 1340180608,
@@ -2292,7 +2292,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "historical",
+      "freshness": "sampled-head",
       "id": "083e1e82808dcec21c",
       "kind": "declared-package",
       "repository_id": 1340180608,
@@ -2313,7 +2313,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "historical",
+      "freshness": "sampled-head",
       "id": "bd58aca56271a09921",
       "kind": "declared-package",
       "repository_id": 1340180608,
@@ -2334,7 +2334,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "described",
-      "freshness": "historical",
+      "freshness": "sampled-head",
       "id": "2cfca63527d5e3cb14",
       "kind": "described-import",
       "repository_id": 1340180608,
@@ -6015,14 +6015,14 @@
       "repository_id": 1438116524,
       "source": {
         "blob_sha": "f789c47e964dc932353c7815293116dd8d0be3be",
-        "commit_sha": "3a08501a8b629b7e9384a5aeba214249922d4550",
+        "commit_sha": "116621039a5cb5711bd206e190eac3b6b390e950",
         "level": "described",
         "mechanism": "described-export json",
         "path": "README.md",
         "repository": "Repo_Dex",
         "repository_id": 1438116524,
         "sha256": "df9c19a4fb8f655760642f1a91f93705e79b56cc4e71a146f3ee18fbded4bfdc",
-        "url": "https://github.com/westkitty/Repo_Dex/blob/3a08501a8b629b7e9384a5aeba214249922d4550/README.md"
+        "url": "https://github.com/westkitty/Repo_Dex/blob/116621039a5cb5711bd206e190eac3b6b390e950/README.md"
       },
       "statement": "README describes export of json",
       "token": "json"
@@ -6450,7 +6450,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "147799ade32eb097a2",
       "kind": "declared-package",
       "repository_id": 1456641666,
@@ -6471,7 +6471,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "615a10282611418704",
       "kind": "declared-package",
       "repository_id": 1456641666,
@@ -6492,7 +6492,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "84f25a02b55254c53f",
       "kind": "declared-package",
       "repository_id": 1456641666,
@@ -6513,7 +6513,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "9532c257c13a2988cc",
       "kind": "declared-package",
       "repository_id": 1456641666,
@@ -6534,7 +6534,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "58c607ffadaa38ade9",
       "kind": "declared-package",
       "repository_id": 1456641666,
@@ -7038,7 +7038,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "located",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "dd2048a79ff6927a1a",
       "kind": "declared-package",
       "repository_id": 1471111643,
@@ -7059,7 +7059,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "described",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "3e26b49a24404422cb",
       "kind": "described-export",
       "repository_id": 1471111643,
@@ -7080,7 +7080,7 @@
     {
       "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
       "evidence_level": "described",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "36c4a7456970e804f5",
       "kind": "described-import",
       "repository_id": 1471111643,
@@ -7099,23 +7099,18 @@
       "token": "glb"
     }
   ],
-  "content_sha256": "c074316df3b7b493dbbd6350ee7664bec7f4f551f1c9b577a3e3ea03edecf72b",
+  "content_sha256": "3be1ffdfdd4c8d1bed664e4cc44fbb59421864631db0fbe38f0a44235beb97b6",
   "delta": {
     "archived": [],
     "changed": [
-      "Haunted_Betrayal",
-      "Image_Gen",
-      "Palimpsest",
+      "museum-of-me-vnext",
+      "orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut",
       "Repo_Dex",
-      "Starsilk_Command",
       "westkitty"
     ],
     "kind": "incremental",
     "new": [
-      "Cache_Clear",
-      "DexDictate_AndroidApp",
-      "orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut",
-      "Shardling_Gallery"
+      "orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut_2"
     ],
     "removed": [],
     "renamed": []
@@ -7127,13 +7122,13 @@
     "verified",
     "transferred"
   ],
-  "generated_at": "2026-11-25T20:30:17Z",
+  "generated_at": "2026-11-26T20:14:03Z",
   "inventory": {
     "complete": true,
-    "cumulative_source_repositories": 165,
-    "historical_cached_repositories": 156,
-    "inspected_repositories": 25,
-    "public_repositories": 224,
+    "cumulative_source_repositories": 166,
+    "historical_cached_repositories": 161,
+    "inspected_repositories": 22,
+    "public_repositories": 225,
     "sampling_limit": 36,
     "source_errors": [
       {
@@ -7170,6 +7165,12 @@
         "errors": [
           "Branch unavailable"
         ],
+        "repository": "DexDraw_Redux"
+      },
+      {
+        "errors": [
+          "Branch unavailable"
+        ],
         "repository": "Game_Art_Director"
       },
       {
@@ -7200,6 +7201,18 @@
         "errors": [
           "Branch unavailable"
         ],
+        "repository": "OffGrid"
+      },
+      {
+        "errors": [
+          "Branch unavailable"
+        ],
+        "repository": "Project_Forge"
+      },
+      {
+        "errors": [
+          "Branch unavailable"
+        ],
         "repository": "Sprite_Foundry"
       }
     ]
@@ -7215,10 +7228,7 @@
       "kind": "new",
       "message": "New public repositories",
       "repositories": [
-        "Cache_Clear",
-        "DexDictate_AndroidApp",
-        "orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut",
-        "Shardling_Gallery"
+        "orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut_2"
       ],
       "severity": "info"
     },
@@ -7226,11 +7236,9 @@
       "kind": "changed",
       "message": "Repository metadata or push state changed",
       "repositories": [
-        "Haunted_Betrayal",
-        "Image_Gen",
-        "Palimpsest",
+        "museum-of-me-vnext",
+        "orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut",
         "Repo_Dex",
-        "Starsilk_Command",
         "westkitty"
       ],
       "severity": "info"
@@ -12077,7 +12085,7 @@
       ],
       "evidence_level": "described",
       "explanation": "Starsilk_Command README links to Starsilk_Character_Dossier. A documentation link does not establish a software dependency or approved integration.",
-      "freshness": "sampled-head",
+      "freshness": "historical",
       "id": "d50d32cbb586d2d58f",
       "mechanism": "explicit repository URL",
       "status": "documented",
@@ -13712,7 +13720,7 @@
       "inspection": {
         "commit_sha": "eb002109d45257eabaec2fb48803a3c82a15a030",
         "errors": [],
-        "inspected_at": "2026-11-25T20:30:05Z",
+        "inspected_at": "2026-11-26T20:13:50Z",
         "sources": {},
         "state": "partial"
       },
@@ -13926,6 +13934,7 @@
       "id": 1471171150,
       "inspection": {
         "commit_sha": "d1eabbd8aa505468b24ca7ff62bbcf6772964d9b",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-25T20:29:58Z",
         "sources": {
@@ -13940,7 +13949,7 @@
             "url": "https://github.com/westkitty/Cache_Clear/blob/d1eabbd8aa505468b24ca7ff62bbcf6772964d9b/README.md"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "Kotlin",
       "metadata_sha256": "52406ddf9fb9497800c98cf1c7829b0655bb374540dd62009d75ac4dd83cd05f",
@@ -14244,7 +14253,7 @@
       "inspection": {
         "commit_sha": "dd6b278e8c493b9322d47de70f3bf89a1d0f6fa5",
         "errors": [],
-        "inspected_at": "2026-11-25T20:30:04Z",
+        "inspected_at": "2026-11-26T20:13:49Z",
         "sources": {},
         "state": "partial"
       },
@@ -14327,7 +14336,7 @@
       "inspection": {
         "commit_sha": "5bd357e14d9b68776d50b1dee0829b7bd5ab939f",
         "errors": [],
-        "inspected_at": "2026-11-25T20:30:08Z",
+        "inspected_at": "2026-11-26T20:13:53Z",
         "sources": {},
         "state": "partial"
       },
@@ -14466,7 +14475,7 @@
       "inspection": {
         "commit_sha": "b32877bdff5de1adb3ad51307f8f7b827ad6561b",
         "errors": [],
-        "inspected_at": "2026-11-25T20:30:06Z",
+        "inspected_at": "2026-11-26T20:13:51Z",
         "sources": {},
         "state": "partial"
       },
@@ -14526,7 +14535,7 @@
       "inspection": {
         "commit_sha": "9d9271d4d966f87df412759a374614ca343733ce",
         "errors": [],
-        "inspected_at": "2026-11-25T20:30:14Z",
+        "inspected_at": "2026-11-26T20:13:58Z",
         "sources": {},
         "state": "partial"
       },
@@ -15003,7 +15012,7 @@
       "inspection": {
         "commit_sha": "1ff00d7f9982001fe6a96ccd0919bfcf25657375",
         "errors": [],
-        "inspected_at": "2026-11-25T20:30:01Z",
+        "inspected_at": "2026-11-26T20:13:47Z",
         "sources": {},
         "state": "partial"
       },
@@ -15025,7 +15034,7 @@
       "full_name": "westkitty/Dex_Hub",
       "id": 1153890810,
       "inspection": {
-        "historical_commit_sha": "884adeb8d53c5c12d8098e0f030bd120047cd60a",
+        "historical_commit_sha": "",
         "state": "not-selected"
       },
       "language": "HTML",
@@ -15518,7 +15527,7 @@
       "inspection": {
         "commit_sha": "fa5d2cd57ffd3c44e909c9056f30d49796ae6948",
         "errors": [],
-        "inspected_at": "2026-11-25T20:30:02Z",
+        "inspected_at": "2026-11-26T20:13:47Z",
         "sources": {},
         "state": "partial"
       },
@@ -15923,7 +15932,7 @@
       "inspection": {
         "commit_sha": "657f59c5584f4ae8b45d705824afbae2ef4eaa19",
         "errors": [],
-        "inspected_at": "2026-11-25T20:29:59Z",
+        "inspected_at": "2026-11-26T20:13:46Z",
         "sources": {},
         "state": "partial"
       },
@@ -16079,8 +16088,10 @@
       "full_name": "westkitty/DexDraw_Redux",
       "id": 1228947668,
       "inspection": {
-        "historical_commit_sha": "",
-        "state": "not-selected"
+        "errors": [
+          "Branch unavailable"
+        ],
+        "state": "error"
       },
       "language": "",
       "metadata_sha256": "86491eca409b8ade86d122cee44ce945c9862d7eac128123abac0268e3c243f8",
@@ -16727,7 +16738,7 @@
       "inspection": {
         "commit_sha": "b1986d53e3dace66dabcd9ac1f5eb2d5fdae2bff",
         "errors": [],
-        "inspected_at": "2026-11-25T20:30:12Z",
+        "inspected_at": "2026-11-26T20:13:56Z",
         "sources": {},
         "state": "partial"
       },
@@ -17022,7 +17033,7 @@
       "inspection": {
         "commit_sha": "907922387731458a3f9e8a72b8ed5013b34ca790",
         "errors": [],
-        "inspected_at": "2026-11-25T20:30:17Z",
+        "inspected_at": "2026-11-26T20:14:01Z",
         "sources": {},
         "state": "partial"
       },
@@ -17767,7 +17778,7 @@
       "inspection": {
         "commit_sha": "3ffae40e8895fd5224d8d4e99bd06a10edbe5d25",
         "errors": [],
-        "inspected_at": "2026-11-25T20:30:16Z",
+        "inspected_at": "2026-11-26T20:14:00Z",
         "sources": {},
         "state": "partial"
       },
@@ -18057,6 +18068,7 @@
       "id": 1467125924,
       "inspection": {
         "commit_sha": "5d585336145c08e8bd96b42b0fab4679803f76d8",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-25T20:29:54Z",
         "sources": {
@@ -18071,7 +18083,7 @@
             "url": "https://github.com/westkitty/Haunted_Betrayal/blob/5d585336145c08e8bd96b42b0fab4679803f76d8/README.md"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "",
       "metadata_sha256": "82200099f28e1b52dc5f41bea9660df299cd3768b232f8b21e31ae40b3e67c9f",
@@ -18295,7 +18307,7 @@
       "inspection": {
         "commit_sha": "804183db245f50199fce0a381ecf8bf886582b93",
         "errors": [],
-        "inspected_at": "2026-11-25T20:30:15Z",
+        "inspected_at": "2026-11-26T20:13:59Z",
         "sources": {},
         "state": "partial"
       },
@@ -18573,6 +18585,7 @@
       "id": 1275620792,
       "inspection": {
         "commit_sha": "a1a865ef9273823116fef3ab6a8037a9f634e4af",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-25T20:29:52Z",
         "sources": {
@@ -18587,7 +18600,7 @@
             "url": "https://github.com/westkitty/Image_Gen/blob/a1a865ef9273823116fef3ab6a8037a9f634e4af/README.md"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "JavaScript",
       "metadata_sha256": "4d7072f8892a8322b72a49d8619ceaf56d367453f728266a93b12d6ae5e6209a",
@@ -19174,7 +19187,7 @@
       "inspection": {
         "commit_sha": "1a0fb6df7eb90598ff3947bab73a214192f49b3e",
         "errors": [],
-        "inspected_at": "2026-11-25T20:30:09Z",
+        "inspected_at": "2026-11-26T20:13:54Z",
         "sources": {},
         "state": "partial"
       },
@@ -19269,9 +19282,8 @@
       "id": 1340180608,
       "inspection": {
         "commit_sha": "ff6d983ebe47c0d4dc7980a9632f89925cb3f0d4",
-        "current_head_verified": false,
         "errors": [],
-        "inspected_at": "2026-11-23T22:41:44Z",
+        "inspected_at": "2026-11-26T20:13:43Z",
         "sources": {
           "README.md": {
             "blob_sha": "f8c9bdae28c60f75fab5aed7869b0feb8c49708b",
@@ -19310,12 +19322,12 @@
             "url": "https://github.com/westkitty/museum-of-me-vnext/blob/ff6d983ebe47c0d4dc7980a9632f89925cb3f0d4/package.json"
           }
         },
-        "state": "cached"
+        "state": "inspected"
       },
       "language": "TypeScript",
-      "metadata_sha256": "e3f9d6b590495fbf02aaa32a17d99ba93444c7481d7859277e7260d479621d5c",
+      "metadata_sha256": "7d9415c8c8c0dc1dc6567218a2a941df7882435b39c307dedc669056e06d5f77",
       "name": "museum-of-me-vnext",
-      "pushed_at": "2026-11-23T03:19:53Z",
+      "pushed_at": "2026-11-26T01:13:54Z",
       "topics": [],
       "updated_at": "2026-11-12T02:27:01Z",
       "url": "https://github.com/westkitty/museum-of-me-vnext",
@@ -19437,8 +19449,10 @@
       "full_name": "westkitty/OffGrid",
       "id": 1265562759,
       "inspection": {
-        "historical_commit_sha": "",
-        "state": "not-selected"
+        "errors": [
+          "Branch unavailable"
+        ],
+        "state": "error"
       },
       "language": "",
       "metadata_sha256": "7f55c5f2b9dbae96ab28aaf907ebff8660dade45c5d076f6f57aea8b939defed",
@@ -19540,12 +19554,47 @@
         "state": "inspected"
       },
       "language": "JavaScript",
-      "metadata_sha256": "cd3edf8c3c3099795d550e3ada6e27efeda63e5e70b9b201effbd5ac644c7453",
+      "metadata_sha256": "85cf60e3298e1201d80be0caba6dc7c92dc66fb8bbf035f0b0ced34083d31f7b",
       "name": "orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut",
-      "pushed_at": "2026-11-25T20:16:06Z",
+      "pushed_at": "2026-11-26T01:30:15Z",
       "topics": [],
       "updated_at": "2026-11-25T13:20:05Z",
       "url": "https://github.com/westkitty/orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut",
+      "visibility": "public"
+    },
+    {
+      "aliases": [],
+      "archived": false,
+      "default_branch": "main",
+      "description": "",
+      "fork": false,
+      "full_name": "westkitty/orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut_2",
+      "id": 1472316033,
+      "inspection": {
+        "commit_sha": "7e99774c910c1d9710a9b786d37faa8ae63bedc2",
+        "errors": [],
+        "inspected_at": "2026-11-26T20:13:45Z",
+        "sources": {
+          "README.md": {
+            "blob_sha": "4999a042c3471f3d8aa639533edb7f345bb542e7",
+            "commit_sha": "7e99774c910c1d9710a9b786d37faa8ae63bedc2",
+            "formats": {},
+            "level": "described",
+            "path": "README.md",
+            "referenced_repositories": [],
+            "sha256": "d41f27de437a94ce434a55b27345231a0171b3bc3932f1e2f5b532859cc0d62b",
+            "url": "https://github.com/westkitty/orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut_2/blob/7e99774c910c1d9710a9b786d37faa8ae63bedc2/README.md"
+          }
+        },
+        "state": "inspected"
+      },
+      "language": "JavaScript",
+      "metadata_sha256": "8f0ebbb48b0141e09d9c7a1ef79363550bd09a9698550755107ec9398827aaeb",
+      "name": "orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut_2",
+      "pushed_at": "2026-11-26T01:38:25Z",
+      "topics": [],
+      "updated_at": "2026-11-25T20:48:06Z",
+      "url": "https://github.com/westkitty/orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut_2",
       "visibility": "public"
     },
     {
@@ -19664,6 +19713,7 @@
       "id": 1456641666,
       "inspection": {
         "commit_sha": "4f80b454ab73740b874959298ee994ebf7bb6a13",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-25T20:29:54Z",
         "sources": {
@@ -19703,7 +19753,7 @@
             "url": "https://github.com/westkitty/Palimpsest/blob/4f80b454ab73740b874959298ee994ebf7bb6a13/package.json"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "TypeScript",
       "metadata_sha256": "78b36afb3610b455730ce2cc09de2609151131bf6c60d21126f9347122b11359",
@@ -20044,8 +20094,10 @@
       "full_name": "westkitty/Project_Forge",
       "id": 1268688565,
       "inspection": {
-        "historical_commit_sha": "",
-        "state": "not-selected"
+        "errors": [
+          "Branch unavailable"
+        ],
+        "state": "error"
       },
       "language": "",
       "metadata_sha256": "1ba2ad193e3287d1ee4752104e426cf3407b2b49f0761757e537457104bbfab5",
@@ -20191,13 +20243,13 @@
       "full_name": "westkitty/Repo_Dex",
       "id": 1438116524,
       "inspection": {
-        "commit_sha": "3a08501a8b629b7e9384a5aeba214249922d4550",
+        "commit_sha": "116621039a5cb5711bd206e190eac3b6b390e950",
         "errors": [],
-        "inspected_at": "2026-11-25T20:29:56Z",
+        "inspected_at": "2026-11-26T20:13:44Z",
         "sources": {
           "README.md": {
             "blob_sha": "f789c47e964dc932353c7815293116dd8d0be3be",
-            "commit_sha": "3a08501a8b629b7e9384a5aeba214249922d4550",
+            "commit_sha": "116621039a5cb5711bd206e190eac3b6b390e950",
             "formats": {
               "json": [
                 "export"
@@ -20207,15 +20259,15 @@
             "path": "README.md",
             "referenced_repositories": [],
             "sha256": "df9c19a4fb8f655760642f1a91f93705e79b56cc4e71a146f3ee18fbded4bfdc",
-            "url": "https://github.com/westkitty/Repo_Dex/blob/3a08501a8b629b7e9384a5aeba214249922d4550/README.md"
+            "url": "https://github.com/westkitty/Repo_Dex/blob/116621039a5cb5711bd206e190eac3b6b390e950/README.md"
           }
         },
         "state": "inspected"
       },
       "language": "Python",
-      "metadata_sha256": "a129dbabbedde5e5ecddd3957cb2fea8c1489bdd04971f0725da3e48d655c5f7",
+      "metadata_sha256": "5ff89aa67b866e208f31af6149b329b806b2300bb9331c5a6d03198c228bbcca",
       "name": "Repo_Dex",
-      "pushed_at": "2026-11-24T21:17:44Z",
+      "pushed_at": "2026-11-25T20:30:19Z",
       "topics": [],
       "updated_at": "2026-11-11T19:44:58Z",
       "url": "https://github.com/westkitty/Repo_Dex",
@@ -20442,6 +20494,7 @@
       "id": 1471111643,
       "inspection": {
         "commit_sha": "f732b8e079b132bcb187126ba3363972e7c981f7",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-25T20:30:00Z",
         "sources": {
@@ -20476,7 +20529,7 @@
             "url": "https://github.com/westkitty/Shardling_Gallery/blob/f732b8e079b132bcb187126ba3363972e7c981f7/package.json"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "JavaScript",
       "metadata_sha256": "fff354e2ed6d40649f2a6b6f41b9786dab0d17fd29443af00c7578a24ddba8ce",
@@ -20807,7 +20860,7 @@
       "inspection": {
         "commit_sha": "a8face4e8969254940cc5ff5c120e3decf555a57",
         "errors": [],
-        "inspected_at": "2026-11-25T20:30:07Z",
+        "inspected_at": "2026-11-26T20:13:52Z",
         "sources": {},
         "state": "partial"
       },
@@ -21042,6 +21095,7 @@
       "id": 1440793866,
       "inspection": {
         "commit_sha": "e848bfdfe521e829b6146a6e4896057b7db868b1",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-25T20:29:53Z",
         "sources": {
@@ -21067,7 +21121,7 @@
             "url": "https://github.com/westkitty/Starsilk_Command/blob/e848bfdfe521e829b6146a6e4896057b7db868b1/package.json"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "JavaScript",
       "metadata_sha256": "901ea56d02772fb67bd648ed5dbf7d3a9c376105de648d1c7f2e4fbb69a1413a",
@@ -21919,7 +21973,7 @@
       "full_name": "westkitty/Vault_Architect",
       "id": 1214827574,
       "inspection": {
-        "historical_commit_sha": "43bf3685007b64134b9e3a6c20ea09a48dd8db02",
+        "historical_commit_sha": "",
         "state": "not-selected"
       },
       "language": "HTML",
@@ -22062,8 +22116,11 @@
       "full_name": "westkitty/welcome_to_vibe_coding",
       "id": 1258993482,
       "inspection": {
-        "historical_commit_sha": "cd3fabea9dd4dcca91b1fd91b599b5608214cc22",
-        "state": "not-selected"
+        "commit_sha": "cd3fabea9dd4dcca91b1fd91b599b5608214cc22",
+        "errors": [],
+        "inspected_at": "2026-11-26T20:14:02Z",
+        "sources": {},
+        "state": "partial"
       },
       "language": "HTML",
       "metadata_sha256": "d246e43b22db2c2b6d06039270acee3bcb120409f1d3cb9f413c162a66b3099c",
@@ -22141,27 +22198,27 @@
       "full_name": "westkitty/westkitty",
       "id": 1167956798,
       "inspection": {
-        "commit_sha": "f910c519d15eba164b5da154a4474ec13b11be58",
+        "commit_sha": "29ad9b4c066eece3e669c5e48cf76fa15dff8c4e",
         "errors": [],
-        "inspected_at": "2026-11-25T20:29:55Z",
+        "inspected_at": "2026-11-26T20:13:42Z",
         "sources": {
           "README.md": {
             "blob_sha": "7657b525c87153c56c5f391962a348bb43660e10",
-            "commit_sha": "f910c519d15eba164b5da154a4474ec13b11be58",
+            "commit_sha": "29ad9b4c066eece3e669c5e48cf76fa15dff8c4e",
             "formats": {},
             "level": "described",
             "path": "README.md",
             "referenced_repositories": [],
             "sha256": "ff1e5240a084c6d36698818bc3d0d15d45883e42786b4d0ddc3bf4c28b3a5366",
-            "url": "https://github.com/westkitty/westkitty/blob/f910c519d15eba164b5da154a4474ec13b11be58/README.md"
+            "url": "https://github.com/westkitty/westkitty/blob/29ad9b4c066eece3e669c5e48cf76fa15dff8c4e/README.md"
           }
         },
         "state": "inspected"
       },
       "language": "Python",
-      "metadata_sha256": "421bc492fa4e475816e7b10215fa6410986031e5ed17c165cc3887a9c1a30d47",
+      "metadata_sha256": "4f8f106909cf3fe083a528040ca7749de173078134b6bd9166c0abec2e129e12",
       "name": "westkitty",
-      "pushed_at": "2026-11-25T06:49:22Z",
+      "pushed_at": "2026-11-26T06:40:18Z",
       "topics": [],
       "updated_at": "2026-11-12T06:36:27Z",
       "url": "https://github.com/westkitty/westkitty",
@@ -22178,7 +22235,7 @@
       "inspection": {
         "commit_sha": "e31d9a68e8c31d92e15f2d3aca998829c90da39b",
         "errors": [],
-        "inspected_at": "2026-11-25T20:30:03Z",
+        "inspected_at": "2026-11-26T20:13:48Z",
         "sources": {},
         "state": "partial"
       },
@@ -22302,7 +22359,7 @@
       "inspection": {
         "commit_sha": "e4a8be0ca6262366c0d4849d2b3199d669ef9f0e",
         "errors": [],
-        "inspected_at": "2026-11-25T20:30:11Z",
+        "inspected_at": "2026-11-26T20:13:55Z",
         "sources": {},
         "state": "partial"
       },
