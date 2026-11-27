@@ -1,14 +1,14 @@
 {
-  "cumulative_source_repositories": 166,
+  "cumulative_source_repositories": 169,
   "evidence_changed": true,
-  "feed_generated_at": "2026-11-26T20:14:03Z",
-  "last_successful_scan": "2026-11-26T20:14:03Z",
-  "latest_feed_digest": "3be1ffdfdd4c8d1bed664e4cc44fbb59421864631db0fbe38f0a44235beb97b6",
+  "feed_generated_at": "2026-11-27T20:00:17Z",
+  "last_successful_scan": "2026-11-27T20:00:17Z",
+  "latest_feed_digest": "49ddb5c7b10e2f1c3c9f0767609a22002eb234fe1124d0180c14e1dd1ea549cb",
   "owner": "westkitty",
-  "public_repositories": 225,
-  "run_id": "45889450977",
-  "run_url": "https://github.com/westkitty/Repo_Dex/actions/runs/45889450977",
+  "public_repositories": 228,
+  "run_id": "46060513219",
+  "run_url": "https://github.com/westkitty/Repo_Dex/actions/runs/46060513219",
   "schema": "repo-dex-scan-status/v1",
-  "source_inspected_this_run": 22,
+  "source_inspected_this_run": 23,
   "state": "success"
 }

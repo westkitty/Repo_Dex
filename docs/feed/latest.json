@@ -6015,14 +6015,14 @@
       "repository_id": 1438116524,
       "source": {
         "blob_sha": "f789c47e964dc932353c7815293116dd8d0be3be",
-        "commit_sha": "116621039a5cb5711bd206e190eac3b6b390e950",
+        "commit_sha": "b98c5c75cef86a041e8e0c1c798dde9269c55be3",
         "level": "described",
         "mechanism": "described-export json",
         "path": "README.md",
         "repository": "Repo_Dex",
         "repository_id": 1438116524,
         "sha256": "df9c19a4fb8f655760642f1a91f93705e79b56cc4e71a146f3ee18fbded4bfdc",
-        "url": "https://github.com/westkitty/Repo_Dex/blob/116621039a5cb5711bd206e190eac3b6b390e950/README.md"
+        "url": "https://github.com/westkitty/Repo_Dex/blob/b98c5c75cef86a041e8e0c1c798dde9269c55be3/README.md"
       },
       "statement": "README describes export of json",
       "token": "json"
@@ -7097,20 +7097,126 @@
       },
       "statement": "README describes import of glb",
       "token": "glb"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "06c065ab01498d9d6a",
+      "kind": "declared-package",
+      "repository_id": 1473832588,
+      "source": {
+        "blob_sha": "4da5375f9ea5c97f31cc3e69a2c6c8bae3e6ecf5",
+        "commit_sha": "a5bea5d2a17ce328c277daf68473f59c6fbed53b",
+        "level": "located",
+        "mechanism": "declared-package three",
+        "path": "package.json",
+        "repository": "Frozen_Aperture",
+        "repository_id": 1473832588,
+        "sha256": "90108cad7f306ced501e851ff4ff2aa3c92df4519e6bb83d919b2047022463d6",
+        "url": "https://github.com/westkitty/Frozen_Aperture/blob/a5bea5d2a17ce328c277daf68473f59c6fbed53b/package.json"
+      },
+      "statement": "Dependency manifest declares three",
+      "token": "three"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "described",
+      "freshness": "sampled-head",
+      "id": "388dfeaa8f6c9ca093",
+      "kind": "described-export",
+      "repository_id": 1473832588,
+      "source": {
+        "blob_sha": "b6b59ece1621d3347bbfe221dda10f401af71281",
+        "commit_sha": "a5bea5d2a17ce328c277daf68473f59c6fbed53b",
+        "level": "described",
+        "mechanism": "described-export glb",
+        "path": "README.md",
+        "repository": "Frozen_Aperture",
+        "repository_id": 1473832588,
+        "sha256": "6396aa2045af1b4f6160000effebad29c24c74732164e4aab0303497ab715fda",
+        "url": "https://github.com/westkitty/Frozen_Aperture/blob/a5bea5d2a17ce328c277daf68473f59c6fbed53b/README.md"
+      },
+      "statement": "README describes export of glb",
+      "token": "glb"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "described",
+      "freshness": "sampled-head",
+      "id": "d13d89e6c675c70658",
+      "kind": "described-export",
+      "repository_id": 1473832588,
+      "source": {
+        "blob_sha": "b6b59ece1621d3347bbfe221dda10f401af71281",
+        "commit_sha": "a5bea5d2a17ce328c277daf68473f59c6fbed53b",
+        "level": "described",
+        "mechanism": "described-export gltf",
+        "path": "README.md",
+        "repository": "Frozen_Aperture",
+        "repository_id": 1473832588,
+        "sha256": "6396aa2045af1b4f6160000effebad29c24c74732164e4aab0303497ab715fda",
+        "url": "https://github.com/westkitty/Frozen_Aperture/blob/a5bea5d2a17ce328c277daf68473f59c6fbed53b/README.md"
+      },
+      "statement": "README describes export of gltf",
+      "token": "gltf"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "f0239f71812a1fd4f9",
+      "kind": "declared-package",
+      "repository_id": 1473968185,
+      "source": {
+        "blob_sha": "b5ee374a7bf3fb9a8590f58782d605ab8c928523",
+        "commit_sha": "2a1d734ddb84eaf4c5b09425533035d34d659865",
+        "level": "located",
+        "mechanism": "declared-package react",
+        "path": "package.json",
+        "repository": "Protocol",
+        "repository_id": 1473968185,
+        "sha256": "0d563a884a92d6fb9ee136aa5442afe450d325af19c0c053d83848e992696bf4",
+        "url": "https://github.com/westkitty/Protocol/blob/2a1d734ddb84eaf4c5b09425533035d34d659865/package.json"
+      },
+      "statement": "Dependency manifest declares react",
+      "token": "react"
+    },
+    {
+      "constraint": "Declaration only; interfaces, tests, transfer and runtime operation remain unverified.",
+      "evidence_level": "located",
+      "freshness": "sampled-head",
+      "id": "c5b5bcd592d56f07fb",
+      "kind": "declared-package",
+      "repository_id": 1473968185,
+      "source": {
+        "blob_sha": "b5ee374a7bf3fb9a8590f58782d605ab8c928523",
+        "commit_sha": "2a1d734ddb84eaf4c5b09425533035d34d659865",
+        "level": "located",
+        "mechanism": "declared-package typescript",
+        "path": "package.json",
+        "repository": "Protocol",
+        "repository_id": 1473968185,
+        "sha256": "0d563a884a92d6fb9ee136aa5442afe450d325af19c0c053d83848e992696bf4",
+        "url": "https://github.com/westkitty/Protocol/blob/2a1d734ddb84eaf4c5b09425533035d34d659865/package.json"
+      },
+      "statement": "Dependency manifest declares typescript",
+      "token": "typescript"
     }
   ],
-  "content_sha256": "3be1ffdfdd4c8d1bed664e4cc44fbb59421864631db0fbe38f0a44235beb97b6",
+  "content_sha256": "49ddb5c7b10e2f1c3c9f0767609a22002eb234fe1124d0180c14e1dd1ea549cb",
   "delta": {
     "archived": [],
     "changed": [
       "museum-of-me-vnext",
-      "orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut",
       "Repo_Dex",
       "westkitty"
     ],
     "kind": "incremental",
     "new": [
-      "orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut_2"
+      "Frozen_Aperture",
+      "Protocol",
+      "WORLD-IN-YOUR-PALM"
     ],
     "removed": [],
     "renamed": []
@@ -7122,13 +7228,13 @@
     "verified",
     "transferred"
   ],
-  "generated_at": "2026-11-26T20:14:03Z",
+  "generated_at": "2026-11-27T20:00:17Z",
   "inventory": {
     "complete": true,
-    "cumulative_source_repositories": 166,
-    "historical_cached_repositories": 161,
-    "inspected_repositories": 22,
-    "public_repositories": 225,
+    "cumulative_source_repositories": 169,
+    "historical_cached_repositories": 163,
+    "inspected_repositories": 23,
+    "public_repositories": 228,
     "sampling_limit": 36,
     "source_errors": [
       {
@@ -7160,12 +7266,6 @@
           "Branch unavailable"
         ],
         "repository": "DexDictate_ChromeOS"
-      },
-      {
-        "errors": [
-          "Branch unavailable"
-        ],
-        "repository": "DexDraw_Redux"
       },
       {
         "errors": [
@@ -7228,7 +7328,9 @@
       "kind": "new",
       "message": "New public repositories",
       "repositories": [
-        "orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut_2"
+        "Frozen_Aperture",
+        "Protocol",
+        "WORLD-IN-YOUR-PALM"
       ],
       "severity": "info"
     },
@@ -7237,7 +7339,6 @@
       "message": "Repository metadata or push state changed",
       "repositories": [
         "museum-of-me-vnext",
-        "orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut",
         "Repo_Dex",
         "westkitty"
       ],
@@ -12337,6 +12438,41 @@
       "type": "shared-technology"
     },
     {
+      "a": 1356807285,
+      "b": 1473832588,
+      "evidence": [
+        {
+          "blob_sha": "bb66366918e1035201864d35f453a0c8b035a34b",
+          "commit_sha": "a2ca2a7b915c9bd8d32a1409aebaf04414ea4475",
+          "level": "located",
+          "mechanism": "package three",
+          "path": "package.json",
+          "repository": "3.8flashtest",
+          "repository_id": 1356807285,
+          "sha256": "a64907b838289d4ce4e526947d82fbeee108fa951c9549a8b4a251a6de733131",
+          "url": "https://github.com/westkitty/3.8flashtest/blob/a2ca2a7b915c9bd8d32a1409aebaf04414ea4475/package.json"
+        },
+        {
+          "blob_sha": "4da5375f9ea5c97f31cc3e69a2c6c8bae3e6ecf5",
+          "commit_sha": "a5bea5d2a17ce328c277daf68473f59c6fbed53b",
+          "level": "located",
+          "mechanism": "package three",
+          "path": "package.json",
+          "repository": "Frozen_Aperture",
+          "repository_id": 1473832588,
+          "sha256": "90108cad7f306ced501e851ff4ff2aa3c92df4519e6bb83d919b2047022463d6",
+          "url": "https://github.com/westkitty/Frozen_Aperture/blob/a5bea5d2a17ce328c277daf68473f59c6fbed53b/package.json"
+        }
+      ],
+      "evidence_level": "located",
+      "explanation": "Both pinned package.json manifests declare three. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
+      "freshness": "historical",
+      "id": "e76f8c3a1ca169c05b",
+      "mechanism": "Three.js",
+      "status": "documented",
+      "type": "shared-technology"
+    },
+    {
       "a": 1458515600,
       "b": 1429136689,
       "evidence": [
@@ -12497,41 +12633,6 @@
       "freshness": "historical",
       "id": "ebf0144233f6a53207",
       "mechanism": "Vite React plugin",
-      "status": "documented",
-      "type": "shared-technology"
-    },
-    {
-      "a": 1356807285,
-      "b": 1338746589,
-      "evidence": [
-        {
-          "blob_sha": "bb66366918e1035201864d35f453a0c8b035a34b",
-          "commit_sha": "a2ca2a7b915c9bd8d32a1409aebaf04414ea4475",
-          "level": "located",
-          "mechanism": "package three",
-          "path": "package.json",
-          "repository": "3.8flashtest",
-          "repository_id": 1356807285,
-          "sha256": "a64907b838289d4ce4e526947d82fbeee108fa951c9549a8b4a251a6de733131",
-          "url": "https://github.com/westkitty/3.8flashtest/blob/a2ca2a7b915c9bd8d32a1409aebaf04414ea4475/package.json"
-        },
-        {
-          "blob_sha": "b71b1a1fafb146e4db524117068352837a32ba50",
-          "commit_sha": "77199d62445f038b8eacad85639067bb0e609a37",
-          "level": "located",
-          "mechanism": "package three",
-          "path": "package.json",
-          "repository": "Heliocide_Viewer",
-          "repository_id": 1338746589,
-          "sha256": "cffc48655f79a72297bf8860ea8c554210070363bd3feb0b841d7e42cf135388",
-          "url": "https://github.com/westkitty/Heliocide_Viewer/blob/77199d62445f038b8eacad85639067bb0e609a37/package.json"
-        }
-      ],
-      "evidence_level": "located",
-      "explanation": "Both pinned package.json manifests declare three. This proves a shared package name, not code reuse, compatibility or a dependency between these projects. A historical-marked edge has at least one source whose current HEAD was not rechecked.",
-      "freshness": "historical",
-      "id": "ed3cbcff2facd214d2",
-      "mechanism": "Three.js",
       "status": "documented",
       "type": "shared-technology"
     },
@@ -13720,7 +13821,7 @@
       "inspection": {
         "commit_sha": "eb002109d45257eabaec2fb48803a3c82a15a030",
         "errors": [],
-        "inspected_at": "2026-11-26T20:13:50Z",
+        "inspected_at": "2026-11-27T20:00:04Z",
         "sources": {},
         "state": "partial"
       },
@@ -14253,7 +14354,7 @@
       "inspection": {
         "commit_sha": "dd6b278e8c493b9322d47de70f3bf89a1d0f6fa5",
         "errors": [],
-        "inspected_at": "2026-11-26T20:13:49Z",
+        "inspected_at": "2026-11-27T20:00:03Z",
         "sources": {},
         "state": "partial"
       },
@@ -14336,7 +14437,7 @@
       "inspection": {
         "commit_sha": "5bd357e14d9b68776d50b1dee0829b7bd5ab939f",
         "errors": [],
-        "inspected_at": "2026-11-26T20:13:53Z",
+        "inspected_at": "2026-11-27T20:00:08Z",
         "sources": {},
         "state": "partial"
       },
@@ -14475,7 +14576,7 @@
       "inspection": {
         "commit_sha": "b32877bdff5de1adb3ad51307f8f7b827ad6561b",
         "errors": [],
-        "inspected_at": "2026-11-26T20:13:51Z",
+        "inspected_at": "2026-11-27T20:00:06Z",
         "sources": {},
         "state": "partial"
       },
@@ -14535,7 +14636,7 @@
       "inspection": {
         "commit_sha": "9d9271d4d966f87df412759a374614ca343733ce",
         "errors": [],
-        "inspected_at": "2026-11-26T20:13:58Z",
+        "inspected_at": "2026-11-27T20:00:13Z",
         "sources": {},
         "state": "partial"
       },
@@ -15012,7 +15113,7 @@
       "inspection": {
         "commit_sha": "1ff00d7f9982001fe6a96ccd0919bfcf25657375",
         "errors": [],
-        "inspected_at": "2026-11-26T20:13:47Z",
+        "inspected_at": "2026-11-27T20:00:01Z",
         "sources": {},
         "state": "partial"
       },
@@ -15527,7 +15628,7 @@
       "inspection": {
         "commit_sha": "fa5d2cd57ffd3c44e909c9056f30d49796ae6948",
         "errors": [],
-        "inspected_at": "2026-11-26T20:13:47Z",
+        "inspected_at": "2026-11-27T20:00:02Z",
         "sources": {},
         "state": "partial"
       },
@@ -15932,7 +16033,7 @@
       "inspection": {
         "commit_sha": "657f59c5584f4ae8b45d705824afbae2ef4eaa19",
         "errors": [],
-        "inspected_at": "2026-11-26T20:13:46Z",
+        "inspected_at": "2026-11-27T20:00:00Z",
         "sources": {},
         "state": "partial"
       },
@@ -16088,10 +16189,8 @@
       "full_name": "westkitty/DexDraw_Redux",
       "id": 1228947668,
       "inspection": {
-        "errors": [
-          "Branch unavailable"
-        ],
-        "state": "error"
+        "historical_commit_sha": "",
+        "state": "not-selected"
       },
       "language": "",
       "metadata_sha256": "86491eca409b8ade86d122cee44ce945c9862d7eac128123abac0268e3c243f8",
@@ -16738,7 +16837,7 @@
       "inspection": {
         "commit_sha": "b1986d53e3dace66dabcd9ac1f5eb2d5fdae2bff",
         "errors": [],
-        "inspected_at": "2026-11-26T20:13:56Z",
+        "inspected_at": "2026-11-27T20:00:11Z",
         "sources": {},
         "state": "partial"
       },
@@ -17033,7 +17132,7 @@
       "inspection": {
         "commit_sha": "907922387731458a3f9e8a72b8ed5013b34ca790",
         "errors": [],
-        "inspected_at": "2026-11-26T20:14:01Z",
+        "inspected_at": "2026-11-27T20:00:15Z",
         "sources": {},
         "state": "partial"
       },
@@ -17778,7 +17877,7 @@
       "inspection": {
         "commit_sha": "3ffae40e8895fd5224d8d4e99bd06a10edbe5d25",
         "errors": [],
-        "inspected_at": "2026-11-26T20:14:00Z",
+        "inspected_at": "2026-11-27T20:00:14Z",
         "sources": {},
         "state": "partial"
       },
@@ -17789,6 +17888,61 @@
       "topics": [],
       "updated_at": "2026-08-22T01:40:48Z",
       "url": "https://github.com/westkitty/Friday_Birthday",
+      "visibility": "public"
+    },
+    {
+      "aliases": [],
+      "archived": false,
+      "default_branch": "main",
+      "description": "",
+      "fork": false,
+      "full_name": "westkitty/Frozen_Aperture",
+      "id": 1473832588,
+      "inspection": {
+        "commit_sha": "a5bea5d2a17ce328c277daf68473f59c6fbed53b",
+        "errors": [],
+        "inspected_at": "2026-11-27T19:59:58Z",
+        "sources": {
+          "README.md": {
+            "blob_sha": "b6b59ece1621d3347bbfe221dda10f401af71281",
+            "commit_sha": "a5bea5d2a17ce328c277daf68473f59c6fbed53b",
+            "formats": {
+              "glb": [
+                "export"
+              ],
+              "gltf": [
+                "export"
+              ]
+            },
+            "level": "described",
+            "path": "README.md",
+            "referenced_repositories": [],
+            "sha256": "6396aa2045af1b4f6160000effebad29c24c74732164e4aab0303497ab715fda",
+            "url": "https://github.com/westkitty/Frozen_Aperture/blob/a5bea5d2a17ce328c277daf68473f59c6fbed53b/README.md"
+          },
+          "package.json": {
+            "blob_sha": "4da5375f9ea5c97f31cc3e69a2c6c8bae3e6ecf5",
+            "commit_sha": "a5bea5d2a17ce328c277daf68473f59c6fbed53b",
+            "level": "located",
+            "packages": {
+              "three": {
+                "section": "dependencies"
+              }
+            },
+            "path": "package.json",
+            "sha256": "90108cad7f306ced501e851ff4ff2aa3c92df4519e6bb83d919b2047022463d6",
+            "url": "https://github.com/westkitty/Frozen_Aperture/blob/a5bea5d2a17ce328c277daf68473f59c6fbed53b/package.json"
+          }
+        },
+        "state": "inspected"
+      },
+      "language": "HTML",
+      "metadata_sha256": "277d315cd4a4e72f7d72de69a7a87fb2caa9b9c065405481ae9f43437de29f12",
+      "name": "Frozen_Aperture",
+      "pushed_at": "2026-11-27T06:51:46Z",
+      "topics": [],
+      "updated_at": "2026-11-27T06:51:50Z",
+      "url": "https://github.com/westkitty/Frozen_Aperture",
       "visibility": "public"
     },
     {
@@ -18307,7 +18461,7 @@
       "inspection": {
         "commit_sha": "804183db245f50199fce0a381ecf8bf886582b93",
         "errors": [],
-        "inspected_at": "2026-11-26T20:13:59Z",
+        "inspected_at": "2026-11-27T20:00:14Z",
         "sources": {},
         "state": "partial"
       },
@@ -19187,7 +19341,7 @@
       "inspection": {
         "commit_sha": "1a0fb6df7eb90598ff3947bab73a214192f49b3e",
         "errors": [],
-        "inspected_at": "2026-11-26T20:13:54Z",
+        "inspected_at": "2026-11-27T20:00:08Z",
         "sources": {},
         "state": "partial"
       },
@@ -19325,9 +19479,9 @@
         "state": "inspected"
       },
       "language": "TypeScript",
-      "metadata_sha256": "7d9415c8c8c0dc1dc6567218a2a941df7882435b39c307dedc669056e06d5f77",
+      "metadata_sha256": "78f6605c7e8d75e8c24f3be9bb0386a4860feca3893784b0692fa2d6fdeaeb91",
       "name": "museum-of-me-vnext",
-      "pushed_at": "2026-11-26T01:13:54Z",
+      "pushed_at": "2026-11-27T16:07:34Z",
       "topics": [],
       "updated_at": "2026-11-12T02:27:01Z",
       "url": "https://github.com/westkitty/museum-of-me-vnext",
@@ -19528,6 +19682,7 @@
       "id": 1471711529,
       "inspection": {
         "commit_sha": "85a06aa4b2129c39344183990cdfc5cf22a0f2ae",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-25T20:29:57Z",
         "sources": {
@@ -19551,7 +19706,7 @@
             "url": "https://github.com/westkitty/orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut/blob/85a06aa4b2129c39344183990cdfc5cf22a0f2ae/package.json"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "JavaScript",
       "metadata_sha256": "85cf60e3298e1201d80be0caba6dc7c92dc66fb8bbf035f0b0ced34083d31f7b",
@@ -19572,6 +19727,7 @@
       "id": 1472316033,
       "inspection": {
         "commit_sha": "7e99774c910c1d9710a9b786d37faa8ae63bedc2",
+        "current_head_verified": false,
         "errors": [],
         "inspected_at": "2026-11-26T20:13:45Z",
         "sources": {
@@ -19586,7 +19742,7 @@
             "url": "https://github.com/westkitty/orbital_tomb_MERIDIAN-STATION-Before-the-First-Cut_2/blob/7e99774c910c1d9710a9b786d37faa8ae63bedc2/README.md"
           }
         },
-        "state": "inspected"
+        "state": "cached"
       },
       "language": "JavaScript",
       "metadata_sha256": "8f0ebbb48b0141e09d9c7a1ef79363550bd09a9698550755107ec9398827aaeb",
@@ -20195,6 +20351,57 @@
       "default_branch": "main",
       "description": "",
       "fork": false,
+      "full_name": "westkitty/Protocol",
+      "id": 1473968185,
+      "inspection": {
+        "commit_sha": "2a1d734ddb84eaf4c5b09425533035d34d659865",
+        "errors": [],
+        "inspected_at": "2026-11-27T19:59:57Z",
+        "sources": {
+          "README.md": {
+            "blob_sha": "b49542b3a1329feb6bfcb4032c4788e7aa92505c",
+            "commit_sha": "2a1d734ddb84eaf4c5b09425533035d34d659865",
+            "formats": {},
+            "level": "described",
+            "path": "README.md",
+            "referenced_repositories": [],
+            "sha256": "5232e81fd7eedbf0798e603394fb5423dc5a6411bc96be3c9115ef0405c317fa",
+            "url": "https://github.com/westkitty/Protocol/blob/2a1d734ddb84eaf4c5b09425533035d34d659865/README.md"
+          },
+          "package.json": {
+            "blob_sha": "b5ee374a7bf3fb9a8590f58782d605ab8c928523",
+            "commit_sha": "2a1d734ddb84eaf4c5b09425533035d34d659865",
+            "level": "located",
+            "packages": {
+              "react": {
+                "section": "dependencies"
+              },
+              "typescript": {
+                "section": "devDependencies"
+              }
+            },
+            "path": "package.json",
+            "sha256": "0d563a884a92d6fb9ee136aa5442afe450d325af19c0c053d83848e992696bf4",
+            "url": "https://github.com/westkitty/Protocol/blob/2a1d734ddb84eaf4c5b09425533035d34d659865/package.json"
+          }
+        },
+        "state": "inspected"
+      },
+      "language": "TypeScript",
+      "metadata_sha256": "be2cc68acfc18a7dd703d9f368aaee7dd866361327d84529e65f385294190b98",
+      "name": "Protocol",
+      "pushed_at": "2026-11-27T19:21:52Z",
+      "topics": [],
+      "updated_at": "2026-11-27T04:28:37Z",
+      "url": "https://github.com/westkitty/Protocol",
+      "visibility": "public"
+    },
+    {
+      "aliases": [],
+      "archived": false,
+      "default_branch": "main",
+      "description": "",
+      "fork": false,
       "full_name": "westkitty/Relay_Link",
       "id": 1263622243,
       "inspection": {
@@ -20243,13 +20450,13 @@
       "full_name": "westkitty/Repo_Dex",
       "id": 1438116524,
       "inspection": {
-        "commit_sha": "116621039a5cb5711bd206e190eac3b6b390e950",
+        "commit_sha": "b98c5c75cef86a041e8e0c1c798dde9269c55be3",
         "errors": [],
-        "inspected_at": "2026-11-26T20:13:44Z",
+        "inspected_at": "2026-11-27T19:59:56Z",
         "sources": {
           "README.md": {
             "blob_sha": "f789c47e964dc932353c7815293116dd8d0be3be",
-            "commit_sha": "116621039a5cb5711bd206e190eac3b6b390e950",
+            "commit_sha": "b98c5c75cef86a041e8e0c1c798dde9269c55be3",
             "formats": {
               "json": [
                 "export"
@@ -20259,15 +20466,15 @@
             "path": "README.md",
             "referenced_repositories": [],
             "sha256": "df9c19a4fb8f655760642f1a91f93705e79b56cc4e71a146f3ee18fbded4bfdc",
-            "url": "https://github.com/westkitty/Repo_Dex/blob/116621039a5cb5711bd206e190eac3b6b390e950/README.md"
+            "url": "https://github.com/westkitty/Repo_Dex/blob/b98c5c75cef86a041e8e0c1c798dde9269c55be3/README.md"
           }
         },
         "state": "inspected"
       },
       "language": "Python",
-      "metadata_sha256": "5ff89aa67b866e208f31af6149b329b806b2300bb9331c5a6d03198c228bbcca",
+      "metadata_sha256": "9722e1c110e7a4c17020db5be247feac5fd3656d92231f34bf27774f04906538",
       "name": "Repo_Dex",
-      "pushed_at": "2026-11-25T20:30:19Z",
+      "pushed_at": "2026-11-26T20:14:04Z",
       "topics": [],
       "updated_at": "2026-11-11T19:44:58Z",
       "url": "https://github.com/westkitty/Repo_Dex",
@@ -20860,7 +21067,7 @@
       "inspection": {
         "commit_sha": "a8face4e8969254940cc5ff5c120e3decf555a57",
         "errors": [],
-        "inspected_at": "2026-11-26T20:13:52Z",
+        "inspected_at": "2026-11-27T20:00:07Z",
         "sources": {},
         "state": "partial"
       },
@@ -22118,7 +22325,7 @@
       "inspection": {
         "commit_sha": "cd3fabea9dd4dcca91b1fd91b599b5608214cc22",
         "errors": [],
-        "inspected_at": "2026-11-26T20:14:02Z",
+        "inspected_at": "2026-11-27T20:00:17Z",
         "sources": {},
         "state": "partial"
       },
@@ -22198,27 +22405,27 @@
       "full_name": "westkitty/westkitty",
       "id": 1167956798,
       "inspection": {
-        "commit_sha": "29ad9b4c066eece3e669c5e48cf76fa15dff8c4e",
+        "commit_sha": "5535941f4ace7641f5cd21ce2853aa35716f926d",
         "errors": [],
-        "inspected_at": "2026-11-26T20:13:42Z",
+        "inspected_at": "2026-11-27T19:59:55Z",
         "sources": {
           "README.md": {
             "blob_sha": "7657b525c87153c56c5f391962a348bb43660e10",
-            "commit_sha": "29ad9b4c066eece3e669c5e48cf76fa15dff8c4e",
+            "commit_sha": "5535941f4ace7641f5cd21ce2853aa35716f926d",
             "formats": {},
             "level": "described",
             "path": "README.md",
             "referenced_repositories": [],
             "sha256": "ff1e5240a084c6d36698818bc3d0d15d45883e42786b4d0ddc3bf4c28b3a5366",
-            "url": "https://github.com/westkitty/westkitty/blob/29ad9b4c066eece3e669c5e48cf76fa15dff8c4e/README.md"
+            "url": "https://github.com/westkitty/westkitty/blob/5535941f4ace7641f5cd21ce2853aa35716f926d/README.md"
           }
         },
         "state": "inspected"
       },
       "language": "Python",
-      "metadata_sha256": "4f8f106909cf3fe083a528040ca7749de173078134b6bd9166c0abec2e129e12",
+      "metadata_sha256": "99ea56465c428d8755b849f43870faf2556ae318f5e22603d7aa64d7b97d74cc",
       "name": "westkitty",
-      "pushed_at": "2026-11-26T06:40:18Z",
+      "pushed_at": "2026-11-27T06:31:06Z",
       "topics": [],
       "updated_at": "2026-11-12T06:36:27Z",
       "url": "https://github.com/westkitty/westkitty",
@@ -22235,7 +22442,7 @@
       "inspection": {
         "commit_sha": "e31d9a68e8c31d92e15f2d3aca998829c90da39b",
         "errors": [],
-        "inspected_at": "2026-11-26T20:13:48Z",
+        "inspected_at": "2026-11-27T20:00:02Z",
         "sources": {},
         "state": "partial"
       },
@@ -22284,6 +22491,41 @@
       "topics": [],
       "updated_at": "2026-11-09T04:50:26Z",
       "url": "https://github.com/westkitty/Westkitty_Atlas",
+      "visibility": "public"
+    },
+    {
+      "aliases": [],
+      "archived": false,
+      "default_branch": "main",
+      "description": "",
+      "fork": false,
+      "full_name": "westkitty/WORLD-IN-YOUR-PALM",
+      "id": 1473722523,
+      "inspection": {
+        "commit_sha": "2cfd493f8e132d1476495d0c793da5be18d420d3",
+        "errors": [],
+        "inspected_at": "2026-11-27T19:59:59Z",
+        "sources": {
+          "README.md": {
+            "blob_sha": "c51b762082ae2b19d24398e702c93114c84c218e",
+            "commit_sha": "2cfd493f8e132d1476495d0c793da5be18d420d3",
+            "formats": {},
+            "level": "described",
+            "path": "README.md",
+            "referenced_repositories": [],
+            "sha256": "c938a3bb3bb5c6a14553702b15f792a259a04cb9a11584845fe342992a2ac335",
+            "url": "https://github.com/westkitty/WORLD-IN-YOUR-PALM/blob/2cfd493f8e132d1476495d0c793da5be18d420d3/README.md"
+          }
+        },
+        "state": "inspected"
+      },
+      "language": "",
+      "metadata_sha256": "d1fd592ea21ece463074fa9e35cab1bff1337d3a7c7cff5fa1aecd2ecd791d88",
+      "name": "WORLD-IN-YOUR-PALM",
+      "pushed_at": "2026-11-27T01:59:15Z",
+      "topics": [],
+      "updated_at": "2026-11-26T22:13:38Z",
+      "url": "https://github.com/westkitty/WORLD-IN-YOUR-PALM",
       "visibility": "public"
     },
     {
@@ -22359,7 +22601,7 @@
       "inspection": {
         "commit_sha": "e4a8be0ca6262366c0d4849d2b3199d669ef9f0e",
         "errors": [],
-        "inspected_at": "2026-11-26T20:13:55Z",
+        "inspected_at": "2026-11-27T20:00:10Z",
         "sources": {},
         "state": "partial"
       },
